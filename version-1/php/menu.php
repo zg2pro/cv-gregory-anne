@@ -68,7 +68,7 @@
                  alt="CSS Valide !" />
         </a>
         <br/>
-        <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fenglishblazere.free.fr%2F<?php echo $hl; ?>">
+        <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fcv.gregory.anne.free.fr%2Fversion-1%2F<?php echo $hl; ?>">
             <img style="border:0;width:88px;height:31px"
                  src="http://jigsaw.w3.org/css-validator/images/vh40"
                  alt="HTML Valide !" />
@@ -90,20 +90,14 @@
     <li><small><?php echo $ext_string['technologies.xml']; ?></small></li>
     <li><small><?php echo $ext_string['technologies.rss']; ?></small></li>
     <li><small><?php echo $ext_string['technologies.css']; ?></small></li>
-    <li><small><?php echo $ext_string['technologies.js']; ?></small></li>
     <li><small><?php echo $ext_string['technologies.php']; ?></small></li>
     <li><small><?php echo $ext_string['technologies.pdf']; ?></small></li>
     <li><small><?php echo $ext_string['technologies.bootstrap']; ?></small></li>
     <li><small><?php echo $ext_string['technologies.flash']; ?></small></li>
 </ul>
-<!--br/>
-<small><?php echo $ext_string['gregory.recommends']; ?></small-->
 
 <br/><br/><br/>
 
 <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FGregory-Anne%2F262147523982&amp;width=200&amp;colorscheme=light&amp;connections=10&amp;stream=true&amp;header=true&amp;height=587" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:587px;" ></iframe>
 
-<br/><br/><br/>
 
-<!--script src="../js/ssm.js" type="text/javascript"></script>
-<script src="../js/ssmItems.js" type="text/javascript"></script-->

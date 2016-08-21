@@ -14,7 +14,6 @@ $ext_string['address.permanent.country'] = "FRANCE";
 $ext_string['number.mobile'] = "";
 //$ext_string['number.landline'] = "Landline : +33.1.60.11.23.58.";
 $ext_string['number.landline'] = "";
-//$ext_string['mail'] = "Mail : Gregory.Anne83@gmail.com";
 $ext_string['mail'] = "gregory.anne.jobs@gmail.com";
 
 $ext_string['summary.head'] = "Sommaire";
@@ -42,18 +41,15 @@ $ext_string['rss.ld'] = "Dernier DiplÃ´me";
 
 $ext_string['copyright'] = "Le site et le framework ont <br/>  &eacute;t&eacute; con&ccedil;us en 2005 par <br/>Gr&eacute;gory Anne &copy;.";
 $ext_string['technologies.title'] = "Principales technologies utilis&eacute;es:";
-//$ext_string['technologies.xml'] = "XML: manipulation de donn&eacute;es du CV."; 
 $ext_string['technologies.xml'] = "XML: stock de donn&eacute;es, transformations avec XSL, DOM ou SAX.";
 $ext_string['technologies.xsl'] = "XSL: g&eacute;n&eacute;ration du site depuis le XML.";
 $ext_string['technologies.rss'] = "RSS: news feed.";
 $ext_string['technologies.fb'] = "facebook-platform: application facebook.";
 $ext_string['technologies.css'] = "CSS: styles et conception visuelle.";
-$ext_string['technologies.js'] = "JavaScript: manipulation hors-ligne du glossaire.";
 $ext_string['technologies.php'] = "PHP: organisation du framework.";
 $ext_string['technologies.unix'] = "Commandes Unix Apache du .htaccess";
 $ext_string['technologies.pdf'] = "PDF: impression de documents.";
 $ext_string['technologies.bootstrap'] = "Bootstrap Twitter: pour standardiser le css";
 $ext_string['technologies.flash'] = "Flash and Creative Suite: pour un widget anim&eacute; de trucs et astuces";
-//$ext_string['gregory.recommends'] = "Gr&eacute;gory conseille Linux Ubuntu 4.12, Mozilla Firefox 3.5,
-//	Eclipse 3.6 Helios";
+
 ?>

@@ -4,7 +4,7 @@
 	<organization>
 	<a href="http://www.gfi.fr/"> 
 				
-            <img src="http://englishblazere.free.fr/img/Logo_GFI_2011.jpg" alt="GFI" width="120" height="70" border="0" />
+            <img src="../img/Logo_GFI_2011.jpg" alt="GFI" width="120" height="70" border="0" />
 			</a> <br/>Saint-Ouen (93)
 		
 	</organization>
@@ -16,7 +16,7 @@
 	<item>
 		<organization>
 			<a href="http://www.apteagroup.fr"> 
-				<img src="http://englishblazere.free.fr/img/aptea.jpg" alt="Aptea" width="120" height="70" border="0" />
+				<img src="../img/aptea.jpg" alt="Aptea" width="120" height="70" border="0" />
 			</a> <br/>Saint-Cloud (92)
 		</organization>
 		<date>
@@ -65,7 +65,7 @@ J'ai guid&eacute; l'&eacute;quipe de d&eacute;veloppement et g&eacute;r&eacute; 
 	<item>
 			<organization>
 	 <a href="http://www.ionetwork.com"> 
-		<img src="http://englishblazere.free.fr/img/ionetwork.jpg" alt="IO-Network" width="120" height="70" border="0" />
+		<img src="../img/ionetwork.jpg" alt="IO-Network" width="120" height="70" border="0" />
 		</a> <br/>Ho Chi Minh City (Vietnam)
 			</organization>
 			<date>
@@ -117,7 +117,7 @@ J'ai guid&eacute; l'&eacute;quipe de d&eacute;veloppement et g&eacute;r&eacute; 
 			<organization>
 	
 		<a href="http://www.ibm.com/vn/en/"> 
-		<img src="http://englishblazere.free.fr/img/ibm.jpg" alt="IBM" width="140" height="60" border="0" /><br/>
+		<img src="../img/ibm.jpg" alt="IBM" width="140" height="60" border="0" /><br/>
 		<big>Vietnam Global Delivery Center</big></a> <br/>Ho Chi Minh City (Vietnam)
 			</organization>
 			<date>
@@ -158,7 +158,7 @@ J'ai guid&eacute; l'&eacute;quipe de d&eacute;veloppement et g&eacute;r&eacute; 
 	<item>
 			<organization>
 	<a href="http://www.osiatis.fr/"> 
-		<img src="http://englishblazere.free.fr/img/Logo_Osiatis.jpg" alt="Osiatis" width="140" height="60" border="0" /><br/>
+		<img src="../img/Logo_Osiatis.jpg" alt="Osiatis" width="140" height="60" border="0" /><br/>
 		</a> Infog&eacute;rance Informatique <br/>Vitrolles (13)
 		
 			</organization>
@@ -212,7 +212,7 @@ J'ai guid&eacute; l'&eacute;quipe de d&eacute;veloppement et g&eacute;r&eacute; 
 	<item>
 			<organization>
 	<a href="http://www.mobilegov.com">
-		<img src="http://englishblazere.free.fr/img/mobilegov.jpg" alt="Mobilegov" width="160" height="50" border="0" /><br/>
+		<img src="../img/mobilegov.jpg" alt="Mobilegov" width="160" height="50" border="0" /><br/>
 		</a>Sophia-Antipolis (06)
 		
 			</organization>

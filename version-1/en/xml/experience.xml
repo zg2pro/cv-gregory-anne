@@ -1,22 +1,23 @@
 
 <experience>
-   <item>
-	<organization>
-	<a href="http://www.gfi.fr/"> 
+    <item>
+        <organization>
+            <a href="http://www.gfi.fr/"> 
 				
-            <img src="http://englishblazere.free.fr/img/Logo_GFI_2011.jpg" alt="GFI" width="120" height="70" border="0" />
-			</a> <br/>Saint-Ouen (93)
+                <img src="../img/Logo_GFI_2011.jpg" alt="GFI" width="120" height="70" border="0" />
+            </a> 
+            <br/>Saint-Ouen (93)
 		
-	</organization>
+        </organization>
         <date>Since October 2015</date>
         <role>
             Development of a sensitive software (bank secrecy).
         </role>
     </item>
-	 <item>
+    <item>
         <organization>
             <a href="http://www.aptea.net"> 
-                <img src="http://englishblazere.free.fr/img/aptea.jpg" alt="Aptea" width="120" height="70" border="0" />
+                <img src="../img/aptea.jpg" alt="Aptea" width="120" height="70" border="0" />
             </a> 
             <br/>Saint-Cloud (Paris Region)
 		
@@ -59,11 +60,13 @@
             <br/>
             I set the test environment (prepare test machines) for a software validation squad.
             
-		<br/><br/><br/>
-                Later, I took part during 6 months to an important project of Natixis Assurances as a member of the 
-                Design Authority. I was charged to contribute in the technical debt rattrapage.
-                <br/>I also worked 2 months for Safran Morpho and realised a JMS bridge to adapt a product to the
-                technical context of a customer.
+            <br/>
+            <br/>
+            <br/>
+            Later, I took part during 6 months to an important project of Natixis Assurances as a member of the 
+            Design Authority. I was charged to contribute in the technical debt rattrapage.
+            <br/>I also worked 2 months for Safran Morpho and realised a JMS bridge to adapt a product to the
+            technical context of a customer.
 		
             <br/>
             <br/>
