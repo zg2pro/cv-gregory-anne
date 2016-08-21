@@ -59,7 +59,7 @@
                             + "\nLa votre est actuellement de : " + width + "px."
                             + "\nVous allez être redirigé vers l'ancienne version du site.");
                 } else {
-                       alert("this website requires a screen width >= " + minWidth
+                       alert("This website requires a screen width >= " + minWidth
                             + "\nYours is currently: " + width + "px."
                             + "\nYou are going to be redirected to the old version");
                 }
