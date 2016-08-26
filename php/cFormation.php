@@ -10,8 +10,8 @@ $tags = array("organization", "date", "role",
 
 foreach ($tags as $tagname) {
     //ajout des CDATA
-    $xml_text = str_replace("<$tagname>", "<$tagname><![CDATA[", $xml_text);
-    $xml_text = str_replace("</$tagname>", "]]></$tagname>", $xml_text);
+    $xml_text2 = str_replace("<$tagname>", "<$tagname><![CDATA[", $xml_text);
+    $xml_text = str_replace("</$tagname>", "]]></$tagname>", $xml_text2);
 }
 
 $xml = new DOMDocument;
@@ -28,8 +28,8 @@ $proc->setParameter('', 'hl', $hl);
 $proc->setParameter('', 'rss', '0');
 
 $html = $proc->transformToXML($xml);
-$html = preg_replace('/<\?xml.*\?>/', '', $html, 1);
-$result = str_replace("../img", "version-1/img", $html);
+$html2 = preg_replace('/<\?xml.*\?>/', '', $html, 1);
+$result = str_replace("../img", "version-1/img", $html2);
 ?>
 <div class="section-content">
     <svg viewBox="0 0 500 30" preserveAspectRatio="xMinYMin meet">

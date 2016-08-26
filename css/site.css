@@ -61,7 +61,10 @@ body{
 h1{
     font-size: 6em;
 }
-p{
+h3 {
+    color:white;
+}
+p {
     font-size: 2em;
 }
 .intro p {
@@ -483,7 +486,7 @@ div.description {
     font-family: 'tahoma';  
     font-size:15px;  
     color:black;  
-    opacity:0.4; 
+    opacity:0.5; 
     filter:alpha(opacity=40); 
 }  
 
