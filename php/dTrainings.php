@@ -4,8 +4,6 @@
     <text x="30" y="10" fill="black" font-size="10" ><?php echo $ext_string['summary.c']; ?></text>
     </svg>
 </div>
-
-
     <div class="description-black">
         <p class='description_content'>
         <h2 class='description_title' style="color:white; border-color: white;">The pack</h2>

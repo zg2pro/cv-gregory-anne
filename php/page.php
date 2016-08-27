@@ -1,3 +1,6 @@
+<?php
+include ("php/xslt.php.inc");
+?>
 <div id="fullpage">
     <div class="section" id="section0">
         <?php

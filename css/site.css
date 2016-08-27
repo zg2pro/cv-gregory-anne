@@ -531,3 +531,10 @@ ul.breadcrumb li.active h2 {
     width: 65%;
     overflow: auto;
 }
+
+span.h7 {
+    background-color: #BADBFF; /* Fond de page bleu clair */
+    margin: 0;
+    width : 100%;
+    font-weight:bold;
+}
