@@ -538,3 +538,29 @@ span.h7 {
     width : 100%;
     font-weight:bold;
 }
+
+#section3 ul.breadcrumb li.active h2 {  
+    color:lightgrey; 
+    border-color: lightgrey;
+}
+
+#section3 div.description-black {  
+    height:72%;
+}
+
+#section4 ul.breadcrumb li.active h2 {  
+    color:pink; 
+    border-color: pink;
+}
+
+#section4 div.description-black {  
+    height:76%;
+    width: 65%;
+    margin-top: 0px;
+}
+#section4 div.description-black ul {  
+    text-align: left;
+}
+#section4 div.description-black ul.breadcrumb {  
+    text-align: center;
+}
