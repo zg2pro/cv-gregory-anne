@@ -5,7 +5,7 @@
             TEST TOSA (2015) - Classement top developers
         </title>
         <logo>
-            <img src="../img/stats/java_senior_page_1.png" alt="tosa" width="880" height="550" border="0" />
+            <img src="../img/stats/java_senior_page_1.png" alt="tosa" width="820" height="500" border="0" />
         </logo>
     </project>
     <project>
@@ -13,7 +13,7 @@
             STIF (2014): SVNSTATS (subversion)
         </title>
         <logo>
-            <img src="../img/stats/stif.png" alt="stif" width="830" height="550" border="0" />
+            <img src="../img/stats/stif.png" alt="stif" width="770" height="500" border="0" />
         </logo>
     </project>
     <project>
@@ -21,7 +21,7 @@
             IRSN (2012 - 2014): SVNSTATS (subversion)
         </title>
         <logo>
-            <img src="../img/stats/irsn.png" alt="irsn" width="830" height="550" border="0" />
+            <img src="../img/stats/irsn.png" alt="irsn" width="770" height="500" border="0" />
         </logo>
     </project>
 </statistics>
