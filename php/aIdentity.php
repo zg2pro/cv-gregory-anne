@@ -25,10 +25,7 @@
             <a href="mailto:<?php echo $ext_string['mail']; ?>">
                 <?php echo $ext_string["mail"]; ?> 
             </a> <br/>
-            <a href="http://www.developpez.net/forums/u158055/zg2pro/">
-                <img src="version-1/img/social_icons/developpez.png" width="40" height="40" alt="."/>
-            </a>
-            <a href="http://www.facebook.com/zg2pro">
+            <a href="https://www.facebook.com/gregory.anne.jobs">
                 <img src="version-1/img/social_icons/Facebook.png"  width="40" height="40" alt="."/>
             </a>
             <a href="http://www.linkedin.com/in/gregoryanne83">
@@ -37,21 +34,24 @@
             <a href="http://www.twitter.com/zg2pro">
                 <img src="version-1/img/social_icons/Twitter.png"  width="40" height="40" alt="."/>
             </a>
-            <a href="http://ubuntuforums.org/member.php?u=757219">
-                <img src="version-1/img/social_icons/ubuntu.png"  width="40" height="40" alt="."/>
-            </a>
-            <a href="http://www.viadeo.com/en/profile/gregory.anne2">
-                <img src="version-1/img/social_icons/Viadeo.png"  width="40" height="40" alt="."/>
-            </a>
             <a href="http://www.youtube.com/zg2pro">
                 <img src="version-1/img/social_icons/Youtube.png"  width="40" height="40" alt="."/>
             </a>
             <a href="https://github.com/zg2pro">
                 <img src="version-1/img/social_icons/Github.png"  width="40" height="40" alt="."/>
             </a>
+            <!--a href="http://www.developpez.net/forums/u158055/zg2pro/">
+                <img src="version-1/img/social_icons/developpez.png" width="40" height="40" alt="."/>
+            </a>
+            <a href="http://ubuntuforums.org/member.php?u=757219">
+                <img src="version-1/img/social_icons/ubuntu.png"  width="40" height="40" alt="."/>
+            </a>
+            <a href="http://www.viadeo.com/en/profile/gregory.anne2">
+                <img src="version-1/img/social_icons/Viadeo.png"  width="40" height="40" alt="."/>
+            </a>
             <a href="http://stackoverflow.com/users/1173344/zg2pro">
                 <img src="version-1/img/social_icons/stackoverflow.png"  width="40" height="40" alt="."/>
-            </a>
+            </a-->
         </h3>
 
     </div>
@@ -62,12 +62,12 @@
     <div id="id-title">
         <?php echo $ext_string["title.h1"]; ?>
     </div>
-    <div id="id-construction">
+    <!--div id="id-construction">
         <?php echo $ext_string["title.construction"]; ?>
     </div>
     <div id="id-link">
        &rArr; <a href="version-1">
             <?php echo $ext_string["title.old"]; ?>
         </a>
-    </div>
+    </div-->
 </div>

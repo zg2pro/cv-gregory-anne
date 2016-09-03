@@ -1,4 +1,33 @@
 <div class="full-page-menu-wrapper">
+    <ul>
+        <li> 
+            <?php
+            if ($hl == "fr") {
+                ?>
+                <a href="index.php?hl=en">
+                    <span class="icon-jack"></span>
+                </a>
+                <?php
+            } else {
+                ?>
+                <a href="index.php?hl=fr">
+                    <span class="icon-fre"></span>
+                </a>
+                <?php
+            }
+            ?>
+            |
+            <a href="version-1/pdf/CV<?php echo $hl; ?>_GregANNE.pdf" 
+               title="<?php echo $ext_string['tooltip.pdf']; ?>">
+                <span class="icon-printer"></span>
+            </a>
+            |
+            <a href="version-1?hl=<?php echo $hl; ?>" 
+               title="<?php echo $ext_string['tooltip.old']; ?>">
+                <span class="icon-prev"></span>
+            </a>
+        </li>
+    </ul>
     <ul class="full-page-menu">
         <li data-menuanchor="page0"> 
             <a href="#page0" class="identity-color"><?php echo $ext_string['summary.id']; ?></a>

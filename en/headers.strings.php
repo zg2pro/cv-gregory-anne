@@ -5,6 +5,10 @@ $ext_string['title.h1'] = "<h1 class=\"h1_1_line\">PROJECT MANAGER <br/>JAVA PRO
 $ext_string['title.old'] = "Go to the previous version of the website (easy reading on a unique page)";
 $ext_string['title.construction'] = "This site is currently under construction !!!";
 
+$ext_string['tooltip.pdf'] = "pdf version";
+$ext_string['tooltip.old'] = "old version of the website";
+
+
 $ext_string['address.permanent.street'] = "51, avenue de Paris";
 $ext_string['address.permanent.town'] = "94800 Villejuif";
 $ext_string['address.permanent.country'] = "FRANCE";

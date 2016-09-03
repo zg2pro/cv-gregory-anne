@@ -67,6 +67,26 @@ h3 {
 p {
     font-size: 2em;
 }
+span[class^="icon-"] {
+    width: 16px;
+    height: 16px;
+    background-position: 0 0;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+span.icon-printer {
+    background-image: url(../img/printer.png); 
+}
+span.icon-jack {
+    background-image: url(../version-1/img/en.gif); 
+}
+span.icon-fre {
+    background-image: url(../version-1/img/fr.gif); 
+}
+span.icon-prev {
+    background-image: url(../img/find_previous_icon.jpg); 
+}
 .intro p {
     width: 50%;
     margin: 0 auto;

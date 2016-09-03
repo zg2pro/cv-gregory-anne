@@ -6,6 +6,9 @@ $ext_string['title.h1'] = "<h1 class=\"h1_1_line\">CHEF DE PROJET <br/>ENVIRONNE
 $ext_string['title.old'] = "Allez &agrave; l'ancienne version du site (lecture confortable sur une seule page)";
 $ext_string['title.construction'] = "Ce site est actuellement en construction !!!";
 
+$ext_string['tooltip.pdf'] = "version pdf";
+$ext_string['tooltip.old'] = "ancienne version du site";
+
 $ext_string['address.permanent.street'] = "51, avenue de Paris";
 $ext_string['address.permanent.town'] = "94800 Villejuif";
 $ext_string['address.permanent.country'] = "FRANCE";
