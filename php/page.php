@@ -29,17 +29,22 @@ include ("php/xslt.php.inc");
     </div>
     <div class="section" id="section5">
         <?php
-        include ("php/fInterests.php");
+        include ("php/fStatistics.php");
         ?>
     </div>
     <div class="section" id="section6">
         <?php
-        include ("php/gGoals.php");
+        include ("php/gInterests.php");
         ?>
     </div>
     <div class="section" id="section7">
         <?php
-        include ("php/hReferees.php");
+        include ("php/hGoals.php");
+        ?>
+    </div>
+    <div class="section" id="section8">
+        <?php
+        include ("php/iReferees.php");
         ?>
     </div>
 </div>

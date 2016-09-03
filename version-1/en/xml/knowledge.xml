@@ -7,7 +7,7 @@
         <field> 
             <big>Quality Management</big> : HMI (Management of ergonomic and cognitive criteria) <br/>
             ISO9001 &amp; CMMI awareness, Validation &amp; Verification</field>
-        <field> Specification : Scope statements, <big>SADT/SART</big>(Real-time computing), 
+        <field> Specification : Scope statements, SADT/SART(Real-time computing), 
             Specification methods and tools (CASE tools), Software architectures solutioning </field>
         <field> 
             <big> UML </big>Design, Automatons and Petri nets </field>
@@ -16,7 +16,7 @@
         <big>SpringMVC, JSF, EJB, SOAP(CXF), CORBA</big>).
         </field>
         <field> 
-            <big>SQL &amp; JPQL</big>Procedural Languages, Postgres, MySQL, Oracle, MsSQL. 
+            <big>SQL &amp; JPQL</big> Procedural Languages, Postgres, MySQL, Oracle, MsSQL. 
         </field>
         <field> 
             <big>Tomcat, Glassfish, WildFly(JBoss), WebSphere.</big>
@@ -37,12 +37,12 @@
             <br/>
         </field>
         <field> Flash : Adobe Creative Suite 5, ActionScript</field-->
-        <field> Algorithm : <big>Computational complexity theory</big></field>
-        <field> Development of graphical interfaces in <big>Awt/Swing, Gtk+, Tcl/Tk</big> 
+        <field> Algorithm : Computational complexity theory</field>
+        <field> Development of graphical interfaces in Awt/Swing, Gtk+, Tcl/Tk
             <a href="http://nguyen.univ-tln.fr/Enseignement/M5/TclTk/proj2007.html">
                 University work </a> 
         </field>
-        <field> Digital Art 2D/3D : SDL, OpenGL      works :  <a href="http://nguyen.univ-tln.fr/Enseignement/M5/Proj0708/pendule.html">2D</a> 
+        <field> Digital Art 2D/3D : SDL, OpenGL works :  <a href="http://nguyen.univ-tln.fr/Enseignement/M5/Proj0708/pendule.html">2D</a> 
             <a href="http://nguyen.univ-tln.fr/Enseignement/MO2/Mesa/projet2007.html">3D</a> 
         </field>
         <!--field> Compilation : Lexical, Syntax and Semantical Analysis with flex and bison. </field>

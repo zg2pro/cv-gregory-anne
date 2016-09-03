@@ -6,6 +6,7 @@
     <li><a href="index.php?p=mycv#education"><?php echo $ext_string["summary.e"]; ?></a></li>
     <li><a href="index.php?p=mycv#courses"><?php echo $ext_string["summary.c"]; ?></a></li>
     <li><a href="index.php?p=mycv#knowledge"><?php echo $ext_string["summary.k"]; ?></a></li>
+    <li><a href="index.php?p=mycv#statistics"><?php echo $ext_string["summary.s"]; ?></a></li>
     <li><a href="index.php?p=mycv#interests"><?php echo $ext_string["summary.ih"]; ?></a></li>
     <li><a href="index.php?p=mycv#goals"><?php echo $ext_string["summary.g"]; ?></a></li>
     <li><a href="index.php?p=mycv#referees"><?php echo $ext_string["summary.r"]; ?></a></li>

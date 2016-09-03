@@ -7,7 +7,7 @@
             <big>Gestion de la Qualit&eacute;</big> : Ing&eacute;nierie de l'Interaction Homme-Machine 
             (Gestion de crit&egrave;res ergonomiques ou cognitifs), 
             <br/>Assurance/Contr&ocirc;le de Qualit&eacute; : Validation, V&eacute;rification</field>
-        <field> Specification : Cahiers des charges, MERISE, <big>SADT/SART  </big>(Syst&egrave;me temps r&eacute;els), 
+        <field> Specification : Cahiers des charges, MERISE, SADT/SART (Syst&egrave;me temps r&eacute;els), 
             Ateliers de G&eacute;nie Logiciel, Solutionning d'architectures logicielles </field>
         <field> Conception <big>UML</big>, BPM, Automates et r&eacute;seaux de P&eacute;tri 
         </field>
@@ -15,7 +15,7 @@
             <big>SpringMVC, JSF, EJB, SOAP(CXF), CORBA</big>).
         </field>
         <field> 
-            <big>SQL &amp; JPQL</big>Langages de Proc&eacute;dure, Postgres, MySQL, Oracle, MsSQL. 
+            <big>SQL &amp; JPQL</big> Langages de Proc&eacute;dure, Postgres, MySQL, Oracle, MsSQL. 
         </field>
         <field> 
             <big>Tomcat, Glassfish, WildFly(JBoss), WebSphere.</big>
@@ -37,13 +37,13 @@
         <field> Logiciels de Bureautique et de Communication Office/open office/Lotus/Adobe 
         </field>
         <field> Flash : Adobe Creative Suite 5, ActionScript</field>
-        <field> Algorithmique : Arbres, <big>Complexit&eacute; et Th&eacute;orie des classes</big> (L -> Co-NP) 
+        <field> Algorithmique : Arbres, Complexit&eacute; et Th&eacute;orie des classes 
         </field>
-        <field> D&eacute;veloppement d'interfaces graphiques en <big>Awt/Swing, Gtk+, Tcl/Tk</big>
+        <field> D&eacute;veloppement d'interfaces graphiques en Awt/Swing, Gtk+, Tcl/Tk
             <a href="http://nguyen.univ-tln.fr/Enseignement/M5/TclTk/proj2007.html">
                 Projet de licence </a> 
         </field>
-        <field> Infographie 2D/3D : SDL, OpenGL      Projets <a href="http://nguyen.univ-tln.fr/Enseignement/M5/Proj0708/pendule.html">2D</a> 
+        <field> Infographie 2D/3D : SDL, OpenGL Projets <a href="http://nguyen.univ-tln.fr/Enseignement/M5/Proj0708/pendule.html">2D</a> 
             <a href="http://nguyen.univ-tln.fr/Enseignement/MO2/Mesa/projet2007.html">3D</a> 
         </field>
         <!--field> Compilation : Analyses lexicales, syntaxiques, s&eacute;mantiques par flex et bison. 
@@ -52,7 +52,7 @@
         </field-->
         <field> Th&eacute;orie et Recherche d'information : Traitement de la parole, Segmentation d'images, 
             <br/>Rapports rappel/pr&eacute;cison et Page rank. <br/>
-            Entropie de Shannon, Codage   <a href="../PDF/Travaux_d_etudes_et_de_recherche.pdf"> Memoire de Maitrise </a>
+            Entropie de Shannon, Codage   <a href="../PDF/Travaux_d_etudes_et_de_recherche.pdf"> M&eacute;moire de Maitrise </a>
         </field>
     </science>
     <miscellaneous>

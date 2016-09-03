@@ -290,13 +290,13 @@ h1{
 #section4{
     background-image: url(../img/bg4.jpg);
 }
-#section5{
+#section6{
     background-image: url(../img/bg5.jpg);
 }
-#section6{
+#section7{
     background-image: url(../img/bg6.jpg);
 }
-#section7{
+#section8{
     background-image: url(../img/bg7.jpg);
 }
 
@@ -519,9 +519,21 @@ ul.breadcrumb li.active h2 {
     font-weight: bold;
 }  
 
-#section2 ul.breadcrumb li.active h2 {  
-    color:yellow; 
-    border-color: yellow;
+
+#section1 div.description big {  
+    color:blue;
+}
+
+#section2 ul.breadcrumb li.active h2,
+#section3 ul.breadcrumb li.active h2,
+#section4 ul.breadcrumb li.active h2,
+#section6 ul.breadcrumb li.active h2,
+#section7 ul.breadcrumb li.active h2,
+#section8 ul.breadcrumb li.active h2 {  
+    display:none;
+}
+#section2 ul li big {  
+    color:yellow;
 }
 
 #section2 div.description-black {
@@ -539,28 +551,52 @@ span.h7 {
     font-weight:bold;
 }
 
-#section3 ul.breadcrumb li.active h2 {  
-    color:lightgrey; 
-    border-color: lightgrey;
-}
 
 #section3 div.description-black {  
     height:72%;
 }
 
-#section4 ul.breadcrumb li.active h2 {  
-    color:pink; 
-    border-color: pink;
+#section4 ul li big {  
+    color:pink;
 }
 
 #section4 div.description-black {  
     height:76%;
     width: 65%;
     margin-top: 0px;
+    opacity: 0.85;
 }
 #section4 div.description-black ul {  
     text-align: left;
 }
 #section4 div.description-black ul.breadcrumb {  
     text-align: center;
+}
+
+#section7 ol li big {  
+    color:orange;
+}
+#section7 div.description-black {  
+    height:65%;
+    width: 60%;
+}
+#section8 div.description-black {  
+    height:65%;
+    width: 60%;
+    overflow: auto;
+}
+
+#section8 div.description-black h4 {  
+    display: block;
+    border-bottom: 1px solid blue;
+    text-transform: uppercase;
+    line-height: 1.3;
+    font-size: 22px;
+    font-weight: bold;
+    color: brown;
+    border-bottom-color: brown;
+}  
+
+dt {
+    font-weight: bold;
 }

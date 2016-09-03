@@ -210,3 +210,20 @@ a:hover{
     text-decoration: none;
     color: #EEEEEE;
 }
+
+a[name='statistics'] + ul,
+a[name='goals'] + ul,
+a[name='referees'] + ul {
+    margin-top:50px;
+}
+div.interests-last-element {
+    text-align: right;
+}
+
+div.stats-table {
+    overflow-x: scroll;
+}
+div.stats-table table tr td {
+    min-width: 800px;
+    padding: 20px;
+}

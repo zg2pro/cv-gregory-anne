@@ -7,9 +7,10 @@ $titles = array(
     1 => "education",
     2 => "courses",
     3 => "knowledge",
-    4 => "interests",
-    5 => "goals",
-    6 => "referees"
+    4 => "statistics",
+    5 => "interests",
+    6 => "goals",
+    7 => "referees"
 );
 
 foreach ($titles as $ind => $val) {

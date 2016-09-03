@@ -16,13 +16,16 @@
             <a href="#page4" class="kno-color"><?php echo $ext_string['summary.k']; ?></a>
         </li>
         <li data-menuanchor="page5"> 
-            <a href="#page5" class="hob-color"><?php echo $ext_string['summary.ih']; ?></a>
+            <a href="#page5" class="stat-color"><?php echo $ext_string['summary.s']; ?></a>
         </li>
         <li data-menuanchor="page6"> 
-            <a href="#page6" class="goals-color"><?php echo $ext_string['summary.g']; ?></a>
+            <a href="#page6" class="hob-color"><?php echo $ext_string['summary.ih']; ?></a>
         </li>
         <li data-menuanchor="page7"> 
-            <a href="#page7" class="ref-color"><?php echo $ext_string['summary.r']; ?></a>
+            <a href="#page7" class="goals-color"><?php echo $ext_string['summary.g']; ?></a>
+        </li>
+        <li data-menuanchor="page8"> 
+            <a href="#page8" class="ref-color"><?php echo $ext_string['summary.r']; ?></a>
         </li>
     </ul>
 </div>
