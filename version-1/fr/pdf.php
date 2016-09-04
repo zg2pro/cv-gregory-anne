@@ -4,9 +4,9 @@ session_start();
 $hl = "fr";
 $_SESSION["hl"] = "fr";
 
-if (!isset($_GET["p"]))
+if (!isset($_GET["p"])) {
     $p = "print";
-else {
+} else {
     $p = $_GET["p"];
 }
 
@@ -14,9 +14,9 @@ if (isset($_GET["titles"])) {
     $titles = $_GET["titles"];
 } else if (!isset($_SESSION["titles"])) {
     $titles = array(
-      //  0 => "identity"/* ,
-        1 => "experience" ,
-           /* 2 => "education",
+        //  0 => "identity"/* ,
+        1 => "experience",
+            /* 2 => "education",
               3 => "courses",
               4 => "knowledge",
               5 => "statistics",
@@ -26,12 +26,12 @@ if (isset($_GET["titles"])) {
     );
 }
 
-if (file_exists("../php/" . $p . ".php"))
+if (file_exists("../php/" . $p . ".php")) {
     require_once ("../php/" . $p . ".php");
-else {
-    if (file_exists($p . ".php"))
+} else {
+    if (file_exists($p . ".php")) {
         require_once ($p . ".php");
-    else {
+    } else {
         echo "<div id='attention'>
 				The page you have requested is not yet available in english.
 				Thanks for your understanding.

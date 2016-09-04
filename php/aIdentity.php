@@ -1,3 +1,6 @@
+<?php
+require_once 'version-1/php/age.php.inc';
+?>
 <div class="section-content">
     <svg viewBox="0 0 500 30" preserveAspectRatio="xMinYMin meet">
     <path d="M0,15 C150,30 350,0 500,2 L500,00 L0,0 Z" style="stroke: none;" class="identity-color"></path>

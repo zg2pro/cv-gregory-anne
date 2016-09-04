@@ -1,10 +1,5 @@
 <?php
 
-function age($annee, $mois, $jour) {
-    $age = (date("md", date("U", mktime(0, 0, 0, $jour, $mois, $annee))) > date("md") ? ((date("Y") - $annee) - 1) : (date("Y") - $annee));
-    echo $age;
-}
-
 function readXml($hl, $xml_file_name, $xsl_file_name) {
 
     $context = stream_context_create(array('http' => array('header' => 'Accept: application/xml')));

@@ -38,6 +38,7 @@ else {
         <div class="row-fluid">
             <?php
             require_once ("../php/header.php");
+            echo writeHeader($ext_string, $hl);
             ?>
         </div>
         <div class="row-fluid">
