@@ -8,7 +8,20 @@
 	</organization>
         <date>Depuis Octobre 2015</date>
         <role>
-            Mission de d&eacute;veloppement d'une application sensible (secret bancaire).
+            <big><b>Chef de projet Java</b></big>
+            <br/><br/>Mission de d&eacute;veloppement d'une application permettant le pr&eacute;-traitement
+            (contr&ocirc;le, archivage, chiffrement) des fichiers de la division Inspection G&eacute;n&eacute;rale 
+            de BNPP, et leur upload vers un syst&egrave;me de gestion &eacute;lectronique de documents. Membre de 
+            l'&eacute;quipe de d&eacute;veloppeurs Agile, j'ai fourni toutes les solutions et ai mis
+            en place l'architecture logicielle, je fus ainsi r&eacute;f&eacute;rant de la plupart des sujets techniques.
+            J'ai int&eacute;gr&eacute; et form&eacute; les nouveaux d&eacute;veloppeurs et veill&eacute; au 
+            fonctionnement de nos environnements de test.
+            <br/><br/><span class="h7">Environnement</span>
+		<br/>
+                JAVA/JEE (Spring4 MVC, Spring-security SSO, Esapi, nCipher crypto library, 
+                JPA2, Hibernate), JQuery, JsTree, Bootstrap Twitter, Oracle DB, Flyway-db, WebSphere, 
+                NetBeans, Git, Maven, Sonar, 
+                Jira Agile, HP-Quality Center, Jenkins, Automic Ara, Nexus.
         </role>
     </item>
     <item>
@@ -25,12 +38,12 @@
 			<br/><br/>Aptea est une SSII fran&ccedil;aise sp&eacute;cialis&eacute;e dans les syst&egrave;mes de gestion destin&eacute;s aux domaines les plus
 			sensibles et complexes (Energie et Transport). Aptea m'a permis depuis mon embauche de guider et de d&eacute;velopper les projets au forfait sur plateforme Java.
 			<br/><br/>
-Je me suis d'abord consacr&eacute; &agrave; un unique client (organisme public officiel) et j'ai mis en oeuvre un projet de 1800 MD. 
+                        Je me suis d'abord consacr&eacute; &agrave; un unique client (organisme public officiel) et j'ai mis en oeuvre un projet de 1800 MD. 
 			Refonte d'une application r&eacute;alis&eacute;e il y a plus de 10 ans encore op&eacute;rationnelle mais bas&eacute;e sur des technologies 
 			vieillissantes et non suffisamment ouvertes aux nouveaux acteurs du domaine. Je fus d'abord analyste d'affaires, pourtant
 			j'ai pu devenir un <big>leader technique</big> lorsque le projet a grandi. Sur un second projet, d&eacute;marr&eacute; en 03/2014, pour un autre organisme public, 
 			je fus enti&egrave;rement responsable des aspects temps et budget, de l'organisation des t&acirc;ches et de l'anticipation des risques. 
-J'ai guid&eacute; l'&eacute;quipe de d&eacute;veloppement et g&eacute;r&eacute; en m&ecirc;me temps l'interface avec la client&egrave;le.
+                        J'ai guid&eacute; l'&eacute;quipe de d&eacute;veloppement et g&eacute;r&eacute; en m&ecirc;me temps l'interface avec la client&egrave;le.
 			<br/><br/>
 			J'ai guid&eacute; l'analyse d'affaire au cours des r&eacute;unions de sp&eacute;cification<br/>
 			J'ai r&eacute;dig&eacute; les documents de sp&eacute;cification et j'ai int&eacute;gr&eacute; &agrave; 
@@ -43,20 +56,19 @@ J'ai guid&eacute; l'&eacute;quipe de d&eacute;veloppement et g&eacute;r&eacute; 
 			J'ai encadr&eacute; et form&eacute; les d&eacute;veloppeurs.<br/>
 			J'ai g&eacute;r&eacute; la relation client et j'ai int&eacute;gr&eacute; les requ&ecirc;tes de changement.<br/>
 			J'ai mis en place l'environnement de test pour l'&eacute;quipe de validation avec Testlink et Selenium.<br/>
-
                         <br/><span class="h7">Autres Projets</span>
 		<br/>Int&eacute;gration durant 6 mois de fin de projet du programme Assur&eacute;ment#2016 de Natixis Assurances, et son
 &eacute;quipe Design Authority. Il s'agissait d'une rem&eacute;diation de dette technique.
                 <br/>Int&eacute;gration durant 2 mois de Safran Morpho pour la cr&eacute;ation d'un bridge JMS pour l'adaptation d'un produit
                 au contexte technologique d'un client.
-		
-                        
-			<br/><br/><span class="h7">Environnement</span>
-		<br/>SQL Server, Oracle DB, Postgres, Glassfish, Tomcat, JBoss, 
-                JAVA/JEE (JPA2, Hibernate, EJB3, JMS, Spring3 MVC, JSF, Maven), 
+		<br/>
+                <br/>
+                <span class="h7">Environnement</span>
+		<br/>JAVA/JEE (JPA2, Hibernate, EJB3, JMS, Spring3 MVC, JSF, Maven), 
 		AngularJS, JQuery, Bootstrap Twitter, Lucene, 
 		XSL, Signature &eacute;lectronique, SIG, WebDav(Milton), 
-		NetBeans, SVN, Dimensions, Mantis, Jenkins, Sonar, DokuWiki, xWiki, MsProject, 
+		SQL Server, Oracle DB, Postgres, Glassfish, Tomcat, JBoss, 
+                NetBeans, SVN, Dimensions, Mantis, Jenkins, Sonar, DokuWiki, xWiki, MsProject, 
 		Talend, Trello, Testlink, Selenium, UML, BPML, Fran&ccedil;ais.
 		</role>
 	</item>
