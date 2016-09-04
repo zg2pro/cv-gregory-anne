@@ -1,2 +1,4 @@
-php 5
-AddType x-mapp-php5 .php
+php56 1
+#php 5
+#AddType x-mapp-php5 .php
+#Options +Indexes

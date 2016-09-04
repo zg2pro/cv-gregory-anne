@@ -1,4 +1,3 @@
-
 <?php
 
 function age($annee, $mois, $jour) {

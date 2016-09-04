@@ -17,7 +17,7 @@
             }
             ?>
             |
-            <a href="version-1/pdf/CV<?php echo $hl; ?>_GregANNE.pdf" 
+            <a href="version-1/<?php echo $hl; ?>/pdf" 
                title="<?php echo $ext_string['tooltip.pdf']; ?>">
                 <span class="icon-printer"></span>
             </a>
