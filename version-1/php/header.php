@@ -1,11 +1,12 @@
 <?php
+
 require_once 'age.php.inc';
 
-function writeHeader($ext_string, $hl) {
+function writeHeader($ext_string, $hl, $pdf = false) {
     $content = "";
 
     if ($hl == 'fr') {
-        $content .= "<img src='../img/id.jpg' width='340' height='225' align='right' border='0' alt='.'/>";
+        $content .= "<img src='../img/id.jpg' id='identity-picture' align='right' alt='.'/>";
     }
     $content .= "
 <br/><h4>
@@ -17,26 +18,30 @@ function writeHeader($ext_string, $hl) {
     }
     $content .= "
 <br/>
-<h3>" . $ext_string["address.permanent.street"] . "<br/>" . $ext_string["address.permanent.town"] . "<br/>
-" . $ext_string["address.permanent.country"] . "<br/>" .
-            $ext_string["number.mobile"] . "<br/>" . $ext_string["number.landline"] .
+<h3>" . $ext_string["address.permanent.street"] . "<br/>" . $ext_string["address.permanent.town"] . "<br/>";
+    if (!$pdf) {
+        $content .= $ext_string["address.permanent.country"] . "<br/>";
+    }
+    $content .= $ext_string["number.mobile"] . "<br/>" . $ext_string["number.landline"] .
             "<br/><a href='mailto:" . $ext_string['mail'] . "'>" . $ext_string["mail"] . "</a> <br/>
 </h3>
 ";
     $content .= "
 <div id='bookmarks'>
-
-    <a href='https://www.facebook.com/pages/Gregory-Anne/262147523982'>
+";
+    if (!$pdf) {
+        $content .= "  <a href='https://www.facebook.com/pages/Gregory-Anne/262147523982'>
         <img src='../img/social_icons/Facebook.png'  width='40' height='40' alt='.'/>
     </a>
-    <a href='http://www.linkedin.com/in/gregoryanne83'>
+    <a href='http://www.youtube.com/zg2pro'>
+        <img src='../img/social_icons/Youtube.png'  width='40' height='40' alt='.'/>
+    </a>";
+    }
+    $content .= "<a href='http://www.linkedin.com/in/gregoryanne83'>
         <img src='../img/social_icons/Linkedin.png'  width='40' height='40' alt='.'/>
     </a>
     <a href='http://www.twitter.com/zg2pro'>
         <img src='../img/social_icons/Twitter.png'  width='40' height='40' alt='.'/>
-    </a>
-    <a href='http://www.youtube.com/zg2pro'>
-        <img src='../img/social_icons/Youtube.png'  width='40' height='40' alt='.'/>
     </a>
     <a href='https://github.com/zg2pro'>
         <img src='../img/social_icons/Github.png'  width='40' height='40' alt='.'/>
@@ -48,6 +53,11 @@ function writeHeader($ext_string, $hl) {
 <br/>
 
 " . $ext_string["title.h1"];
+    if ($pdf) {
+        $content .= "<hr/>";
+    }
+    
     return $content;
 }
+
 ?>

@@ -4,9 +4,9 @@ session_start();
 $hl = "en";
 $_SESSION["hl"] = "en";
 
-if (!isset($_GET["p"]))
+if (!isset($_GET["p"])) {
     $p = "mycv";
-else {
+} else {
     $p = $_GET["p"];
 }
 ?>

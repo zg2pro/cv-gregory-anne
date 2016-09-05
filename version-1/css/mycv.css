@@ -12,8 +12,7 @@ tbody {
 }
 
 h1 {
-    /*background-color: #06197B;
-    */background: url(../img/bg.jpg) top left repeat;
+    background: url(../img/bg.jpg) top left repeat;
     color: white;
     text-align: center;
     vertical-align: middle;
@@ -46,10 +45,6 @@ hr {
     padding: 1px 0 0 100px;
 }
 
-h3 { /*coordonnees*/
-    font-family: 'Courier 10 Pitch';
-}
-
 /* LEFT COL H3 */
 #menu h2 {
     color: #2286b3;
@@ -68,7 +63,6 @@ h3 { /*coordonnees*/
 
 
 h4 { /* mon nom */
-    font-family: 'ae_Ouhod';
     font-size : 18px; 
     font-weight : bold;
 }
@@ -226,4 +220,9 @@ div.stats-table {
 div.stats-table table tr td {
     min-width: 800px;
     padding: 20px;
+}
+img#identity-picture {
+    width: 340px;
+    height:225px;
+    border:0; 
 }

@@ -1,0 +1,29 @@
+h1 {
+    background: none;
+    color: black;
+}
+
+img#identity-picture {
+    width: 295px;
+    height:197px;
+    border:0; 
+}
+
+div#bookmarks {
+    margin-top: -28px;
+}
+
+h1 {
+    margin-top: -35px;
+    font-size: 28px;
+}
+.h1_1_line {
+    line-height: 45px;
+}
+hr {
+  border: 1px;
+  border-top: 1px solid #000;
+  width: 100%;
+  margin: 0px;
+  margin-top: -5px;
+}
