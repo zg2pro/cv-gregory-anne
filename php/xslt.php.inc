@@ -1,5 +1,8 @@
 <?php
 
+libxml_disable_entity_loader(false);
+    
+
 function readXml($hl, $xml_file_name, $xsl_file_name) {
 
     $context = stream_context_create(array('http' => array('header' => 'Accept: application/xml')));

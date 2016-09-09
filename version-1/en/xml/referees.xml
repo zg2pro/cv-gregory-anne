@@ -1,36 +1,26 @@
 
 <referees>
-    <letters>
-        <item>
-            <person>
-                Thomas Nguyen
-            </person>
-            <email>
-                thomas@vn.ibm.com
-            </email>
-            <title>
-                Project Manager, Web Development Competency Leader at IBM Vietnam
-            </title>
-            <letter>
-                RecommendationLetter_GA_TN.pdf
-            </letter>
-        </item>
-        <item>
-            <person>
-                Jean Caussanel
-            </person>
-            <email>
-                jean.caussanel@univ-cezanne.fr
-            </email>
-            <title>
-                Lecturer at Universite Aix-Marseille III
-            </title>
-            <letter>
-                RecommendationLetter_GA_JC.pdf
-            </letter>
-        </item>
-    </letters>
     <linkedin>
+        <item>
+            <person>
+                Samuel Herve
+            </person>
+            <profile>
+                https://www.linkedin.com/in/samuelherve
+            </profile>
+            <title>
+                Java/JEE/AEM Technical Lead,
+                worked with Gregory at Aptea
+            </title>
+            <text>
+                "I had the pleasure to work together with Gregory where he was project manager. 
+                He has been able to handle a very complex business analysis, successfuly driving the client 
+                requirements progress with the project pace. 
+                Gregory is thoroughly involved on the project he's working on, and a infallible team motivator. 
+                He's also been a very pleasant day-to-day workmate, I wish him the best in his career."
+                --September 7, 2016
+            </text>
+        </item>
         <item>
             <person>
                 Loic Belleteste
@@ -50,6 +40,24 @@
                 Gregory has the abilities, desire and energy to make a significantand positive impact within any organization he becomes 
                 involvedwith. I highly recommend him for employment in any organization."
                 --June 15, 2015
+            </text>
+        </item>
+        <item>
+            <person>
+                Bao Nguyen Minh
+            </person>
+            <profile>
+                http://www.linkedin.com/pub/anh-phan/23/19b/245
+            </profile>
+            <title>
+                Project Manager, IO Media
+                worked with Gregory at IO-Network
+            </title>
+            <text>
+                "Gregory gives me an impression when i worked with him. With "I can spirit", 
+                he has created more usefull and fantastic applications for company. 
+                I'm sure he is the right person for your successful IT's business."
+                --May 18, 2011
             </text>
         </item>
         <item>
@@ -91,4 +99,34 @@
             </text>
         </item>
     </linkedin>
+    <letters>
+        <item>
+            <person>
+                Thomas Nguyen
+            </person>
+            <email>
+                thomas@vn.ibm.com
+            </email>
+            <title>
+                Project Manager, Web Development Competency Leader at IBM Vietnam
+            </title>
+            <letter>
+                RecommendationLetter_GA_TN.pdf
+            </letter>
+        </item>
+        <item>
+            <person>
+                Jean Caussanel
+            </person>
+            <email>
+                jean.caussanel@univ-cezanne.fr
+            </email>
+            <title>
+                Lecturer at Universite Aix-Marseille III
+            </title>
+            <letter>
+                RecommendationLetter_GA_JC.pdf
+            </letter>
+        </item>
+    </letters>
 </referees>

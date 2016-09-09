@@ -2,6 +2,8 @@
 
 function mycvHtml($hl, $titles) {
 
+    libxml_disable_entity_loader(false);
+    
     $finalContent = "";
 
     foreach ($titles as $ind => $val) {
@@ -33,7 +35,6 @@ function mycvHtml($hl, $titles) {
         $xml->loadXML($xml_text);
         //echo $xml->saveXML();
         //var_dump($xml); die;
-
         $xsl = new DOMDocument;
         $xsl->substituteEntities = true;
         $xsl->load('../xsl/' . $val . '.xsl');
