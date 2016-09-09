@@ -26,7 +26,6 @@
                         $hl = $_SESSION['hl'];
                         foreach ($titles as $ind => $val) {
                             ?>
-
                             <li>
                                 <?php echo $val; ?>
                                 <ul>
@@ -45,10 +44,10 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">
-                        Close
+                        <?php echo $ext_string["pdf.close"]; ?>
                     </button>
                     <button type="button" class="btn btn-primary">
-                        Generate Pdf
+                        <?php echo $ext_string["pdf.generate"]; ?>
                     </button>
                 </div>
             </div>

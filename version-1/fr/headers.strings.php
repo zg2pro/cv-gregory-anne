@@ -36,6 +36,9 @@ $ext_string['tools.s'] = "PARTAGER";
 $ext_string['tools.rss'] = "Flux RSS";
 $ext_string['tools.portfolio'] = "PORTFOLIO";
 
+$ext_string['pdf.close'] = "Fermer";
+$ext_string['pdf.generate'] = "G&eacute;n&eacute;rer le pdf";
+
 $ext_string['copyright'] = "Le site et le framework ont <br/>  &eacute;t&eacute; con&ccedil;us en 2005 par <br/>Gr&eacute;gory Anne &copy;.";
 $ext_string['technologies.title'] = "Principales technologies utilis&eacute;es:";
 $ext_string['technologies.xml'] = "XML: stock de donn&eacute;es, transformations avec XSL, DOM ou SAX.";

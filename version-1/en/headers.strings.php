@@ -31,9 +31,10 @@ $ext_string['tools.s'] = "SHARE";
 $ext_string['tools.rss'] = "RSS Feed";
 $ext_string['tools.portfolio'] = "PORTFOLIO";
 
-$ext_string['rss.head'] = "Last Elements";
-$ext_string['rss.le'] = "Last Experience";
-$ext_string['rss.ld'] = "Last Degree";
+$ext_string['pdf.close'] = "Close";
+$ext_string['pdf.generate'] = "Generate the pdf";
+
+
 
 $ext_string['copyright'] = "This site and its framework <br/> were powered in 2005 by <br/>Gregory Anne &copy;.";
 $ext_string['technologies.title'] = "Technologies used are:";
