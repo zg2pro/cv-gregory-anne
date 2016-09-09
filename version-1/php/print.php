@@ -2,7 +2,7 @@
 
 require_once('mycvhtml.php.inc');
 require_once('headers.strings.php');
-require_once('header.php');
+require_once('header.php.inc');
 
 $content = "<style>".file_get_contents("../css/bootstrap.css").
         file_get_contents("../css/mycv.css").

@@ -14,29 +14,52 @@
 
 <br/><h2><?php echo $ext_string["tools.head"]; ?></h2>
 <ul class="nav nav-tabs nav-stacked">
-    <li  <?php if ($p == "mycv") echo "class='active'"; ?>>
+    <li  <?php
+    if ($p == "mycv") {
+        echo "class='active'";
+    }
+    ?>>
         <a href='index.php?p=mycv'>
             <i class="icon-home"></i>
             <?php echo $ext_string["tools.h"]; ?>
         </a></li>
-        <!--li <?php if ($p == "glossary") echo "class='active'"; ?>>
-        <a href='index.php?p=glossary'>
-        <i class="icon-book"></i>
+    <!--li <?php
+    if ($p == "glossary") {
+        echo "class='active'";
+    }
+    ?>>
+    <a href='index.php?p=glossary'>
+    <i class="icon-book"></i>
     <?php echo $ext_string["tools.g"]; ?>
-        </a>
-        </li-->
+    </a>
+    </li-->
     <li>
-        <a href="../<?php if ($hl == 'en') echo 'fr';
-    else echo 'en' ?>/index.php?p=<?php echo $p; ?>">
-            <img src="../img/<?php if ($hl == 'en') echo 'fr';
-    else echo 'en' ?>.gif" alt="<?php if ($hl == 'en')
+        <a href="../<?php
+        if ($hl == 'en') {
             echo 'fr';
-        else
-            echo 'en'
-            ?>" width="15" height="13" border="0" vspace="6"  align="middle"/>
-<?php echo $ext_string["tools.vf"]; ?> </a>
+        } else {
+            echo 'en';
+        }
+        ?>/index.php?p=<?php echo $p; ?>">
+            <img src="../img/<?php
+            if ($hl == 'en') {
+                echo 'fr';
+            } else {
+                echo 'en';
+            }
+            ?>.gif" alt="<?php
+                 if ($hl == 'en') {
+                     echo 'fr';
+                 } else {
+                     echo 'en';
+                 }
+                 ?>" width="15" height="13" border="0" vspace="6"  align="middle"/>
+            <?php echo $ext_string["tools.vf"]; ?> </a>
     </li>
-    <li><a href="../pdf/CV<?php echo $hl; ?>_GregANNE.pdf">
+    <li>
+        <!--a href="../pdf/CV<?php echo $hl; ?>_GregANNE.pdf"-->
+        <a href="#"  data-toggle="modal" data-target="#print-modal">
+
             <i class="icon-print"></i>
             <?php echo $ext_string["tools.p"]; ?> </a></li>
     <li>
@@ -44,19 +67,9 @@
         <a href="http://code.google.com/u/gregory.anne83/">
             <!-- img src="http://s7.addthis.com/static/btn/sm-share-en.gif" width="175px" height="35px" alt="Bookmark and Share" style="border:0"/ -->
             <i class="icon-briefcase"></i>
-<?php echo $ext_string["tools.portfolio"]; ?>
+            <?php echo $ext_string["tools.portfolio"]; ?>
         </a></li>
-    <li><a href="rss_stream.xml">
-            <img src="../img/rss.png" alt="." width="14" height="14" border="0" vspace="6" align="middle"/> 
-            &nbsp;<?php echo $ext_string["tools.rss"]; ?></a></li>
-    <li>
-        <!-- AddThis Button BEGIN -->
-        <a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4b3dcb743f1853c4">
-            <!-- img src="http://s7.addthis.com/static/btn/sm-share-en.gif" width="175px" height="35px" alt="Bookmark and Share" style="border:0"/ -->
-            <img src="../img/addThis.png"  alt="." width="14" height="14" border="0" align="middle"/> <?php echo $ext_string["tools.s"]; ?>
-        </a>
-        <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4b3dcb743f1853c4"></script>
-        <!-- AddThis Button END --></li>
+
 
 </ul>
 <br/><br/><br/>
@@ -86,7 +99,7 @@
 
 </div>
 <small>
-<?php echo $ext_string['technologies.title']; ?></small>
+    <?php echo $ext_string['technologies.title']; ?></small>
 <ul>
     <li><small><?php echo $ext_string['technologies.xml']; ?></small></li>
     <li><small><?php echo $ext_string['technologies.rss']; ?></small></li>
@@ -101,4 +114,7 @@
 
 <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FGregory-Anne%2F262147523982&amp;width=200&amp;colorscheme=light&amp;connections=10&amp;stream=true&amp;header=true&amp;height=587" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:587px;" ></iframe>
 
+<?php
+require_once('../php/pdfoptions.php');
+?>
 

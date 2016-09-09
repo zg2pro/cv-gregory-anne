@@ -14,30 +14,27 @@ if (!isset($_GET["p"])) {
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" >
     <head>
-        <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="fluxrss.xml" /> 
-        <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-        </script>
         <script type="text/javascript">
             try {
                 var pageTracker = _gat._getTracker("UA-11203253-1");
                 pageTracker._trackPageview();
             } catch (err) {
-            }</script>
+            }
+        </script>
 
         <?php
         require_once('headers.strings.php');
         ?>
         <title>Gr&eacute;gory ANNE 's Curriculum Vitae</title>
-        <link href="../css/bootstrap.css" rel="stylesheet"	type="text/css" />
+        <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" />
+        <link href="../js/jstree/themes/default/style.min.css" rel="stylesheet" />
         <link href="../css/mycv.css" rel="stylesheet"	type="text/css" />
         <meta lang="en" xml:lang="en"  content="Gregory Anne CV" />
     </head>
     <body>	
         <div class="row-fluid">
             <?php
-            require_once ("../php/header.php");
+            require_once ("../php/header.php.inc");
             echo writeHeader($ext_string, $hl);
             ?>
         </div>

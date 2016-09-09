@@ -38,7 +38,7 @@
         include ("php/page.php");
         ?>
     </body>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="version-1/js/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/jquery.fullPage.js"></script>
     <script>
