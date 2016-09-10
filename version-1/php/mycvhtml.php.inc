@@ -37,7 +37,7 @@ function mycvHtml($hl, $titles) {
         //var_dump($xml); die;
         $xsl = new DOMDocument;
         $xsl->substituteEntities = true;
-        $xsl->load('../xsl/' . $val . '.xsl');
+        $xsl->load('../xsl/mycv/' . $val . '.xsl');
 
         //echo $xsl->saveXML();
         // Configuration

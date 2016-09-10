@@ -32,8 +32,7 @@ function readXml($hl, $xml_file_name, $xsl_file_name) {
     $proc->importStyleSheet($xsl);
 
     $proc->setParameter('', 'hl', $hl);
-    $proc->setParameter('', 'rss', '0');
-
+    
     $html = $proc->transformToXML($xml);
     $html2 = preg_replace('/<\?xml.*\?>/', '', $html, 1);
     $result = str_replace("../img", "version-1/img", $html2);

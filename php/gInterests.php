@@ -1,5 +1,5 @@
 <?php
-$result = readXml($hl, "interests.xml", "version-1/xsl/interests.xsl");
+$result = readXml($hl, "interests.xml", "version-1/xsl/mycv/interests.xsl");
 ?>
 <div class="section-content">
     <svg viewBox="0 0 500 30" preserveAspectRatio="xMinYMin meet">
