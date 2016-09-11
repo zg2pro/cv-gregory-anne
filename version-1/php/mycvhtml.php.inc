@@ -19,7 +19,7 @@ function mycvHtml($hl, $titles) {
 
         $tags = array("link", "logo", "location",
             "date", "role",
-            "degree", "text",
+            "mention", "school", "text",
             "field", "title"
         );
 

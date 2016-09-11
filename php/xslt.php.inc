@@ -1,7 +1,6 @@
 <?php
 
 libxml_disable_entity_loader(false);
-    
 
 function readXml($hl, $xml_file_name, $xsl_file_name) {
 
@@ -9,9 +8,10 @@ function readXml($hl, $xml_file_name, $xsl_file_name) {
     $url = "version-1/" . $hl . "/xml/" . $xml_file_name;
     $xml_text = file_get_contents($url, false, $context);
 
+
     $tags = array("link", "logo", "location",
         "date", "role",
-        "degree", "text",
+        "mention", "school", "text",
         "field", "title"
     );
 
@@ -32,10 +32,11 @@ function readXml($hl, $xml_file_name, $xsl_file_name) {
     $proc->importStyleSheet($xsl);
 
     $proc->setParameter('', 'hl', $hl);
-    
+
     $html = $proc->transformToXML($xml);
     $html2 = preg_replace('/<\?xml.*\?>/', '', $html, 1);
     $result = str_replace("../img", "version-1/img", $html2);
     return $result;
 }
+
 ?>

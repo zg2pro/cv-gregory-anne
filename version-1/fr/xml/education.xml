@@ -1,13 +1,18 @@
 <education>
     <item>
-        <year>2009
+        <year>
+            2009
         </year>
         <degree>
-            <big>MASTER</big>2 PRO Sciences de l'Information et des Syst&egrave;mes Sp&eacute;cialit&eacute; Informatique - Parcours <big>G&eacute;nie Logiciel</big>
-            <br/>
-            <big>Mention Bien</big>
-            <br/>
-            Universit&eacute; Aix-Marseille III (13)
+            <title>
+                <big>MASTER</big>2 PRO Sciences de l'Information et des Syst&egrave;mes Sp&eacute;cialit&eacute; Informatique - Parcours <big>G&eacute;nie Logiciel</big>
+            </title>
+            <mention>
+                <big>Mention Bien</big>
+            </mention>
+            <school>
+                Universit&eacute; Aix-Marseille III (13)
+            </school>
         </degree>
         <text>
             <div class="listModules">
@@ -20,14 +25,19 @@
         </text>
     </item>
     <item>
-        <year>2008
+        <year>
+            2008
         </year>
         <degree>
-            <a href="http://yaubry.univ-tln.fr/Descriptif.UE.html"> MASTER1 - Sciences de l'information et des syst&egrave;mes </a> 
-            <br/>
-            <big>Mention Assez Bien </big>
-            <br/>
-            Universit&eacute; de Toulon et du Var (83)
+            <title>
+                <a href="http://yaubry.univ-tln.fr/Descriptif.UE.html"> MASTER1 - Sciences de l'information et des syst&egrave;mes </a> 
+            </title>
+            <mention>
+                <big>Mention Assez Bien </big>
+            </mention>
+            <school>
+                Universit&eacute; de Toulon et du Var (83)
+            </school>
         </degree>
         <text>
             <div class="listModules">
@@ -41,9 +51,13 @@
     <item>
         <year>2007
         </year>
-        <degree>LICENCE Sciences et technologies mention Informatique Parcours Informatique.
-            <br/> Universit&eacute; de Toulon et du Var (83) 
-		
+        <degree>
+            <title>
+                LICENCE Sciences et technologies mention Informatique Parcours Informatique.
+            </title>
+            <school>
+                Universit&eacute; de Toulon et du Var (83) 
+            </school>
         </degree>
         <text>
             <div class="listModules">
@@ -59,9 +73,12 @@
         <year>2005
         </year>
         <degree>
-            DEUG2-IUP G&eacute;nie Math&eacute;matique et Informatique		
-            <br/>  (spe. Math&eacute;matiques Appliqu&eacute;es Industrielles) <a href="http://www-lmc.imag.fr/iupmai">IUP MAI</a> 
-            <br/> 	Universit&eacute; Joseph Fourier	Grenoble I (38)
+            <title>
+                DEUG2-IUP G&eacute;nie Math&eacute;matique et Informatique		
+            </title>
+            <school>(spe. Math&eacute;matiques Appliqu&eacute;es Industrielles) <a href="http://www-lmc.imag.fr/iupmai">IUP MAI</a> 
+                <br/> 	Universit&eacute; Joseph Fourier	Grenoble I (38)
+            </school>
         </degree>
         <text>
             <div class="listModules">
@@ -73,11 +90,16 @@
         </text>
     </item>
     <item>
-        <year>2004
+        <year>
+            2004
         </year>
         <degree>
-            DEUG1 Sciences et Technologies (Math&eacute;matiques et Informatique Appliqu&eacute;es en Sciences)
-            <br/> Universit&eacute; de Toulon et du Var
+            <title>
+                DEUG1 Sciences et Technologies (Math&eacute;matiques et Informatique Appliqu&eacute;es en Sciences)
+            </title>
+            <school> 
+                Universit&eacute; de Toulon et du Var
+            </school>
         </degree>
         <text>
             <div class="listModules">
@@ -90,11 +112,19 @@
         </text>
     </item>
     <item>
-        <year>2002
+        <year>
+            2002
         </year>
         <degree>
-            Baccalaur&eacute;at G&eacute;n&eacute;ral S&eacute;rie Scientifique Mention Assez Bien	La Seyne/mer(83) 
+            <title>
+                Baccalaur&eacute;at G&eacute;n&eacute;ral S&eacute;rie Scientifique 
+            </title>
+            <mention>
+                Mention Assez Bien
+            </mention>
+            <school>
+                La Seyne/mer(83) 
+            </school>
         </degree>
     </item>
-	
 </education>

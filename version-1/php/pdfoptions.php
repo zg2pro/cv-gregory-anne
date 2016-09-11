@@ -5,7 +5,7 @@ function pdfXsl($hl, $val) {
     $xml_text = file_get_contents($file_name);
     $tags = array("link", "location",
         "date", "role",
-        "degree", "text",
+        "mention", "school", "text",
         "field", "title");
     foreach ($tags as $tagname) {
         //ajout des CDATA
