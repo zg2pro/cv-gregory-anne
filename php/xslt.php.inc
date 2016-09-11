@@ -1,5 +1,6 @@
 <?php
 
+require_once("version-1/php/text-tags.php.inc");
 libxml_disable_entity_loader(false);
 
 function readXml($hl, $xml_file_name, $xsl_file_name) {
@@ -9,11 +10,7 @@ function readXml($hl, $xml_file_name, $xsl_file_name) {
     $xml_text = file_get_contents($url, false, $context);
 
 
-    $tags = array("link", "logo", "location",
-        "date", "role",
-        "mention", "school", "text",
-        "field", "title"
-    );
+    $tags = textTags();
 
     foreach ($tags as $tagname) {
         //ajout des CDATA

@@ -21,9 +21,14 @@ echo mycvHtml($hl, $titles);
 <script type="text/javascript" src="../js/jstree/jstree.min.js"></script>
 <script>
     $("div.modal#print-modal div.modal-body").jstree({
-    "checkbox" : {
-      "keep_selected_style" : false
-    },
-    "plugins" : [ "checkbox" ]
-  });
+        "checkbox": {
+            "keep_selected_style": false
+        },
+        "plugins": ["checkbox"]
+    }).bind("select_node.jstree", function (e, data) {
+        $("#"+data.node.id).parent("ul").attr("class");
+    })
+            .bind("deselect_node.jstree", function (e, data) {
+
+            });
 </script>

@@ -2,6 +2,7 @@
 <experience>
     <item>
         <organization>
+            <name>GFI</name>
             <link>http://www.gfi.fr/</link>
             <logo>
                 <img src="../img/Logo_GFI_2011.jpg" alt="Gfi" width="120" height="70" border="0" />
@@ -32,6 +33,7 @@
     </item>
     <item>
         <organization>
+            <name>Aptea</name>
             <link>http://www.aptea.net</link>
             <logo>
                 <img src="../img/aptea.jpg" alt="Aptea" width="120" height="70" border="0" />
@@ -94,6 +96,7 @@
     </item>
     <item>
         <organization>
+            <name>IO-Network</name>
             <link>http://www.ionetwork.com</link>
             <logo>
                 <img src="../img/ionetwork.jpg" alt="IO-Network" width="120" height="70" border="0" />
@@ -160,6 +163,7 @@
     </item>
     <item>
         <organization>
+            <name>IBM</name>
             <link>http://www.ibm.com/vn/en/</link>
             <logo>
                 <img src="../img/ibm.jpg" alt="IBM" width="140" height="60" border="0" />
@@ -216,6 +220,7 @@
     </item>
     <item>
         <organization>
+            <name>Osiatis</name>
             <link>http://www.osiatis.fr/</link>
             <logo>
                 <img src="../img/Logo_Osiatis.jpg" alt="Osiatis" width="140" height="60" border="0" />
@@ -266,6 +271,7 @@
     </item-->
     <item>
         <organization>
+            <name>MobileGov</name>
             <link>http://www.mobilegov.com</link>
             <logo>
                 <img src="../img/mobilegov.jpg" alt="Mobilegov" width="160" height="50" border="0" />

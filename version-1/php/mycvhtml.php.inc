@@ -1,5 +1,7 @@
 <?php
 
+require_once("text-tags.php.inc");
+
 function mycvHtml($hl, $titles) {
 
     libxml_disable_entity_loader(false);
@@ -17,11 +19,7 @@ function mycvHtml($hl, $titles) {
         //print_r($xml_text); 
 
 
-        $tags = array("link", "logo", "location",
-            "date", "role",
-            "mention", "school", "text",
-            "field", "title"
-        );
+        $tags = textTags();
 
         foreach ($tags as $tagname) {
 

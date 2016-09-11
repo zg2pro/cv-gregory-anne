@@ -1,32 +1,35 @@
 
 <courses>
     <item>
-        <year>2016
+        <year>
+            2016
         </year>
-        <degree>
+        <title>
             Thales Security HSM, configuration and usage
-        </degree>
+        </title>
         <text>
             One week to learn about the setup and management of the HSM, and the HSM card sets, and also to
             learn how to implement ciphering and deciphering in Java using the device.
         </text>
     </item>
     <item>
-        <year>2015
+        <year>
+            2015
         </year>
-        <degree>
+        <title>
             PKI Implementation
-        </degree>
+        </title>
         <text>
             One week of training for theory and technics about cryptography and its usage inside certificates.
         </text>
     </item>
     <item>
-        <year>2013
+        <year>
+            2013
         </year>
-        <degree>
+        <title>
             Agile Scrum Methodology
-        </degree>
+        </title>
         <text>
             A 2-day course addressed to project managers instructing <i>Agile Scrum</i> methods in requirements and priorities management, 
             estimate and planning, and guiding a development sprint.

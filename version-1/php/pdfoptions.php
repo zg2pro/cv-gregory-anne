@@ -1,12 +1,10 @@
 <?php
+require_once("text-tags.php.inc");
 
 function pdfXsl($hl, $val) {
     $file_name = "xml/$val.xml";
     $xml_text = file_get_contents($file_name);
-    $tags = array("link", "location",
-        "date", "role",
-        "mention", "school", "text",
-        "field", "title");
+    $tags = textTags();
     foreach ($tags as $tagname) {
         //ajout des CDATA
         $xml_text = str_replace("<$tagname>", "<$tagname><![CDATA[", $xml_text);
@@ -24,7 +22,7 @@ function pdfXsl($hl, $val) {
     return $finalContent;
 }
 ?>
-<form action="print.php">
+<form action="pdf.php">
     <div class="modal fade" tabindex="-1" role="dialog" id="print-modal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -41,15 +39,15 @@ function pdfXsl($hl, $val) {
                         <?php
                         $hl = $_SESSION['hl'];
                         ?>
-                        <li>
+                        <li class="main">
                             <?php echo $ext_string['summary.pe']; ?>
-                            <ul>
+                            <ul class="experience">
                                 <?php echo pdfXsl($hl, "experience"); ?>
                             </ul>
                         </li>
-                        <li>
+                        <li class="main">
                             <?php echo $ext_string['summary.e']; ?>
-                            <ul>
+                            <ul class="education">
                                 <?php echo pdfXsl($hl, "education"); ?>
                             </ul>
                         </li>
@@ -59,7 +57,7 @@ function pdfXsl($hl, $val) {
                     <button type="button" class="btn btn-default" data-dismiss="modal">
                         <?php echo $ext_string["pdf.close"]; ?>
                     </button>
-                    <button type="button" class="btn btn-primary">
+                    <button type="submit" class="btn btn-primary">
                         <?php echo $ext_string["pdf.generate"]; ?>
                     </button>
                 </div>

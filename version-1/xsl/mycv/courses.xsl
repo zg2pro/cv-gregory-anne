@@ -14,7 +14,7 @@
         <ul>
             <xsl:for-each select="//item">
                 <li>
-                    <xsl:value-of disable-output-escaping="yes"  select="year"/>: <xsl:value-of disable-output-escaping="yes"  select="degree"/>
+                    <xsl:value-of disable-output-escaping="yes"  select="year"/>: <xsl:value-of disable-output-escaping="yes"  select="title"/>
                     <br/>
                     <xsl:value-of disable-output-escaping="yes"  select="text"/>
                     <br/>

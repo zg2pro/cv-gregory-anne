@@ -20,7 +20,9 @@
                     <xsl:value-of disable-output-escaping="yes"  select="degree/title"/>
                     <br/>
                     <xsl:value-of disable-output-escaping="yes"  select="degree/mention"/>
-                    <br/>
+                    <xsl:if test="string-length(degree/mention) != 0">
+                        <br/>
+                    </xsl:if>
                     <xsl:value-of disable-output-escaping="yes"  select="degree/school"/>
                     <br/>
                     <xsl:value-of disable-output-escaping="yes"  select="text"/>
