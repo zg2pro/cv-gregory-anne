@@ -39,15 +39,15 @@ function pdfXsl($hl, $val) {
                         <?php
                         $hl = $_SESSION['hl'];
                         ?>
-                        <li class="main">
+                        <li class="main" section="experience">
                             <?php echo $ext_string['summary.pe']; ?>
-                            <ul class="experience">
+                            <ul>
                                 <?php echo pdfXsl($hl, "experience"); ?>
                             </ul>
                         </li>
-                        <li class="main">
+                        <li class="main"  section="education">
                             <?php echo $ext_string['summary.e']; ?>
-                            <ul class="education">
+                            <ul>
                                 <?php echo pdfXsl($hl, "education"); ?>
                             </ul>
                         </li>

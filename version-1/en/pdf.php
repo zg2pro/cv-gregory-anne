@@ -14,7 +14,6 @@ if (isset($_GET["titles"])) {
     $titles = $_GET["titles"];
 } else if (!isset($_SESSION["titles"])) {
     $titles = array(
-      //  0 => "identity" ,
         1 => "experience"/* ,
               2 => "education",
               3 => "courses",
