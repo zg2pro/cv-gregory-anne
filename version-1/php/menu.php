@@ -1,4 +1,3 @@
-
 <br/><br/><br/>
 <h2><?php echo $ext_string["summary.head"]; ?></h2>
 <ul class="nav nav-tabs nav-stacked">
@@ -23,16 +22,6 @@
             <i class="icon-home"></i>
             <?php echo $ext_string["tools.h"]; ?>
         </a></li>
-    <!--li <?php
-    if ($p == "glossary") {
-        echo "class='active'";
-    }
-    ?>>
-    <a href='index.php?p=glossary'>
-    <i class="icon-book"></i>
-    <?php echo $ext_string["tools.g"]; ?>
-    </a>
-    </li-->
     <li>
         <a href="../<?php
         if ($hl == 'en') {

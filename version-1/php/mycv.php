@@ -30,16 +30,16 @@ echo mycvHtml($hl, $titles);
             var liElt = $("#" + data.node.id);
             if (!liElt.hasClass("main")) {
                 var section = liElt.parent("ul").parent("li").attr("section");
-                var ind = liElt.index() + 1;
-                liElt.append("<input type='hidden' name='" + section + "' value='" + ind + "' />");
+                var ind = liElt.index();
+                liElt.append("<input type='hidden' name='" + section + "[]' value='" + ind + "' />");
             }
         })
                 .bind("deselect_node.jstree", function (e, data) {
                     var liElt = $("#" + data.node.id);
                     if (!liElt.hasClass("main")) {
                         var section = liElt.parent("ul").parent("li").attr("section");
-                        var ind = liElt.index() + 1;
-                        $("input[type='hidden'][name='" + section + "'][value='" + ind + "']").remove();
+                        var ind = liElt.index();
+                        $("input[type='hidden'][name='" + section + "[]'][value='" + ind + "']").remove();
                     }
                 });
     });
