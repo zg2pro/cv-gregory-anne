@@ -21,11 +21,11 @@ h1 {
     line-height: 45px;
 }
 hr {
-  border: 1px;
-  border-top: 1px solid #000;
-  width: 100%;
-  margin: 0px;
-  margin-top: -5px;
+    border: 1px;
+    border-top: 1px solid #000;
+    width: 100%;
+    margin: 0px;
+    margin-top: -5px;
 }
 
 h2 {
@@ -33,6 +33,7 @@ h2 {
     font-size: 24px;
     padding: 15px;
     text-align: center;
+    line-height: 0px;
 }
 
 big {
@@ -41,4 +42,21 @@ big {
 
 table tr td {
     color: black;
+}
+
+table.university-logos {
+    margin-left: 800px;
+}
+
+ul {
+    padding: 0px !important;
+    margin: 0px !important;
+    background: none;
+    margin-top: 17px;
+}
+
+ul.breadcrumb > li {
+    width:100%;
+    padding: 0px !important;
+    margin: 0px !important;
 }

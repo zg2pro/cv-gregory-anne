@@ -51,6 +51,42 @@ function pdfXsl($hl, $val) {
                                 <?php echo pdfXsl($hl, "education"); ?>
                             </ul>
                         </li>
+                        <li class="main"  section="courses">
+                            <?php echo $ext_string['summary.c']; ?>
+                            <ul>
+                                <?php echo pdfXsl($hl, "courses"); ?>
+                            </ul>
+                        </li>
+                        <li class="main"  section="knowledge">
+                            <?php echo $ext_string['summary.k']; ?>
+                            <ul>
+                                <?php echo pdfXsl($hl, "knowledge"); ?>
+                            </ul>
+                        </li>
+                        <li class="main"  section="statistics">
+                            <?php echo $ext_string['summary.s']; ?>
+                            <ul>
+                                <?php echo pdfXsl($hl, "statistics"); ?>
+                            </ul>
+                        </li>
+                        <li class="main"  section="interests">
+                            <?php echo $ext_string['summary.ih']; ?>
+                            <ul>
+                                <?php echo pdfXsl($hl, "interests"); ?>
+                            </ul>
+                        </li>
+                        <li class="main"  section="goals">
+                            <?php echo $ext_string['summary.g']; ?>
+                            <ul>
+                                <?php echo pdfXsl($hl, "goals"); ?>
+                            </ul>
+                        </li>
+                        <li class="main"  section="referees">
+                            <?php echo $ext_string['summary.r']; ?>
+                            <ul>
+                                <?php echo pdfXsl($hl, "referees"); ?>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
                 <div class="modal-footer">

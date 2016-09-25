@@ -33,24 +33,24 @@
         </ul>
         <br/>
         <br/>
-        <table align="center">
+        <table class="university-logos" align="center">
             <tr>
                 <td>
                     <a href="http://www.univ-tln.fr/"> 
                         <img src="../img/u_toulon.png" width="300" height="44" 
-                                     border="0" alt="Universite de Toulon et du Var (83)"/>
+                                 border="0" alt="Universite de Toulon et du Var (83)"/>
                     </a> 
                 </td>
                 <td>
                     <a href="http://www.ujf-grenoble.fr/">
                         <img src="../img/UJFlogo.gif" width="300" height="77" 
-                                     border="0" alt="Universite Joseph Fourier	Grenoble I (38)"/>
+                                 border="0" alt="Universite Joseph Fourier	Grenoble I (38)"/>
                     </a>
                 </td>
                 <td>
                     <a href="http://www.univ-cezanne.fr/"> 
                         <img src="../img/logo_u3.jpg" width="300" height="70" 
-                                     border="0" alt="Universite Aix-Marseille III (13)"/>
+                                 border="0" alt="Universite Aix-Marseille III (13)"/>
                     </a> 
                 </td>
             </tr>
