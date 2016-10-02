@@ -9,6 +9,9 @@ function writeHeader($ext_string, $hl, $pdf = false) {
         $content .= "<img src='../img/id.jpg' id='identity-picture' align='right' alt='.'/>";
     }
     $content .= "
+        <div class='pdf-generation-comment'>
+        This CV is generated on <a href='http://cv.gregory.anne.free.fr/'>http://cv.gregory.anne.free.fr/</a>
+        </div>
 <br/><h4>
     <img src='../img/Ggrreyggoyrbyy_bArnbnreb_blue.png' width='300' height='50' alt='Gr&eacute;gory ANNE'/>
 </h4>
@@ -56,7 +59,7 @@ function writeHeader($ext_string, $hl, $pdf = false) {
     if ($pdf) {
         $content .= "<hr/>";
     }
-    
+
     return $content;
 }
 

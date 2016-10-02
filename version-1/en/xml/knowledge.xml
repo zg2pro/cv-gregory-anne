@@ -2,58 +2,92 @@
 <knowledge>
     <science>
         <item>
+            <title>
+                <big>Project Management</big>
+            </title>
             <text> 
-                <big>Project Management</big> : Operational schedules, BPM, Charge estimation (Function points), 
-                <br/>Tracking, Collaborative working tools</text>
+                : Operational schedules, BPM, Charge estimation (Function points), 
+                <br/>Tracking, Collaborative working tools
+            </text>
         </item>
         <item>
+            <title>
+                <big>Quality Management</big>
+            </title>
             <text> 
-                <big>Quality Management</big> : HMI (Management of ergonomic and cognitive criteria) <br/>
-                ISO9001 &amp; CMMI awareness, Validation &amp; Verification</text>
+                : HMI (Management of ergonomic and cognitive criteria) <br/>
+                ISO9001 &amp; CMMI awareness, Validation &amp; Verification
+            </text>
         </item>
         <item>
-            <text> Specification : Scope statements, SADT/SART(Real-time computing), 
-                Specification methods and tools (CASE tools), Software architectures solutioning </text>
+            <title>
+                Specification
+            </title>
+            <text>  : Scope statements, SADT/SART(Real-time computing), 
+                Specification methods and tools (CASE tools), Software architectures solutioning 
+            </text>
         </item>
         <item>
+            <title>
+                <big> UML </big>
+            </title>
             <text> 
-                <big> UML </big>Design, Automatons and Petri nets </text>
+                Design, Automatons and Petri nets </text>
         </item>
         <!--field> Human-Machine Interface (HMI) : <big>Scope statements</big>, management of ergonomic and cognitive criteria </li--> 
         <item>
-            <text> Programming in <big>Java/J2EE Web</big> (IDE NetBeans, Eclipse. 
+            <title>
+                Programming in <big>Java/J2EE Web</big>
+            </title>
+            <text>  (IDE NetBeans, Eclipse. 
                 <big>SpringMVC, JSF, EJB, SOAP(CXF), CORBA</big>).
             </text>
         </item>
         <item>
+            <title>
+                <big>SQL &amp; JPQL</big>
+            </title>
             <text> 
-                <big>SQL &amp; JPQL</big> Procedural Languages, Postgres, MySQL, Oracle, MsSQL. 
+                Procedural Languages, Postgres, MySQL, Oracle, MsSQL. 
             </text>
         </item>
         <item>
-            <text> 
+            <title>
                 <big>Tomcat, Glassfish, WildFly(JBoss), WebSphere.</big>
-            </text>
+            </title>
         </item>
         <item>
-            <text> 
+            <title>
                 <big>AngularJs, JQuery.</big>
-            </text>
+            </title>
         </item>
         <item>
-            <text> Web development : <big> CSS, XHTML, PHP</big> </text>
+            <title>
+                Web development
+            </title>
+            <text>  : <big> CSS, XHTML, PHP</big> </text>
         </item>
         <item>
+            <title>
+                <big> XML : XSL, XSP, XQuery </big>
+            </title>
             <text>
-                <big> XML : XSL, XSP, XQuery </big>, Apache-Cocoon</text>
+                , Apache-Cocoon</text>
         </item>
         <item>
-            <text> Web and System Administration : Setup of test environments (SIT &amp; UAT), 
+            <title>
+                Web and System Administration
+            </title>
+            <text> 
+                : Setup of test environments (SIT &amp; UAT), 
                 Jenkins, Ara, Maven, Sonar, Selenium.
             </text>
         </item>
         <item>
-            <text> Mastering of Unix Environment.
+            <title>
+                Mastering of Unix Environment.
+            </title>
+            <text> 
                 <br/> Shell programming : BASH, TCSH, Perl, Python </text>
         </item>
         <!--field> Office/Open office/Adobe 
@@ -62,34 +96,41 @@
         </text></item>
         <item><text> Flash : Adobe Creative Suite 5, ActionScript</field-->
         <item>
-            <text> Algorithm : Computational complexity theory</text>
+            <title>
+                Algorithm
+            </title>
+            <text>  : Computational complexity theory</text>
         </item>
         <item>
-            <text> Development of graphical interfaces in Awt/Swing, Gtk+, Tcl/Tk
-                <a href="http://nguyen.univ-tln.fr/Enseignement/M5/TclTk/proj2007.html">
-                    University work </a> 
-            </text>
-        </item>
-        <item>
-            <text> Digital Art 2D/3D : SDL, OpenGL works :  <a href="http://nguyen.univ-tln.fr/Enseignement/M5/Proj0708/pendule.html">2D</a> 
-                <a href="http://nguyen.univ-tln.fr/Enseignement/MO2/Mesa/projet2007.html">3D</a> 
+            <title>
+                Development of graphical interfaces
+            </title>
+            <text>  in Awt/Swing, Gtk+, Tcl/Tk, SDL, OpenGL
             </text>
         </item>
         <!--field> Compilation : Lexical, Syntax and Semantical Analysis with flex and bison. </text></item>
         <item><text> Functional Programming : CamL Language </field-->
         <item>
-            <text> Information theory / information retrieval : Shannon's source coding theorem / speech, picture processing, 
+            <title>
+                Information theory / information retrieval
+            </title>
+            <text>  : Shannon's source coding theorem / speech, picture processing, 
                 recall and precision, search engines pagerank
                 <br/> 
-                <a href="../PDF/Travaux_d_etudes_et_de_recherche.pdf">Master's Thesis</a>: Searching similarities between documents described by keywords</text>
+                <a href="../pdf/Travaux_d_etudes_et_de_recherche.pdf">Master's Thesis</a>: Searching similarities between documents described by keywords
+            </text>
         </item>
     </science>
     <miscellaneous>
         <item>
-            <text>Driving Licence (from France and Vietnam) / Boat Licence</text>
+            <title>Driving Licence (from France and Vietnam) / Boat Licence</title>
         </item>
         <item>
-            <text>Languages : English, French (mother tongue), Spanish (good knowledge), Vietnamese (basic knowledge).</text>
+            <title>
+                Languages
+            </title>
+            <text> : English, French (mother tongue), Spanish (good knowledge), 
+                Italian (basic knowledge), Vietnamese (basic knowledge).</text>
         </item>
     </miscellaneous>
 </knowledge>

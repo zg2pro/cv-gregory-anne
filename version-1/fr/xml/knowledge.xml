@@ -2,82 +2,120 @@
 <knowledge>
     <science>
         <item>
+            <title>
+                <big>Gestion de Projet</big>
+            </title>
             <text>
-                <big>Gestion de Projet</big> : Planning, Estimation, Tracking, Pilotage de projet en client&egrave;le.</text>
+                : Planning, Estimation, Tracking, Pilotage de projet en client&egrave;le.
+            </text>
         </item>
         <item>
+            <title>
+                <big>Gestion de la Qualit&eacute;</big>
+            </title>
             <text> 
-                <big>Gestion de la Qualit&eacute;</big> : Ing&eacute;nierie de l'Interaction Homme-Machine 
+                : Ing&eacute;nierie de l'Interaction Homme-Machine 
                 (Gestion de crit&egrave;res ergonomiques ou cognitifs), 
                 <br/>Assurance/Contr&ocirc;le de Qualit&eacute; : Validation, V&eacute;rification</text>
         </item>
         <item>
-            <text> Specification : Cahiers des charges, MERISE, SADT/SART (Syst&egrave;me temps r&eacute;els), 
+            <title>
+                Specification
+            </title>
+            <text>  : Cahiers des charges, MERISE, SADT/SART (Syst&egrave;me temps r&eacute;els), 
                 Ateliers de G&eacute;nie Logiciel, Solutionning d'architectures logicielles </text>
         </item>
         <item>
-            <text> Conception <big>UML</big>, BPM, Automates et r&eacute;seaux de P&eacute;tri 
+            <title>
+                Conception <big>UML</big>
+            </title>
+            <text> , BPM, Automates et r&eacute;seaux de P&eacute;tri 
             </text>
         </item>
         <item>
-            <text> Programmation en <big>Java/J2EE Web</big> (IDE NetBeans &amp; Eclipse. 
+            <title>
+                Programmation en <big>Java/J2EE Web</big>
+            </title>
+            <text>  (IDE NetBeans &amp; Eclipse. 
                 <big>SpringMVC, JSF, EJB, SOAP(CXF), CORBA</big>).
             </text>
         </item>
         <item>
+            <title>
+                <big>SQL &amp; JPQL</big>
+            </title>
             <text> 
-                <big>SQL &amp; JPQL</big> Langages de Proc&eacute;dure, Postgres, MySQL, Oracle, MsSQL. 
+                Langages de Proc&eacute;dure, Postgres, MySQL, Oracle, MsSQL. 
             </text>
         </item>
         <item>
-            <text> 
+            <title> 
                 <big>Tomcat, Glassfish, WildFly(JBoss), WebSphere.</big>
-            </text>
+            </title>
         </item>
         <item>
-            <text> 
+            <title> 
                 <big>AngularJs, JQuery.</big>
+            </title>
+        </item>
+        <item>
+            <title>
+                D&eacute;veloppement web
+            </title>
+            <text>  : <big> XHTML, CSS, PHP</big>. 
             </text>
         </item>
         <item>
-            <text> D&eacute;veloppement web : <big> XHTML, CSS, PHP</big>. 
-            </text>
-        </item>
-        <item>
+            <title>
+                <big>XML : XSL, XSP, XQuery</big>
+            </title>
             <text> 
-                <big>XML : XSL, XSP, XQuery</big>, Apache-Cocoon
+                , Apache-Cocoon
             </text>
         </item>
         <item>
-            <text> Administration Syst&egrave;me et Réseau, 
+            <title>
+                Administration Syst&egrave;me et Réseau
+            </title>
+            <text> , 
                 Mise en place d'environnements de tests (Jenkins, Maven, Ara, Sonar, Selenium).
             </text>
         </item>
         <item>
-            <text> Ma&icirc;trise de l'environnement Unix. <br/>
+            <title>
+                Ma&icirc;trise de l'environnement Unix
+            </title>
+            <text>  
+                <br/>
                 Programmation <big>Shell</big> (bash, tcsh, Perl, Python) 
             </text>
         </item>
         <item>
-            <text> Logiciels de Bureautique et de Communication Office/open office/Lotus/Adobe 
+            <title>
+                Logiciels de Bureautique
+            </title>
+            <text>  et de Communication Office/open office/Lotus/Adobe 
             </text>
         </item>
         <item>
-            <text> Flash : Adobe Creative Suite 5, ActionScript</text>
+            <title>
+                Flash
+            </title>
+            <text>  : Adobe Creative Suite 5, ActionScript</text>
         </item>
         <item>
-            <text> Algorithmique : Arbres, Complexit&eacute; et Th&eacute;orie des classes 
+            <title>
+                Algorithmique
+            </title>
+            <text>  : Arbres, Complexit&eacute; et Th&eacute;orie des classes 
             </text>
         </item>
         <item>
-            <text> D&eacute;veloppement d'interfaces graphiques en Awt/Swing, Gtk+, Tcl/Tk
-                <a href="http://nguyen.univ-tln.fr/Enseignement/M5/TclTk/proj2007.html">
-                    Projet de licence </a> 
-            </text>
-        </item>
-        <item>
-            <text> Infographie 2D/3D : SDL, OpenGL Projets <a href="http://nguyen.univ-tln.fr/Enseignement/M5/Proj0708/pendule.html">2D</a> 
-                <a href="http://nguyen.univ-tln.fr/Enseignement/MO2/Mesa/projet2007.html">3D</a> 
+            <title>
+                D&eacute;veloppement d'interfaces graphiques
+            </title>
+            <text> 
+                en Awt/Swing, Gtk+, Tcl/Tk, SDL, OpenGL
             </text>
         </item>
         <!--field> Compilation : Analyses lexicales, syntaxiques, s&eacute;mantiques par flex et bison. 
@@ -85,20 +123,28 @@
         <item><text> Programmation Fonctionnelle : Langage CamL 
         </field-->
         <item>
-            <text> Th&eacute;orie et Recherche d'information : Traitement de la parole, Segmentation d'images, 
+            <title>
+                Th&eacute;orie et Recherche d'information
+            </title>
+            <text>  : Traitement de la parole, Segmentation d'images, 
                 <br/>Rapports rappel/pr&eacute;cison et Page rank. <br/>
-                Entropie de Shannon, Codage   <a href="../PDF/Travaux_d_etudes_et_de_recherche.pdf"> M&eacute;moire de Maitrise </a>
+                Entropie de Shannon, Codage   <a href="../pdf/Travaux_d_etudes_et_de_recherche.pdf"> M&eacute;moire de Maitrise </a>
             </text>
         </item>
     </science>
     <miscellaneous>
         <item>
-            <text>Langues : Fran&ccedil;ais, Anglais<!-- (Score <a href="http://www.ets.org/toeic">TOEIC</a> 2008/11/21 : 845)-->, Espagnol (&agrave; r&eacute;actualiser), Vietnamien (bases).
+            <title>
+                Langues
+            </title>
+            <text> : Fran&ccedil;ais, Anglais<!-- (Score <a href="http://www.ets.org/toeic">TOEIC</a> 2008/11/21 : 845)-->, 
+                Espagnol (&agrave; r&eacute;actualiser), Italien (bases), Vietnamien (bases).
             </text>
         </item> 
         <item>
-            <text>Permis de Conduire : B / Permis Mer : C&ocirc;tier 
-            </text>
+            <title>
+                Permis de Conduire : B / Permis Mer : C&ocirc;tier 
+            </title>
         </item>
     </miscellaneous>
 </knowledge>

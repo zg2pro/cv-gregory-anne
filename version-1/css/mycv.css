@@ -224,3 +224,7 @@ img#identity-picture {
 div.dt {
     font-weight: bold;
 }
+
+div.pdf-generation-comment {
+    display: none;
+}

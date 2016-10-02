@@ -16,6 +16,7 @@
         <ol>
             <xsl:for-each select="//item">
                 <li>
+                    <xsl:value-of disable-output-escaping="yes"  select="title"/>
                     <xsl:value-of disable-output-escaping="yes"  select="text"/>
                 </li>
             </xsl:for-each>

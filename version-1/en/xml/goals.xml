@@ -1,6 +1,9 @@
 <goals>
     <item>
-        <text>Watch: I consider it as a must to keep myself up-to-date. <br/>
+        <title>
+            Watch
+        </title>
+        <text>: I consider it as a must to keep myself up-to-date. <br/>
             Whatever could be the context I should be able to propose up-to-date technological solutions
             as well as up-to-date process guidelines.<br/>
             The informing as much as the getting informed has become an important quality and it enables my watch.<br/>
@@ -11,7 +14,10 @@
         </text>
     </item>
     <item>
-        <text>Quality: My experience taught me that end-to-end development lifecycles should not be let up,
+        <title>
+            Quality
+        </title>
+        <text>: My experience taught me that end-to-end development lifecycles should not be let up,
             internal projects might have their importance and need support because they keep people motivated,
             updated and efficient. 
             Continuous improvement attracts new opportunities when it comes to either business
@@ -20,7 +26,10 @@
         </text>
     </item>
     <item>
-        <text>Participatory democracy: management has turned into coaching and encouraging,
+        <title>
+            Participatory democracy
+        </title>
+        <text>: management has turned into coaching and encouraging,
             rather than ordering and directing. And that forces managers and leaders to be open
             to being taught by their employees. I believe this will be an appropriate teamwork orientation. 
             I also strongly believe <i>a chain is only as strong as its weakest link.</i> Team building is
@@ -29,7 +38,10 @@
         </text>
     </item>
     <item>
-        <text>A bridge is to be created between East and West, I feel confident now I can be
+        <title>
+            A bridge is to be created between East and West
+        </title>
+        <text>, I feel confident now I can be
             an actor in this play.</text>
     </item>
 </goals>
