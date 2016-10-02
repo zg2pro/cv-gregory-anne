@@ -3,8 +3,6 @@
 require_once("text-tags.php.inc");
 
 function mycvHtml($hl, $titles) {
-
-    libxml_disable_entity_loader(false);
     
     $finalContent = "";
 

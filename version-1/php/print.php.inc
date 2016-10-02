@@ -3,7 +3,6 @@
 require_once('mycvhtml.php.inc');
 require_once('headers.strings.php');
 require_once('header.php.inc');
-libxml_disable_entity_loader(false);
 
 function printExperience($hl) {
     $content = "";

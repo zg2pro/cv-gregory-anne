@@ -13,6 +13,7 @@ $titles = array(
 );
 
 require_once('mycvhtml.php.inc');
+
 $hl = $_SESSION['hl'];
 echo mycvHtml($hl, $titles);
 ?>

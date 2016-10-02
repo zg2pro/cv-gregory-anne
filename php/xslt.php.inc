@@ -1,7 +1,6 @@
 <?php
 
 require_once("version-1/php/text-tags.php.inc");
-libxml_disable_entity_loader(false);
 
 function readXml($hl, $xml_file_name, $xsl_file_name) {
 
