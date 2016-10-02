@@ -65,6 +65,7 @@ hr {
 h4 { /* mon nom */
     font-size : 18px; 
     font-weight : bold;
+    padding-bottom: 10px;
 }
 
 th {
@@ -101,12 +102,6 @@ div#menu {
 
 div#main {
     margin: 50px 50px 50px 200px;
-}
-
-
-.section {
-    /*background: url(util/left_body.jpg) top left no-repeat;
-    background-size: 100%;*/
 }
 
 .pillmenu {
@@ -225,4 +220,7 @@ img#identity-picture {
     width: 340px;
     height:225px;
     border:0; 
+}
+div.dt {
+    font-weight: bold;
 }

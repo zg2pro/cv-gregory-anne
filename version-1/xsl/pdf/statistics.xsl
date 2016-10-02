@@ -13,7 +13,7 @@
                 </h2>
             </li>
         </ul>
-        <xsl:for-each select="//project">
+        <xsl:for-each select="//item">
             <div class="slide">
                 <strong>
                     <xsl:value-of disable-output-escaping="yes" select="title"/>
@@ -23,8 +23,8 @@
                     <xsl:value-of disable-output-escaping="yes" select="logo"/>
                 </div>
             </div>
+            <br/>
+            <br/>
         </xsl:for-each>
-        <br/>
-        <br/>
     </xsl:template>
 </xsl:stylesheet>

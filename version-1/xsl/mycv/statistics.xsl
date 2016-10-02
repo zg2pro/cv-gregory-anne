@@ -16,7 +16,7 @@
         <div class="stats-table">
             <table>
                 <tr>
-                    <xsl:for-each select="//project">
+                    <xsl:for-each select="//item">
                         <td>
                             <strong>
                                 <xsl:value-of disable-output-escaping="yes" select="title"/>

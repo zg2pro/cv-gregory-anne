@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <statistics>
-    <project>
+    <item>
         <title>
             BNPP (2016): GitInspector (Git)
         </title>
         <logo>
             <img src="../img/stats/stats_bnpp.JPG" alt="bnpp" width="820" height="450" border="0" />
         </logo>
-    </project>
-    <project>
+    </item>
+    <item>
         <title>
             TEST TOSA (2015) - Classement top developers
         </title>
         <logo>
             <img src="../img/stats/java_senior_page_1.png" alt="tosa" width="820" height="500" border="0" />
         </logo>
-    </project>
-    <project>
+    </item>
+    <item>
         <title>
             STIF (2014): SVNSTATS (subversion)
         </title>
         <logo>
             <img src="../img/stats/stif.png" alt="stif" width="770" height="500" border="0" />
         </logo>
-    </project>
-    <project>
+    </item>
+    <item>
         <title>
             IRSN (2012 - 2014): SVNSTATS (subversion)
         </title>
         <logo>
             <img src="../img/stats/irsn.png" alt="irsn" width="770" height="500" border="0" />
         </logo>
-    </project>
+    </item>
 </statistics>

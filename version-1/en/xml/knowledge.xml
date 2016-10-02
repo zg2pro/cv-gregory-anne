@@ -1,59 +1,95 @@
 
 <knowledge>
     <science>
-        <field> 
-            <big>Project Management</big> : Operational schedules, BPM, Charge estimation (Function points), 
-            <br/>Tracking, Collaborative working tools</field>
-        <field> 
-            <big>Quality Management</big> : HMI (Management of ergonomic and cognitive criteria) <br/>
-            ISO9001 &amp; CMMI awareness, Validation &amp; Verification</field>
-        <field> Specification : Scope statements, SADT/SART(Real-time computing), 
-            Specification methods and tools (CASE tools), Software architectures solutioning </field>
-        <field> 
-            <big> UML </big>Design, Automatons and Petri nets </field>
+        <item>
+            <text> 
+                <big>Project Management</big> : Operational schedules, BPM, Charge estimation (Function points), 
+                <br/>Tracking, Collaborative working tools</text>
+        </item>
+        <item>
+            <text> 
+                <big>Quality Management</big> : HMI (Management of ergonomic and cognitive criteria) <br/>
+                ISO9001 &amp; CMMI awareness, Validation &amp; Verification</text>
+        </item>
+        <item>
+            <text> Specification : Scope statements, SADT/SART(Real-time computing), 
+                Specification methods and tools (CASE tools), Software architectures solutioning </text>
+        </item>
+        <item>
+            <text> 
+                <big> UML </big>Design, Automatons and Petri nets </text>
+        </item>
         <!--field> Human-Machine Interface (HMI) : <big>Scope statements</big>, management of ergonomic and cognitive criteria </li--> 
-        <field> Programming in <big>Java/J2EE Web</big> (IDE NetBeans, Eclipse. 
-        <big>SpringMVC, JSF, EJB, SOAP(CXF), CORBA</big>).
-        </field>
-        <field> 
-            <big>SQL &amp; JPQL</big> Procedural Languages, Postgres, MySQL, Oracle, MsSQL. 
-        </field>
-        <field> 
-            <big>Tomcat, Glassfish, WildFly(JBoss), WebSphere.</big>
-        </field>
-        <field> 
-            <big>AngularJs, JQuery.</big>
-        </field>
-        <field> Web development : <big> CSS, XHTML, PHP</big> </field>
-        <field>
-            <big> XML : XSL, XSP, XQuery </big>, Apache-Cocoon</field>
-        <field> Web and System Administration : Setup of test environments (SIT &amp; UAT), 
-            Jenkins, Ara, Maven, Sonar, Selenium.
-        </field>
-        <field> Mastering of Unix Environment.
-            <br/> Shell programming : BASH, TCSH, Perl, Python </field>
+        <item>
+            <text> Programming in <big>Java/J2EE Web</big> (IDE NetBeans, Eclipse. 
+                <big>SpringMVC, JSF, EJB, SOAP(CXF), CORBA</big>).
+            </text>
+        </item>
+        <item>
+            <text> 
+                <big>SQL &amp; JPQL</big> Procedural Languages, Postgres, MySQL, Oracle, MsSQL. 
+            </text>
+        </item>
+        <item>
+            <text> 
+                <big>Tomcat, Glassfish, WildFly(JBoss), WebSphere.</big>
+            </text>
+        </item>
+        <item>
+            <text> 
+                <big>AngularJs, JQuery.</big>
+            </text>
+        </item>
+        <item>
+            <text> Web development : <big> CSS, XHTML, PHP</big> </text>
+        </item>
+        <item>
+            <text>
+                <big> XML : XSL, XSP, XQuery </big>, Apache-Cocoon</text>
+        </item>
+        <item>
+            <text> Web and System Administration : Setup of test environments (SIT &amp; UAT), 
+                Jenkins, Ara, Maven, Sonar, Selenium.
+            </text>
+        </item>
+        <item>
+            <text> Mastering of Unix Environment.
+                <br/> Shell programming : BASH, TCSH, Perl, Python </text>
+        </item>
         <!--field> Office/Open office/Adobe 
             <br/>
             <br/>
-        </field>
-        <field> Flash : Adobe Creative Suite 5, ActionScript</field-->
-        <field> Algorithm : Computational complexity theory</field>
-        <field> Development of graphical interfaces in Awt/Swing, Gtk+, Tcl/Tk
-            <a href="http://nguyen.univ-tln.fr/Enseignement/M5/TclTk/proj2007.html">
-                University work </a> 
-        </field>
-        <field> Digital Art 2D/3D : SDL, OpenGL works :  <a href="http://nguyen.univ-tln.fr/Enseignement/M5/Proj0708/pendule.html">2D</a> 
-            <a href="http://nguyen.univ-tln.fr/Enseignement/MO2/Mesa/projet2007.html">3D</a> 
-        </field>
-        <!--field> Compilation : Lexical, Syntax and Semantical Analysis with flex and bison. </field>
-        <field> Functional Programming : CamL Language </field-->
-        <field> Information theory / information retrieval : Shannon's source coding theorem / speech, picture processing, 
-            recall and precision, search engines pagerank
-            <br/> 
-            <a href="../PDF/Travaux_d_etudes_et_de_recherche.pdf">Master's Thesis</a>: Searching similarities between documents described by keywords</field>
+        </text></item>
+        <item><text> Flash : Adobe Creative Suite 5, ActionScript</field-->
+        <item>
+            <text> Algorithm : Computational complexity theory</text>
+        </item>
+        <item>
+            <text> Development of graphical interfaces in Awt/Swing, Gtk+, Tcl/Tk
+                <a href="http://nguyen.univ-tln.fr/Enseignement/M5/TclTk/proj2007.html">
+                    University work </a> 
+            </text>
+        </item>
+        <item>
+            <text> Digital Art 2D/3D : SDL, OpenGL works :  <a href="http://nguyen.univ-tln.fr/Enseignement/M5/Proj0708/pendule.html">2D</a> 
+                <a href="http://nguyen.univ-tln.fr/Enseignement/MO2/Mesa/projet2007.html">3D</a> 
+            </text>
+        </item>
+        <!--field> Compilation : Lexical, Syntax and Semantical Analysis with flex and bison. </text></item>
+        <item><text> Functional Programming : CamL Language </field-->
+        <item>
+            <text> Information theory / information retrieval : Shannon's source coding theorem / speech, picture processing, 
+                recall and precision, search engines pagerank
+                <br/> 
+                <a href="../PDF/Travaux_d_etudes_et_de_recherche.pdf">Master's Thesis</a>: Searching similarities between documents described by keywords</text>
+        </item>
     </science>
     <miscellaneous>
-        <field>Driving Licence (from France and Vietnam) / Boat Licence</field>
-        <field>Languages : English, French (mother tongue), Spanish (good knowledge), Vietnamese (basic knowledge).</field>
+        <item>
+            <text>Driving Licence (from France and Vietnam) / Boat Licence</text>
+        </item>
+        <item>
+            <text>Languages : English, French (mother tongue), Spanish (good knowledge), Vietnamese (basic knowledge).</text>
+        </item>
     </miscellaneous>
 </knowledge>

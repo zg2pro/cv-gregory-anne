@@ -8,8 +8,7 @@
         <ul class="breadcrumb"> 
             <li class="active">
                 <h2>
-                    <xsl:if test="$hl='en'">KNOWLEDGE
-                    </xsl:if>
+                    <xsl:if test="$hl='en'">KNOWLEDGE</xsl:if>
                     <xsl:if test="$hl='fr'">COMPETENCES</xsl:if>
                 </h2>
             </li>
@@ -19,9 +18,9 @@
 	
     <xsl:template match="//science">
         <ul>
-            <xsl:for-each select="field">
+            <xsl:for-each select="item">
                 <li>
-                    <xsl:value-of disable-output-escaping="yes"  select="."/>
+                    <xsl:value-of disable-output-escaping="yes"  select="text"/>
                 </li>
             </xsl:for-each>
         </ul>
@@ -29,9 +28,9 @@
 	
     <xsl:template match="//miscellaneous">
         <ul>
-            <xsl:for-each select="field">
+            <xsl:for-each select="item">
                 <li>
-                    <xsl:value-of disable-output-escaping="yes"  select="."/>
+                    <xsl:value-of disable-output-escaping="yes"  select="text"/>
                 </li>
             </xsl:for-each>
         </ul>

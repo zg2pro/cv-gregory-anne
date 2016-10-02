@@ -5,20 +5,19 @@
         <ul class="breadcrumb"> 
             <li class="active">
                 <h2>
-                    <xsl:if test="$hl='en'">REFEREES
-                    </xsl:if>
+                    <xsl:if test="$hl='en'">REFEREES</xsl:if>
                     <xsl:if test="$hl='fr'">RECOMMENDATIONS</xsl:if>
                 </h2>
             </li>
         </ul>
-        <h4>
-            LINKEDIN
-        </h4> 
-        <dl>		
-            <xsl:for-each select="//linkedin/item">
-			
-                <dt>
-         
+        <xsl:if test="string-length(//linked/item) != 0">
+            <h4>
+                LINKEDIN
+            </h4> 
+        </xsl:if>
+        <div class="dl">		
+            <xsl:for-each select="//linkedin/item">	
+                <div class="dt">
                     <xsl:element name="a">
                         <xsl:attribute name="href">
                             <xsl:value-of select="profile"/>
@@ -28,46 +27,43 @@
                     <i> 
                         <xsl:value-of disable-output-escaping="yes"  select="title"/>
                     </i>
-                </dt>
-                <dd>
+                </div>
+                <div class="dd">
                     <small>
                         <xsl:value-of select="text"/>
                     </small>
                     <br/>
                     <br/>
-                </dd>
- 
-			
+                </div>			
             </xsl:for-each>
-
-        </dl>
-        <h4>
-            <xsl:if test="$hl='en'">LETTERS
-            </xsl:if>
-            <xsl:if test="$hl='fr'">LETTRES</xsl:if>
-        </h4>
-        <dl>
+        </div>
+        <xsl:if test="string-length(//letters/item) != 0">
+            <h4>
+                <xsl:if test="$hl='en'">LETTERS</xsl:if>
+                <xsl:if test="$hl='fr'">LETTRES</xsl:if>
+            </h4>
+        </xsl:if>
+        <div class="dl">
             <xsl:for-each select="//letters/item">
-                <dt>
+                <div class="dt">
                     <xsl:element name="a">
                         <xsl:attribute name="href">mailto:<xsl:value-of select="email"/></xsl:attribute>
                         <xsl:value-of select="person"/>
                     </xsl:element>
 			
-                </dt>
-                <dd>
+                </div>
+                <div class="dd">
                     <xsl:value-of disable-output-escaping="yes"  select="title"/>
-                </dd>
-                <dd>
+                </div>
+                <div class="dd">
                     <xsl:element name="a">
                         <xsl:attribute name="href">../pdf/<xsl:value-of select="letter"/></xsl:attribute>
                         Letter (pdf)
                     </xsl:element>
                     <br/>
                     <br/>
-                </dd>
+                </div>
             </xsl:for-each>
-        </dl>
-        
+        </div>
     </xsl:template>
 </xsl:stylesheet>
