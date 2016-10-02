@@ -8,6 +8,8 @@
         <meta name="keywords"  content="gregory,anne,cv" />
         <meta name="Resource-type" content="Document" />
 
+        <link rel="stylesheet" type="text/css" href="version-1/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="version-1/js/jstree/themes/default/style.min.css" />
         <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
         <link rel="stylesheet" type="text/css" href="css/site.css" />
     </head>
@@ -30,7 +32,7 @@
                 // header("location: en/");
                 break;
         }
-        require_once('version-1/'. $hl . '/headers.strings.php');
+        require_once('version-1/' . $hl . '/headers.strings.php');
         require_once( $hl . '/headers.strings.php');
         ?>
         <?php
@@ -39,6 +41,7 @@
         ?>
     </body>
     <script type="text/javascript" src="version-1/js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="version-1/js/bootstrap.js"></script>
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/jquery.fullPage.js"></script>
     <script>
@@ -52,14 +55,14 @@
             });
             var width = $(window).width();
             var minWidth = 1366;
-            var language = <?php echo "\"".$hl."\""; ?>;
+            var language = <?php echo "\"" . $hl . "\""; ?>;
             if (width < minWidth) {
                 if (language === 'fr') {
-                 alert("Ce site requiert une largeur d'écran >= " + minWidth
+                    alert("Ce site requiert une largeur d'écran >= " + minWidth
                             + "\nLa votre est actuellement de : " + width + "px."
                             + "\nVous allez être redirigé vers l'ancienne version du site.");
                 } else {
-                       alert("This website requires a screen width >= " + minWidth
+                    alert("This website requires a screen width >= " + minWidth
                             + "\nYours is currently: " + width + "px."
                             + "\nYou are going to be redirected to the old version");
                 }
@@ -67,4 +70,6 @@
             }
         });
     </script>
+    <script type="text/javascript" src="version-1/js/jstree/jstree.min.js"></script>
+    <script type="text/javascript" src="version-1/js/mycv.js"></script>
 </html>

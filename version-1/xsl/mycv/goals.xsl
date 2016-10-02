@@ -5,7 +5,7 @@
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">
-        <ul class="breadcrumb"> 
+        <ul class="cvnavitem"> 
             <li class="active">
                 <h2>
                     <xsl:if test="$hl='en'">GOALS</xsl:if>

@@ -2,7 +2,7 @@
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">
-        <ul class="breadcrumb"> 
+        <ul class="cvnavitem"> 
             <li class="active">
                 <h2>
                     <xsl:if test="$hl='en'">REFEREES</xsl:if>
@@ -10,7 +10,7 @@
                 </h2>
             </li>
         </ul>
-        <xsl:if test="string-length(//linked/item) != 0">
+        <xsl:if test="string-length(//linkedin/item) != 0">
             <h4>
                 LINKEDIN
             </h4> 

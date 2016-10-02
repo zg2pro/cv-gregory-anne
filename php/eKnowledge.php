@@ -11,7 +11,7 @@ $result = readXml($hl, "knowledge.xml", "version-1/xsl/mycv/knowledge.xsl");
 <div class="description-black">
     <p class='description_content'>
         <?php
-        echo trim($result);
+        echo $result;
         ?>
     </p>  
 </div>

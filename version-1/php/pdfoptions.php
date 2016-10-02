@@ -7,8 +7,8 @@ function pdfXsl($hl, $val) {
     $tags = textTags();
     foreach ($tags as $tagname) {
         //ajout des CDATA
-        $xml_text = str_replace("<$tagname>", "<$tagname><![CDATA[", $xml_text);
-        $xml_text = str_replace("</$tagname>", "]]></$tagname>", $xml_text);
+        $xml_text2 = str_replace("<$tagname>", "<$tagname><![CDATA[", $xml_text);
+        $xml_text = str_replace("</$tagname>", "]]></$tagname>", $xml_text2);
     }
     $xml = new DOMDocument;
     $xml->loadXML($xml_text);
@@ -22,7 +22,8 @@ function pdfXsl($hl, $val) {
     return $finalContent;
 }
 ?>
-<form action="pdf.php">
+<form action="pdf.php" id="print-pdf-form">
+    <input type="hidden" name="hl" value="<?php echo $hl; ?>" />
     <div class="modal fade" tabindex="-1" role="dialog" id="print-modal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">

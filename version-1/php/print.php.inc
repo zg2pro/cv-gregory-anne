@@ -16,8 +16,8 @@ function printExperience($hl) {
 
         foreach ($tags as $tagname) {
             //ajout des CDATA
-            $xml_text = str_replace("<$tagname>", "<$tagname><![CDATA[", $xml_text);
-            $xml_text = str_replace("</$tagname>", "]]></$tagname>", $xml_text);
+            $xml_text2 = str_replace("<$tagname>", "<$tagname><![CDATA[", $xml_text);
+            $xml_text = str_replace("</$tagname>", "]]></$tagname>", $xml_text2);
         }
 
         $xml = new DOMDocument();
@@ -46,9 +46,9 @@ function printExperience($hl) {
         $finalContent = trim(preg_replace('/<\?xml.*\?>/', '', $proc->transformToXML($xml), 1));
 
         if ($hl == "en") {
-            $content .= "<ul class='breadcrumb'><li class='active'><h2>PROFESSIONAL EXPERIENCE</h2></li></ul>";
+            $content .= "<ul class='cvnavitem'><li class='active'><h2>PROFESSIONAL EXPERIENCE</h2></li></ul>";
         } else if ($hl == "fr") {
-            $content .= "<ul class='breadcrumb'><li class='active'><h2>EXPERIENCES PROFESSIONNELLES</h2></li></ul>";
+            $content .= "<ul class='cvnavitem'><li class='active'><h2>EXPERIENCES PROFESSIONNELLES</h2></li></ul>";
         }
 
         $content .= $finalContent;

@@ -11,6 +11,6 @@ $result = readXml($hl, "goals.xml", "version-1/xsl/mycv/goals.xsl");
 
 <div class="description-black">
     <?php
-    echo trim($result);
+    echo $result;
     ?>
 </div>

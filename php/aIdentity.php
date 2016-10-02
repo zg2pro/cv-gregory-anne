@@ -65,12 +65,4 @@ require_once 'version-1/php/age.php.inc';
     <div id="id-title">
         <?php echo $ext_string["title.h1"]; ?>
     </div>
-    <!--div id="id-construction">
-        <?php echo $ext_string["title.construction"]; ?>
-    </div>
-    <div id="id-link">
-       &rArr; <a href="version-1">
-            <?php echo $ext_string["title.old"]; ?>
-        </a>
-    </div-->
 </div>

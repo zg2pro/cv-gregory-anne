@@ -17,7 +17,7 @@
             }
             ?>
             |
-            <a href="version-1/<?php echo $hl; ?>/pdf" 
+            <a href="#"  data-toggle="modal" data-target="#print-modal"
                title="<?php echo $ext_string['tooltip.pdf']; ?>">
                 <span class="icon-printer"></span>
             </a>
@@ -58,3 +58,10 @@
         </li>
     </ul>
 </div>
+
+<?php
+$curDir = getcwd();
+chdir("version-1/" . $hl);
+require_once('../php/pdfoptions.php');
+chdir($curDir);
+?>

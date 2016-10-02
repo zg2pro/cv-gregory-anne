@@ -10,6 +10,6 @@ $result = readXml($hl, "referees.xml", "version-1/xsl/mycv/referees.xsl");
 
 <div class="description-black">
     <?php
-    echo trim($result);
+    echo $result;
     ?>
 </div>

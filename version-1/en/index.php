@@ -46,12 +46,12 @@ if (!isset($_GET["p"])) {
             </div>
             <div class="span9">
                 <?php
-                if (file_exists("../php/" . $p . ".php"))
+                if (file_exists("../php/" . $p . ".php")) {
                     require_once ("../php/" . $p . ".php");
-                else {
-                    if (file_exists($p . ".php"))
+                } else {
+                    if (file_exists($p . ".php")) {
                         require_once ($p . ".php");
-                    else {
+                    } else {
                         echo "<div id='attention'>
 				The page you have requested is not yet available in english.
 				Thanks for your understanding.

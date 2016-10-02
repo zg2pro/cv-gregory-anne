@@ -10,7 +10,7 @@ $result = readXml($hl, "education.xml", "version-1/xsl/mycv/education.xsl");
     <div class="description-black">
         <p class='description_content'>
             <?php
-            echo trim($result);
+            echo $result;
             ?>
         </p>  
     </div>

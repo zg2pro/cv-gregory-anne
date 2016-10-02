@@ -8,7 +8,6 @@ function readXml($hl, $xml_file_name, $xsl_file_name) {
     $url = "version-1/" . $hl . "/xml/" . $xml_file_name;
     $xml_text = file_get_contents($url, false, $context);
 
-
     $tags = textTags();
 
     foreach ($tags as $tagname) {

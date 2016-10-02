@@ -7,6 +7,6 @@ $result = readXml($hl, "experience.xml", "version-1/xsl/pdf/experience.xsl");
     <text x="30" y="10" fill="white" font-size="10" ><?php echo $ext_string['summary.pe']; ?></text>
     </svg>
 <?php
-echo trim($result);
+echo $result;
 ?>
 </div>

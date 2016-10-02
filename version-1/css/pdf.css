@@ -51,7 +51,7 @@ ul {
     margin-top: 17px;
 }
 
-ul.breadcrumb > li {
+ul.cvnavitem > li {
     width:100%;
     padding: 0px !important;
     margin: 0px !important;

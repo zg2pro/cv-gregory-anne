@@ -17,7 +17,7 @@
     </xsl:template>
     
     <xsl:template match="//experience">
-        <ul class="breadcrumb"> 
+        <ul class="cvnavitem"> 
             <li class="active">
                 <h2>
                     <xsl:if test="$hl='en'">

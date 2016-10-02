@@ -542,7 +542,7 @@ p.description_content{
     margin:0px;  
 }  
 
-ul.breadcrumb li.active h2 {  
+ul.cvnavitem li.active h2 {  
     display: block;
     border-bottom: 1px solid blue;
     text-transform: uppercase;
@@ -556,13 +556,13 @@ ul.breadcrumb li.active h2 {
     color:blue;
 }
 
-#section2 ul.breadcrumb li.active h2,
-#section3 ul.breadcrumb li.active h2,
-#section4 ul.breadcrumb li.active h2,
-#section5 ul.breadcrumb li.active h2,
-#section6 ul.breadcrumb li.active h2,
-#section7 ul.breadcrumb li.active h2,
-#section8 ul.breadcrumb li.active h2 {  
+#section2 ul.cvnavitem li.active h2,
+#section3 ul.cvnavitem li.active h2,
+#section4 ul.cvnavitem li.active h2,
+#section5 ul.cvnavitem li.active h2,
+#section6 ul.cvnavitem li.active h2,
+#section7 ul.cvnavitem li.active h2,
+#section8 ul.cvnavitem li.active h2 {  
     display:none;
 }
 #section2 ul li big {  
@@ -602,7 +602,7 @@ span.h7 {
 #section4 div.description-black ul {  
     text-align: left;
 }
-#section4 div.description-black ul.breadcrumb {  
+#section4 div.description-black ul.cvnavitem {  
     text-align: center;
 }
 
@@ -640,6 +640,10 @@ span.h7 {
     border-bottom-color: brown;
 }  
 
-dt {
+div.dt {
     font-weight: bold;
+}
+
+li.jstree-node {
+    color: black;
 }
