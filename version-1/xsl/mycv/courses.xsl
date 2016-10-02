@@ -24,7 +24,7 @@
         </ul>
         <br/>
         <br/>
-        <table align="center">
+        <table class="university-logos" align="center">
             <tr>
                 <td>
                     <a href="http://www.orsys.fr/"> 

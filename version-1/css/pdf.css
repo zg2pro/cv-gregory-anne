@@ -44,10 +44,6 @@ table tr td {
     color: black;
 }
 
-table.university-logos {
-    margin-left: 800px;
-}
-
 ul {
     padding: 0px !important;
     margin: 0px !important;
@@ -59,4 +55,9 @@ ul.breadcrumb > li {
     width:100%;
     padding: 0px !important;
     margin: 0px !important;
+}
+
+table.university-logos {
+    margin-top: -165px;
+    margin-left: 800px;
 }
