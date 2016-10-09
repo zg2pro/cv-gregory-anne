@@ -45,31 +45,9 @@
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/jquery.fullPage.js"></script>
     <script>
-        $(document).ready(function () {
-            $('#fullpage').fullpage({
-                verticalCentered: false,
-                anchors: ["page0", "page1", "page2", "page3", "page4", "page5", "page6", "page7", "page8"],
-                menu: 'ul.full-page-menu',
-                scrollingSpeed: 600,
-                css3: true
-            });
-            var width = $(window).width();
-            var minWidth = 1366;
-            var language = <?php echo "\"" . $hl . "\""; ?>;
-            if (width < minWidth) {
-                if (language === 'fr') {
-                    alert("Ce site requiert une largeur d'écran >= " + minWidth
-                            + "\nLa votre est actuellement de : " + width + "px."
-                            + "\nVous allez être redirigé vers l'ancienne version du site.");
-                } else {
-                    alert("This website requires a screen width >= " + minWidth
-                            + "\nYours is currently: " + width + "px."
-                            + "\nYou are going to be redirected to the old version");
-                }
-                window.location.href = "version-1";
-            }
-        });
+        var language = <?php echo "\"" . $hl . "\""; ?>;
     </script>
+    <script type="text/javascript" src="js/site.js"></script>
     <script type="text/javascript" src="version-1/js/jstree/jstree.min.js"></script>
     <script type="text/javascript" src="version-1/js/mycv.js"></script>
 </html>

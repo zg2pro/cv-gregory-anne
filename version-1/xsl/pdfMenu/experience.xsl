@@ -4,9 +4,7 @@
 ]>
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:template match="//experience/item/organization">
-        <li>
-            <xsl:value-of select='name'/>
-        </li>
+    <xsl:template match="//item">
+        <li><xsl:value-of select="organization/name"/></li>
     </xsl:template>
 </xsl:stylesheet>
