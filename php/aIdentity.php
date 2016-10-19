@@ -11,9 +11,11 @@ require_once 'version-1/php/age.php.inc';
 
     <div id="id-text">
         <h4>
-            <img src="version-1/img/Ggrreyggoyrbyy_bArnbnreb_blue.png" width="300" height="50" alt="Gr&eacute;gory ANNE"/>
+            GREGORY ANNE
+            <!--img src="version-1/img/Ggrreyggoyrbyy_bArnbnreb_blue.png" width="300" height="50" alt="Gr&eacute;gory ANNE"/-->
             <!--born in September the 6th 1983 (25 yo), single.-->
         </h4>
+        <br/>
         <?php if ($hl == 'fr') { ?>
             n&eacute; le 06/09/1983 (<?php echo age(1983, 09, 06); ?> ans).
         <?php } ?>
