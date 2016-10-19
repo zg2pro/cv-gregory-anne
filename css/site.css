@@ -298,6 +298,9 @@ h1{
 
 /* Defining each section background and styles
 * --------------------------------------- */
+#section0{
+    background-image: url(../img/b_and_white.jpg);
+}
 #section1{
     background-image: url(../img/bg1.jpg);
 }
@@ -323,19 +326,6 @@ h1{
     background-image: url(../img/bg8.jpg);
 }
 
-
-/*Adding background for the slides
-* --------------------------------------- */
-#slide1{
-    //  background-image: url(../img/bg2.jpg);
-    // padding: 6% 0 0 0;
-}
-#slide2{
-    // background-image: url(../img/bg5.jpg);
-    //  padding: 6% 0 0 0;
-}
-
-
 /* Bottom menu
 * --------------------------------------- */
 #infoMenu li a {
@@ -351,11 +341,22 @@ h1{
     margin-right: 140px;
 }
 #id-text {
+    color: black !important;
     float: left;
     border: 0;
     margin-top: 3%;
     margin-left: 140px;
     text-align: left;
+    font-weight: bolder;
+}
+#id-text h3 {
+    color: white !important;
+    font-weight: bolder;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#id-text h3 a {
+    font-weight: bolder;
+    text-shadow: -1px 0 #921e45, 0 1px #921e45, 1px 0 black, 0 -1px #921e45;
 }
 
 #id-construction {
@@ -372,15 +373,18 @@ h3,h4{
 }
 
 #id-title > h1 {
-    /*margin-top: -180px;*/
-    background: url(../img/bg.jpg) top left repeat;
+    /*margin-top: -180px;
+    background: url(../img/bg.jpg) top left repeat; */
     color: white;
-    text-align: center;
+    text-align: left;
     vertical-align: middle;
     font-size: 37px;
+    font-weight: bolder;
     height: 130px;
     position: absolute; 
     bottom: 10%; left: 0; right: 0; 
+    margin-left: 140px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .h1_1_line {

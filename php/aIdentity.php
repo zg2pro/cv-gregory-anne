@@ -7,8 +7,6 @@ require_once 'version-1/php/age.php.inc';
     <text x="30" y="10" fill="white" font-size="10" ><?php echo $ext_string['summary.id']; ?></text>
     </svg>
 
-    <img src="img/id.jpg" id="id-image"  alt="."/>
-
     <br/>
 
     <div id="id-text">
