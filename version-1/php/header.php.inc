@@ -21,8 +21,12 @@ function writeHeader($ext_string, $hl, $pdf = false) {
     }
     $content .= "
 <br/>
-<h3>" . $ext_string["address.permanent.street"] . "<br/>" . $ext_string["address.permanent.town"] . "<br/>";
-    if (!$pdf) {
+<h3>";
+    if ($pdf) {
+        $content .= $ext_string["address.permanent.street"] . "<br/>";
+    }
+    $content .= $ext_string["address.permanent.town"] . "<br/>";
+    if (!$pdf && $hl == 'en') {
         $content .= $ext_string["address.permanent.country"] . "<br/>";
     }
     $content .= $ext_string["number.mobile"] . "<br/>" . $ext_string["number.landline"] .

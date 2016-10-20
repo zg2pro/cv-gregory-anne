@@ -21,10 +21,13 @@ require_once 'version-1/php/age.php.inc';
         <?php } ?>
         <br/>
         <h3>
-            <?php echo $ext_string["address.permanent.street"]; ?><br/> <?php echo $ext_string["address.permanent.town"]; ?> <br/>
-            <?php echo $ext_string["address.permanent.country"]; ?><br/>
+            <?php echo $ext_string["address.permanent.town"]; ?> <br/>
+
+            <?php if ($hl == 'en') { ?>
+                <?php echo $ext_string["address.permanent.country"]; ?><br/>
+            <?php } ?>
             <?php echo $ext_string["number.mobile"]; ?> <br/> 
-                <?php echo $ext_string["number.landline"]; ?>
+            <?php echo $ext_string["number.landline"]; ?>
             <a href="mailto:<?php echo $ext_string['mail']; ?>">
                 <?php echo $ext_string["mail"]; ?> 
             </a> <br/>
