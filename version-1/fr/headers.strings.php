@@ -1,5 +1,4 @@
 <?php
-
 $ext_string['title'] = "Curriculum Vitae de Gr&eacute;gory ANNE";
 
 $ext_string['title.h1'] = "<h1 class=\"h1_1_line\">CHEF DE PROJET <br/>ENVIRONNEMENTS JAVA</h1>";
@@ -25,7 +24,7 @@ $ext_string['summary.k'] = "COMP&Eacute;TENCES";
 $ext_string['summary.s'] = "PRODUCTIVIT&Eacute;";
 $ext_string['summary.ih'] = "LOISIRS ET INT&Eacute;R&Ecirc;TS PERSONNELS";
 $ext_string['summary.g'] = "OBJECTIFS";
-$ext_string['summary.r'] = "RECOMMENDATIONS";
+$ext_string['summary.r'] = "RECOMMANDATIONS";
 
 $ext_string['tools.head'] = "Outils";
 $ext_string['tools.h'] = "ACCUEIL";
