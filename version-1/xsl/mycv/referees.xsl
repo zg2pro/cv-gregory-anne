@@ -57,7 +57,7 @@
                 </div>
                 <div class="dd">
                     <xsl:element name="a">
-                        <xsl:attribute name="href">../pdf/<xsl:value-of select="letter"/></xsl:attribute>
+                        <xsl:attribute name="href">../pdf/<xsl:value-of select="normalize-space(letter)"/></xsl:attribute>
                         Letter (pdf)
                     </xsl:element>
                     <br/>
