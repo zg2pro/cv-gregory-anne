@@ -1,7 +1,7 @@
 <?php
 
 $ext_string['title'] = "Gr&eacute;gory ANNE 's Curriculum Vitae";
-$ext_string['title.h1'] = "<h1 class=\"h1_1_line\">PROJECT MANAGER <br/>JAVA PROGRAMMING</h1>";
+$ext_string['title.h1'] = "<h1 class=\"h1_1_line\">PROJECT MANAGER <br/>JAVA & JS FRAMEWORKS</h1>";
 $ext_string['title.old'] = "Go to the previous version of the website (easy reading on a unique page)";
 $ext_string['title.construction'] = "This site is currently under construction !!!";
 

@@ -2,6 +2,30 @@
     <linkedin>
         <item>
             <person>
+                Mohamed Louati
+            </person>
+            <profile>
+                https://www.linkedin.com/in/mohamed-louati-consultant
+            </profile>
+            <title>
+                Senior Web development consultant,
+                worked with Gregory for the client BNPP
+            </title>
+            <text>
+                "I've had the pleasure to get acquainted with Gregory during an assignment
+                for BNPP group. I liked his thorougnness and the efficiency he's got to 
+                design and develop. 
+                As a Lead developer and technical referee of the team, he has been essential
+                to build this solution which was particularly complex and restrictive (security limitations,
+                add strong ciphering capabilities in a web environment).
+                He was also confortable with Agile methodologies, and luckily he has been
+                able to take over and play the role of scrum master when came a need
+                to compensate the shortcomings of the customer in this matter."
+                --16 Mai 2017
+            </text>
+        </item>
+        <item>
+            <person>
                 Kamel Gharbi
             </person>
             <profile>

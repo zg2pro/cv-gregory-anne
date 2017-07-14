@@ -30,7 +30,7 @@
                 </div>
                 <div class="dd">
                     <small>
-                        <xsl:value-of select="text"/>
+                        <xsl:value-of disable-output-escaping="yes" select="text"/>
                     </small>
                     <br/>
                     <br/>

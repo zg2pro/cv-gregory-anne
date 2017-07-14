@@ -8,25 +8,41 @@
             <location>Saint-Ouen (93)</location>
 	</organization>
         <date>Depuis Octobre 2015</date>
-        <role>
+            <role>
             <big>
                 <b>
-                    <u>Chef de projet Java</u></b>
+                   <u>Chef de projet Java</u>
+                </b>
             </big>
-            <br/><br/>Mission de d&eacute;veloppement d'une application permettant le pr&eacute;-traitement
+            <br/>
+            <br/>
+            Mission de d&eacute;veloppement d'une application permettant le pr&eacute;-traitement
             (contr&ocirc;le, archivage, chiffrement) des fichiers de la division Inspection G&eacute;n&eacute;rale 
-            de BNPP, et leur upload vers un syst&egrave;me de gestion &eacute;lectronique de documents. Membre de 
-            l'&eacute;quipe de d&eacute;veloppeurs Agile, j'ai fourni toutes les solutions et ai mis
-            en place l'architecture logicielle, je fus ainsi r&eacute;f&eacute;rant de la plupart des sujets techniques.
-            J'ai int&eacute;gr&eacute; et form&eacute; les nouveaux d&eacute;veloppeurs et veill&eacute; au 
+            de BNPP, et leur upload vers un syst&egrave;me de gestion &eacute;lectronique de documents. 
+            Un important d&eacute;fi fut la gestion de l'upload de gros fichiers, et la pause et la reprise
+            de l'upload.
+            Leader de l'&eacute;quipe de d&eacute;veloppeurs Agile, j'ai ainsi fourni 
+            un ensemble de solutions et ai mis
+            en place l'architecture logicielle, je fus 
+            r&eacute;f&eacute;rant de la plupart des sujets techniques.
+            J'ai int&eacute;gr&eacute; et form&eacute; les nouveaux d&eacute;veloppeurs et 
+            veill&eacute; au 
             fonctionnement de nos environnements de test.
-            <br/><br/><span class="h7">Environnement</span>
-		<br/>
-                JAVA/JEE (Spring4 MVC, Spring-security SSO, Esapi, nCipher crypto library, 
-                JPA2, Hibernate), JQuery, JsTree, Bootstrap Twitter, Oracle DB, Flyway-db, WebSphere, 
-                NetBeans, Git, Maven, Sonar, 
-                Jira Agile, HP-Quality Center, Jenkins, Automic Ara, Nexus.
+            <br/>
+            Projet "remarquable" pour la BNPP et leur premier projet &agrave; recevoir un
+            label "secret". La s&eacute;curit&eacute; fut au coeur de ce projet.
+            <br/>
+            <span class="h7">Environnement</span>
+            <br/>
+            JAVA/JEE (Spring4 MVC, Spring-security SSO, Esapi, nCipher crypto library, owasp, JPA2),
+            JQuery, JsTree, Bootstrap Twitter, Oracle DB, Flyway-db, WebSphere, NetBeans, Git, Maven,
+            Sonar, Jira Agile, HP-Quality Center, Jenkins, Automic Ara, Nexus.
+            <br/>
+            <br/>
+            Since July 2017, I have started to work for another entity dealing with loan risks, 
+            we aim at creating a GUI for an hdfs/java spark service provider, and we are building it in Typescript/Angular.
         </role>
+   
     </item>
     <item>
 		<organization>

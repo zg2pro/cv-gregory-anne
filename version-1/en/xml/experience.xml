@@ -17,20 +17,27 @@
                 </b>
             </big>
             <br/>
-            <br/>My assignment was to develop a software the purpose of which was to help
-            the pre-handling (control, archiving, ciphering) of files of the General Inpection
-            division of BNPP, and the upload toward a document management system. As a member
-            of the developers Agile team, I provided all the solutions and I organized the 
-            software architecture, thus I was the referent on most of the technical subjects.
-            I also welcomed and trained the new developers and I maintained our test environments.
             <br/>
+            My assignment was to develop a software the purpose of which was to help the pre-handling 
+            (control, archiving, ciphering, jurisdictions management) of files of the General Inspection 
+            division of BNPP, and the upload toward a document management system. One great challenge in 
+            the project consisted in enabling the upload of big files and make it resumable.
+            I was the leader of the developers Agile team and thus, 
+            I provided technical solutions and I organized the software architecture, 
+            I was the referent on most of the technical subjects. I also welcomed and trained 
+            the new developers and I maintained our test environments. 
+            Project "noticeable" for BNPP group and their first project to be labeled "secret". 
+            Security was therefore at the heart of the projet.
             <br/>
             <span class="h7">Environnement</span>
             <br/>
-            JAVA/JEE (Spring4 MVC, Spring-security SSO, Esapi, nCipher crypto library, 
-            JPA2, Hibernate), JQuery, JsTree, Bootstrap Twitter, Oracle DB, Flyway-db, WebSphere, 
-            NetBeans, Git, Maven, Sonar, 
-            Jira Agile, HP-Quality Center, Jenkins, Automic Ara, Nexus.
+            JAVA/JEE (Spring4 MVC, Spring-security SSO, Esapi, nCipher crypto library, owasp, JPA2),
+            JQuery, JsTree, Bootstrap Twitter, Oracle DB, Flyway-db, WebSphere, NetBeans, Git, Maven,
+            Sonar, Jira Agile, HP-Quality Center, Jenkins, Automic Ara, Nexus.
+            <br/>
+            <br/>
+            Since July 2017, I have started to work for another entity dealing with loan risks, 
+            we aim at creating a GUI for an hdfs/java spark service provider, and we are building it in Typescript/Angular.
         </role>
     </item>
     <item>

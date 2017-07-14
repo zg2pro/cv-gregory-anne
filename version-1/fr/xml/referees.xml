@@ -1,6 +1,34 @@
-
 <referees>
     <linkedin>
+        <item>
+            <person>
+                Mohamed Louati
+            </person>
+            <profile>
+                https://www.linkedin.com/in/mohamed-louati-consultant
+            </profile>
+            <title>
+                Senior Web development consultant,
+                a travaill&eacute; avec Gregory chez le client BNPP
+            </title>
+            <text>
+                "J&apos;ai eu le plaisir de connaitre Gr&eacute;gory durant cette mission 
+                pour le compte de BNP. 
+                J&apos;ai appr&eacute;ci&eacute; la minutie et l&apos;efficacit&eacute; 
+                avec lesquelles il con&circ;oit et d&eacute;veloppe. 
+                Lead developpeur et r&eacute;f&eacute;rant technique de l&apos;&eacute;quipe, 
+                il a &eacute;t&eacute; essentiel dans la construction
+                de la solution dans un contexte particuli&egrave;rement contraignant 
+                (contraintes de s&eacute;curit&eacute;, 
+                adaptation d&apos;un Framework de chiffrement &agrave; un usage web...).  
+                A l&apos;aise avec la m&eacute;thode et 
+                l&apos;organisation Agile, il a aussi su prendre en main certains aspects du 
+                r&ocirc;le de Scrum 
+                master, palliant ainsi au manque de maturit&eacute; du client pour ce qui 
+                concerne cette m&eacute;thode."
+                --16 Mai 2017
+            </text>
+        </item>
         <item>
             <person>
                 Kamel Gharbi
@@ -22,7 +50,7 @@
                 Gregory has also a great deal of sense of humor yet maintains himself always professionel. 
                 He has the capacity to lead and plan discussions to guide everyone in the team, and at the 
                 same time he can step aside from time to time. I'll always be happy to work with Gregory."
-                --March 16, 2017
+                --16 Mars 2017
             </text>
         </item>
         <item>
