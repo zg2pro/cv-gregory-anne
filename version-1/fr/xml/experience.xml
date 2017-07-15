@@ -39,8 +39,10 @@
             Sonar, Jira Agile, HP-Quality Center, Jenkins, Automic Ara, Nexus.
             <br/>
             <br/>
-            Since July 2017, I have started to work for another entity dealing with loan risks, 
-            we aim at creating a GUI for an hdfs/java spark service provider, and we are building it in Typescript/Angular.
+            Depuis Juillet 2017, j'ai entamé des travaux pour une entit&eacute; de la BNPP
+            traitant les risques de cr&eacute;dit, notre objectif est la cr&eacute;tion d'une
+            interface graphique pour visualiser les retours de services hdfs/java spark,
+            et nous d&eacute;veloppons cette interface en Typescript/Angular.
         </role>
    
     </item>
