@@ -537,7 +537,7 @@ div.description-black{
     margin-left: 10%;
     margin-top: 5%;
     width: 40%;
-    height: 50%;
+    max-height: 50%;
     /* styling bellow */  
     background-color:black;  
     font-family: 'tahoma';  
@@ -650,7 +650,7 @@ span.h7 {
 
 
 #section3 div.description-black {  
-    height:72%;
+    max-height:72%;
 }
 
 #section4 ul li big {  
@@ -658,7 +658,7 @@ span.h7 {
 }
 
 #section4 div.description-black {  
-    height:76%;
+    max-height:76%;
     width: 65%;
     margin-top: 0px;
     opacity: 0.85;
@@ -684,7 +684,7 @@ span.h7 {
     color:orange;
 }
 #section7 div.description-black {  
-    height:65%;
+    max-height:65%;
     width: 60%;
 }
 #section8 div.description-black {  

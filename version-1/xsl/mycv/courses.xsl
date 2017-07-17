@@ -34,7 +34,5 @@
                 </td>
             </tr>
         </table>
-        <br/>
-        <br/>
     </xsl:template>
 </xsl:stylesheet>
