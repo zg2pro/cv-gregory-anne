@@ -9,7 +9,7 @@ stages:
 deploy:
   stage: deploy
   script: 
-    - lftp -c "open -u cv.gregory.anne,$FTP_PASSWORD ftpperso.free.fr; mirror -Rnev --ignore-time --parallel=10 --exclude-glob .git* --exclude .git/"
+    - lftp -e "mirror  --exclude-glob .git* --exclude .git/ -R / /" -u cv.gregory.anne,$FTP_PASSWORD ftpperso.free.fr
   only:
     - master
   tags:
