@@ -2,14 +2,15 @@ image: php:5.6
 before_script:
   - set -xe
   - apt-get update -yqq
-  - apt-get install -yqq git
   - apt-get install -yqq lftp
 stages:
   - deploy
 deploy:
   stage: deploy
   script: 
-    - lftp -e "mirror  --exclude-glob .git* --exclude .git/ -R / /" -u cv.gregory.anne,$FTP_PASSWORD ftpperso.free.fr
+    - pwd
+    - ls
+    - lftp -e "mirror  --exclude-glob .git* --exclude .git/ -R . /" -u cv.gregory.anne,$FTP_PASSWORD ftpperso.free.fr
   only:
     - master
   tags:
