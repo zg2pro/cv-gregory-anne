@@ -10,7 +10,7 @@ deploy:
   script: 
     - pwd
     - ls
-    - lftp -e "mirror  --exclude-glob .git* --exclude .git/ -R . /" -u cv.gregory.anne,$FTP_PASSWORD ftpperso.free.fr
+    - lftp -e "mirror --no-perms --exclude-glob .git* --exclude .git/ --exclude README.md -R . /" -u cv.gregory.anne,$FTP_PASSWORD ftpperso.free.fr
   only:
     - master
   tags:
