@@ -8,9 +8,6 @@ stages:
   - deploy
 deploy:
   stage: deploy
-  dependencies:
-    - build
-    - test
   script: 
     - lftp -c "set ftp:ssl-allow no; open -u cv.gregory.anne,$FTP_PASSWORD ftpperso.free.fr; mirror -Rnev --ignore-time --parallel=10 --exclude-glob .git* --exclude .git/"
   only:
