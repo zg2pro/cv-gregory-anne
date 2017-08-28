@@ -2,7 +2,7 @@
 
 consult it online at http://cv.gregory.anne.free.fr
 
-one of my oldest websites, first released in 2005. At that time it was basic html/css.
+**one of my oldest websites**, first released in 2005. At that time it was basic html/css.
 In 2007, learning XML technologies, it became XML/XSP powered. It is still powered by XSL today.
 It has been redesigned with fullPage.js in 2015, but still wanting to maintain version-1 design.
 
