@@ -31,18 +31,18 @@ require_once 'version-1/php/age.php.inc';
             <a href="mailto:<?php echo $ext_string['mail']; ?>">
                 <?php echo $ext_string["mail"]; ?> 
             </a> <br/>
-            <a href="https://www.facebook.com/gregory.anne.jobs">
-                <img src="version-1/img/social_icons/Facebook.png"  width="40" height="40" alt="."/>
-            </a>
             <a href="http://www.linkedin.com/in/gregoryanne83">
                 <img src="version-1/img/social_icons/Linkedin.png"  width="40" height="40" alt="."/>
+            </a>
+            <a href="https://www.facebook.com/gregory.anne.jobs">
+                <img src="version-1/img/social_icons/Facebook.png"  width="40" height="40" alt="."/>
             </a>
             <a href="http://www.twitter.com/zg2pro">
                 <img src="version-1/img/social_icons/Twitter.png"  width="40" height="40" alt="."/>
             </a>
-            <a href="http://www.youtube.com/zg2pro">
+            <!--a href="http://www.youtube.com/zg2pro">
                 <img src="version-1/img/social_icons/Youtube.png"  width="40" height="40" alt="."/>
-            </a>
+            </a-->
             <a href="https://github.com/zg2pro">
                 <img src="version-1/img/social_icons/Github.png"  width="40" height="40" alt="."/>
             </a>
