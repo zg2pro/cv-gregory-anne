@@ -17,7 +17,7 @@ require_once('mycvhtml.php.inc');
 $hl = $_SESSION['hl'];
 echo mycvHtml($hl, $titles);
 ?>
-<script type="text/javascript" src="../js/jquery/jquery.min.js"></script>
-<script type="text/javascript" src="../js/bootstrap.js"></script>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
 <script type="text/javascript" src="../js/jstree/jstree.min.js"></script>
 <script type="text/javascript" src="../js/mycv.js"></script>

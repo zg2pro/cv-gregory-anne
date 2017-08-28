@@ -233,7 +233,7 @@ function printReferees($hl) {
 function printHtml($ext_string, $hl) {
 
     $content = '<page backtop="2mm" backbottom="2mm" backleft="3mm" backright="3mm">'
-            . "<style>" . file_get_contents("../css/bootstrap.css") .
+            . "<style>" . file_get_contents("../css/bootstrap.min.css") .
             file_get_contents("../css/mycv.css") .
             file_get_contents("../css/pdf.css") . "</style>";
 

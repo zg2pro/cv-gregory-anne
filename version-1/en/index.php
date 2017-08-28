@@ -26,7 +26,7 @@ if (!isset($_GET["p"])) {
         require_once('headers.strings.php');
         ?>
         <title>Gr&eacute;gory ANNE 's Curriculum Vitae</title>
-        <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" />
+        <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="../js/jstree/themes/default/style.min.css" rel="stylesheet" />
         <link href="../css/mycv.css" rel="stylesheet"	type="text/css" />
         <meta lang="en" xml:lang="en"  content="Gregory Anne CV" />
