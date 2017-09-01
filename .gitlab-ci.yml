@@ -4,13 +4,25 @@ before_script:
   - apt-get update -yqq
   - apt-get install -yqq lftp
 stages:
+  - build
   - deploy
+build:
+  stage: build
+  script: 
+    - cp src/ dist/
+  artifacts:
+    paths:
+      - dist/
+  only:
+    - master
+  tags:
+    - docker
 deploy:
   stage: deploy
-  script: 
-    - pwd
-    - ls
-    - lftp -e "mirror --no-perms --exclude-glob .git* --exclude .git/ --exclude README.md -R . /" -u cv.gregory.anne,$FTP_PASSWORD ftpperso.free.fr
+  dependencies:
+    - build
+  script:
+    - lftp -e "mirror --no-perms --exclude-glob .git* --exclude .git/ -R dist/ /" -u cv.gregory.anne,$FTP_PASSWORD ftpperso.free.fr
   only:
     - master
   tags:

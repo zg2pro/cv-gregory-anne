@@ -1,0 +1,42 @@
+
+<courses>
+    <item>
+        <year>
+            2016
+        </year>
+        <title>
+            Thales Security HSM, configuration et utilisation
+        </title>
+        <text>
+            Une semaine d'apprentissage sur l'installation et la gestion d'un HSM et des cartes op&eacute;rationnelles, 
+            ainsi que sur la fa&ccedil;on d'impl&eacute;menter le chiffrement et le d&eacute;chiffrement en Java en utilisant
+            cette machine.
+        </text>
+    </item>
+    <item>
+        <year>
+            2015
+        </year>
+        <title>
+            PKI Mise en &oelig;uvre
+        </title>
+        <text>
+            Une semaine &agrave; la fois th&eacute;orique et pratique sur 
+            la cryptographie et leur utilisation dans les certificats.
+        </text>
+    </item>
+    <item>
+        <year>
+            2013
+        </year>
+        <title>
+            M&eacute;thodes Agile Scrum
+        </title>
+        <text>
+            Un stage de deux jours pour chefs de projet qui pr&eacute;sente les m&eacute;thodes 
+            <i>Agile Scrum</i> dans le recueil d'exigences et des priorit&eacute;s, 
+            l'estimation et le planning, le guidage d'un sprint de d&eacute;veloppement.
+        </text>
+    </item>
+</courses>
+
