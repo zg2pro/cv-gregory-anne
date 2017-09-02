@@ -9,7 +9,9 @@ stages:
 build:
   stage: build
   script: 
-    - cp src/ dist/
+    - cp -R src/ dist/
+    - ls
+    - ls dist
   artifacts:
     paths:
       - dist/
