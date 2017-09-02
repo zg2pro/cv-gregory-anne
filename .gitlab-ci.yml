@@ -3,7 +3,7 @@ before_script:
   - set -xe
   - apt-get update -yqq
   - apt-get install -yqq lftp
-  - curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+  - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 stages:
   - build
   - deploy
