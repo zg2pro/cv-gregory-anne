@@ -10,9 +10,6 @@ build:
   stage: build
   script: 
     - cp -R src/ dist/
-    - ls
-    - ls dist
-    #- try remote push
   artifacts:
     paths:
       - dist/

@@ -17,3 +17,9 @@ and deploy by ftp from gitlab.
 ## continuous integration
 
 with gitlab, automatically deployed to production by ftp
+
+This GITHUB repository is synced with gitlab (git push commands are sent from gitlab toward github), 
+means you should not clone this project, nor should you fork and ask for a merge from github, please
+<b>do everything from GITLAB</b> : the git url is: https://gitlab.com/zg2pro/cv.gregory.anne.git 
+and the gitlab project url is: https://gitlab.com/zg2pro/cv.gregory.anne
+Thank you.
