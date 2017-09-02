@@ -3,6 +3,7 @@ before_script:
   - set -xe
   - apt-get update -yqq
   - apt-get install -yqq lftp
+  - curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 stages:
   - build
   - deploy
@@ -11,7 +12,7 @@ build:
   script: 
     - cp -R src/ dist/
     - cd dist/version-1/php
-    - php composer.phar install
+    - composer install
     - cd ../../..
   artifacts:
     paths:
