@@ -11,17 +11,9 @@
     <li><a href="index.php?p=mycv#referees"><?php echo $ext_string["summary.r"]; ?></a></li>
 </ul>
 
-<br/><h2><?php echo $ext_string["tools.head"]; ?></h2>
+<br/>
+<h2><?php echo $ext_string["tools.head"]; ?></h2>
 <ul class="nav nav-tabs nav-stacked">
-    <li  <?php
-    if ($p == "mycv") {
-        echo "class='active'";
-    }
-    ?>>
-        <a href='index.php?p=mycv'>
-            <i class="icon-home"></i>
-            <?php echo $ext_string["tools.h"]; ?>
-        </a></li>
     <li>
         <a href="../<?php
         if ($hl == 'en') {
@@ -52,14 +44,11 @@
             <i class="icon-print"></i>
             <?php echo $ext_string["tools.p"]; ?> </a></li>
     <li>
-        <!-- Google Code -->
-        <a href="http://code.google.com/u/gregory.anne83/">
-            <!-- img src="http://s7.addthis.com/static/btn/sm-share-en.gif" width="175px" height="35px" alt="Bookmark and Share" style="border:0"/ -->
+        <a href="http://github.com/zg2pro">
             <i class="icon-briefcase"></i>
             <?php echo $ext_string["tools.portfolio"]; ?>
-        </a></li>
-
-
+        </a>
+    </li>
 </ul>
 <br/><br/><br/>
 <div align="center">
