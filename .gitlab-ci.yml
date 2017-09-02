@@ -8,7 +8,8 @@ before_script:
   - wget https://www.dotdeb.org/dotdeb.gpg
   - apt-key add dotdeb.gpg
   - apt-get update -yqq
-  - apt-get install -yqq zip unzip php5.6-zip
+  #- apt-get install -yqq zip unzip php5.6-zip
+  - apt-get install -yqq zip unzip
   - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 stages:
   - build
