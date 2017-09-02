@@ -1,4 +1,4 @@
-<br/><br/><br/>
+<br/>
 <h2><?php echo $ext_string["summary.head"]; ?></h2>
 <ul class="nav nav-tabs nav-stacked">
     <li><a href="index.php?p=mycv#experience"><?php echo $ext_string["summary.pe"]; ?></a></li>

@@ -29,8 +29,7 @@
                 </h2>
             </li>
         </ul>
-        <table align="center" border="2" 
-                       summary="your browser cannot display tables" class="table-bordered">
+        <table align="center" summary="your browser cannot display tables" class="table-bordered">
             <thead> 
                 <tr>
                     <xsl:if test="$hl='en'">

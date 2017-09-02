@@ -2,14 +2,14 @@ image: php:5.6
 before_script:
   - set -xe
   - apt-get update -yqq
-  - apt-get install -yqq lftp zip unzip
-  - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 stages:
   - build
   - deploy
 build:
   stage: build
   script: 
+    - apt-get install -yqq zip unzip
+    - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
     - cp -R src/ dist/
     - cd dist/version-1/php
     - composer install
@@ -26,6 +26,7 @@ deploy:
   dependencies:
     - build
   script:
+    - apt-get install -yqq lftp
     - lftp -e "mirror --no-perms --exclude-glob .git* --exclude .git/ -R dist/ /" -u cv.gregory.anne,$FTP_PASSWORD ftpperso.free.fr
   only:
     - master
