@@ -10,6 +10,9 @@ build:
   stage: build
   script: 
     - cp -R src/ dist/
+    - cd dist/version-1/php
+    - composer install
+    - cd ../../..
   artifacts:
     paths:
       - dist/

@@ -1,0 +1,8 @@
+{
+    "name": "zg2pro/cv.gregory.anne",
+    "type": "project",
+    "require": {
+        "spipu/html2pdf": "4.5.1"
+    },
+    "license": "MIT"
+}

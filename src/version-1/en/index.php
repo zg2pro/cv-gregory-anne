@@ -39,12 +39,12 @@ if (!isset($_GET["p"])) {
             ?>
         </div>
         <div class="row-fluid">
-            <div class="span3">
+            <div class="col-md-3">
                 <?php
                 require_once ("../php/menu.php");
                 ?>
             </div>
-            <div class="span9">
+            <div class="col-md-9">
                 <?php
                 if (file_exists("../php/" . $p . ".php")) {
                     require_once ("../php/" . $p . ".php");
