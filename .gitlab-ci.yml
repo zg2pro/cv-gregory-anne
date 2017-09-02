@@ -11,7 +11,7 @@ build:
   script: 
     - cp -R src/ dist/
     - cd dist/version-1/php
-    - composer install
+    - php composer.phar install
     - cd ../../..
   artifacts:
     paths:
