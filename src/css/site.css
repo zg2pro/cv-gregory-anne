@@ -6,7 +6,7 @@ form,fieldset,input,textarea,p,blockquote,th,td {
     padding: 0;
     margin: 0;
 }
-a{
+a {
     text-decoration:none;
 }
 table {
@@ -19,7 +19,8 @@ address,caption,cite,code,dfn,em,strong,th,var {
     font-weight: normal;
     font-style: normal;
 }
-strong{
+
+strong {
     font-weight: bold;
 }
 ol,ul {
@@ -41,18 +42,20 @@ h1,h2,h3,h4,h5,h6 {
 q:before,q:after {
     content:'';
 }
-abbr,acronym { border: 0;
+abbr,acronym { 
+    border: 0;
 }
 
 
 /* Custom CSS
  * --------------------------------------- */
-body{
+body {
     font-family: arial,helvetica;
     color: #333;
     color: rgba(0,0,0,0.5);
+    display: none;
 }
-.wrap{
+.wrap {
     margin-left: auto;
     margin-right: auto;
     width: 960px;
@@ -92,7 +95,7 @@ span.icon-prev {
     margin: 0 auto;
     font-size: 1.5em;
 }
-.section{
+.section {
     text-align:center;
     height: 100%;
     min-height: 100%;
@@ -108,30 +111,30 @@ span.icon-prev {
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
-#menu li.active{
+#menu li.active {
     background:#666;
     background: rgba(0,0,0, 0.5);
     color: #fff;
 }
-#menu li a{
+#menu li a {
     text-decoration:none;
     color: #000;
 }
-#menu li.active a:hover{
+#menu li.active a:hover {
     color: #000;
 }
-#menu li:hover{
+#menu li:hover {
     background: rgba(255,255,255, 0.8);
 }
 #menu li a,
-#menu li.active a{
+#menu li.active a {
     padding: 9px 18px;
     display:block;
 }
-#menu li.active a{
+#menu li.active a {
     color: #fff;
 }
-#menu{
+#menu {
     position:fixed;
     top:0;
     left:0;
@@ -141,13 +144,13 @@ span.icon-prev {
     padding: 0;
     margin:0;
 }
-.twitter-share-button{
+.twitter-share-button {
     position: fixed;
     z-index: 99;
     right: 149px;
     top: 9px;
 }
-#download{
+#download {
     margin: 10px 0 0 0;
     padding: 15px 10px;
     color: #fff;
@@ -175,11 +178,11 @@ span.icon-prev {
     -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
 }
-#download a{
+#download a {
     text-decoration:none;
     color:#fff;
 }
-#download:hover{
+#download:hover {
     text-shadow: 0 -1px 0 rgba(0,0,0,.25);
     background-color: #2F96B4;
     background-position: 0 -15px;
@@ -189,7 +192,7 @@ span.icon-prev {
     -o-transition: background-position .1s linear;
     transition: background-position .1s linear;
 }
-#infoMenu{
+#infoMenu {
     height: 20px;
     color: #f2f2f2;
     position:fixed;
@@ -200,22 +203,22 @@ span.icon-prev {
     font-size:0.9em;
     padding:8px 0 8px 0;
 }
-#infoMenu ul{
+#infoMenu ul {
     padding: 0 40px;
 }
-#infoMenu li a{
+#infoMenu li a {
     display: block;
     margin: 0 22px 0 0;
     color: #333;
 }
-#infoMenu li a:hover{
+#infoMenu li a:hover {
     text-decoration:underline;
 }
-#infoMenu li{
+#infoMenu li {
     display:inline-block;
     position:relative;
 }
-#examplesList{
+#examplesList {
     display:none;
     background: #282828;
     -webkit-border-radius: 6px;
@@ -229,25 +232,25 @@ span.icon-prev {
     width:638px;
     text-align:left;
 }
-#examplesList ul{
+#examplesList ul {
     padding:0;
 }
-#examplesList ul li{
+#examplesList ul li {
     display:block;
     margin: 5px 0;
 }
-#examplesList ul li a{
+#examplesList ul li a {
     color: #BDBDBD;
     margin:0;
 }
-#examplesList ul li a:hover{
+#examplesList ul li a:hover {
     color: #f2f2f2;
 }
-#examplesList .column{
+#examplesList .column {
     float: left;
     margin: 0 20px 0 0;
 }
-#examplesList h3{
+#examplesList h3 {
     color: #f2f2f2;
     font-size: 1.2em;
     margin: 0 0 15px 0;
@@ -262,7 +265,7 @@ span.icon-prev {
 
 /* Demos Menu
  * --------------------------------------- */
-#demosMenu{
+#demosMenu {
     position:fixed;
     bottom: 10px;
     right:10px;
@@ -272,7 +275,7 @@ span.icon-prev {
 
 /* Style for our header texts
 * --------------------------------------- */
-h1{
+h1 {
     font-size: 5em;
     font-family: arial,helvetica;
     color: #fff;
@@ -282,7 +285,7 @@ h1{
 
 /* Centered texts in each section
 * --------------------------------------- */
-.section{
+.section {
     text-align:center;
 }
 
@@ -292,37 +295,40 @@ h1{
 #section0,
 #section1,
 #section2,
-#section3{
+#section3 {
     background-size: cover;
 }
 
 /* Defining each section background and styles
 * --------------------------------------- */
-#section0{
+
+#section0 {
     background-image: url(../img/b_and_white.jpg);
 }
-#section1{
+
+#section1 {
     background-image: url(../img/bg1.jpg);
 }
-#section2{
+
+#section2 {
     background-image: url(../img/bg2.jpg);
 }
-#section3{
+#section3 {
     background-image: url(../img/bg3.jpg);
 }
-#section4{
+#section4 {
     background-image: url(../img/bg4.jpg);
 }
-#section5{
+#section5 {
     background-image: url(../img/bg5.jpg);
 }
-#section6{
+#section6 {
     background-image: url(../img/bg6.jpg);
 }
-#section7{
+#section7 {
     background-image: url(../img/bg7.jpg);
 }
-#section8{
+#section8 {
     background-image: url(../img/bg8.jpg);
 }
 
@@ -353,7 +359,7 @@ h1{
     color: black !important;
     font-weight: bolder;
     font-size: 45px;
-  /*  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    /*  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 }
 #id-text h3 {
     color: white !important;
@@ -374,7 +380,7 @@ h1{
     border-style: solid;
 }
 
-h3,h4{
+h3,h4 {
     font-size: 23px;
 }
 
@@ -532,7 +538,7 @@ div.description {
     filter:alpha(opacity=40); 
 }  
 
-div.description-black{  
+div.description-black {  
     float: left;
     margin-left: 10%;
     margin-top: 5%;
@@ -547,7 +553,7 @@ div.description-black{
     filter:alpha(opacity=70); 
 }  
 
-p.description_content{  
+p.description_content {  
     padding:5px;  
     margin:0px;  
 }  

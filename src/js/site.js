@@ -1,4 +1,9 @@
 $(document).ready(function () {
+
+    $("body").fadeIn(500).delay(500).queue(function (next) {
+        next();
+    });
+    
     $('#fullpage').fullpage({
         verticalCentered: false,
         anchors: ["page0", "page1", "page2", "page3", "page4", "page5", "page6", "page7", "page8"],
@@ -6,6 +11,7 @@ $(document).ready(function () {
         scrollingSpeed: 600,
         css3: true
     });
+
     var width = $(window).width();
     var minWidth = 1366;
     if (width < minWidth) {
@@ -32,8 +38,8 @@ $(document).ready(function () {
             $("#section1 div.rb-switcher ul").find("li:nth-child(1)").addClass("selected");
         }
     };
-    updateSlidesMenu();
 
+    updateSlidesMenu();
     var delayedUpdateSlidesMenu = function () {
         setTimeout(function () {
             updateSlidesMenu();
@@ -45,9 +51,11 @@ $(document).ready(function () {
         $.fn.fullpage.moveTo(2, $(this).index());
         delayedUpdateSlidesMenu();
     });
+
     $("div.full-page-menu-wrapper").on("click", "li[data-menuanchor='page1']", function () {
         $($("#section1 div.rb-switcher ul").find("li")[0]).click();
     });
+
     $(document).keydown(function (e) {
         switch (e.which) {
             case 37: // left
@@ -63,5 +71,7 @@ $(document).ready(function () {
         }
         e.preventDefault(); // prevent the default action (scroll / move caret)
     });
+
+
 
 });

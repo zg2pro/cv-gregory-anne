@@ -6,7 +6,6 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="author" content="Gregory Anne" />
         <meta name="keywords"  content="gregory,anne,cv" />
-        <meta name="Resource-type" content="Document" />
 
         <link rel="stylesheet" type="text/css" href="version-1/css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="version-1/js/jstree/themes/default/style.min.css" />
@@ -20,22 +19,17 @@
         } else if (!isset($_SESSION["hl"])) {
             $hl = substr($_SERVER["HTTP_ACCEPT_LANGUAGE"], 0, 2);
         }
-
         switch ($hl) {
             case"fr":
                 $_SESSION["hl"] = "fr";
-                //header("location: fr/");
                 break;
-
             default:
                 $_SESSION["hl"] = "en";
-                // header("location: en/");
                 break;
         }
         require_once('version-1/' . $hl . '/headers.strings.php');
         require_once( $hl . '/headers.strings.php');
-        ?>
-        <?php
+
         include ("php/menu.php");
         include ("php/page.php");
         ?>
