@@ -15,6 +15,8 @@ build:
     - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
     - cp -R src/ dist/
     - cd dist/version-1/php
+    - pwd
+    - ls
     - composer install
     - cd ../../..
   artifacts:
