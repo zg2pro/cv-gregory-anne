@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $("body").fadeIn(500).delay(500).queue(function (next) {
+    $("body").fadeIn(300).delay(400).queue(function (next) {
         next();
     });
     
