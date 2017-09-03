@@ -1,7 +1,7 @@
 image: php:5.6
-#cache:
-  #paths:
-  #- dist/version-1/php/vendor
+cache:
+  paths:
+  - vendor
 before_script:
   - set -xe
   - apt-get update -yqq
@@ -13,12 +13,9 @@ build:
   script: 
     - apt-get install -yqq zip unzip
     - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-    - cp -R src/ dist/
-    - cd dist/version-1/php
-    - pwd
-    - ls
     - composer install
-    - cd ../../..
+    - cp -R src/ dist/
+    - cp -R vendor/ dist/version-1/php/vendor/
   artifacts:
     paths:
       - dist/
