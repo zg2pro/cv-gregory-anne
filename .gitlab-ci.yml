@@ -1,7 +1,7 @@
 image: php:5.6
-cache:
-  paths:
-  - dist/version-1/php/vendor/*
+#cache:
+  #paths:
+  #- dist/version-1/php/vendor
 before_script:
   - set -xe
   - apt-get update -yqq
