@@ -2,6 +2,42 @@
 <experience>
     <item>
         <organization>
+            <name>SQLI</name>
+            <link>http://www.sqli.com/</link>
+            <logo>
+                <img src="../img/sqli.png" alt="Sqli" width="120" height="70" border="0" />
+            </logo>
+            <location>Levallois Perret (92)</location>
+        </organization>
+        <date>Since December 2017</date>
+        <role>
+            <big>
+                <b>
+                    <u>Java Tech Lead</u>
+                </b>
+            </big>
+            <br/>
+            <br/>
+            SQLI offers solutions for companies' performance challenges. 
+            Thus, Allianz Technology, my dedicated client, has trusted us to that end, 
+            and I take part as a Technical Analyst.
+            <br/>
+            <br/>
+            My duties are:
+            <br/>
+            - carrying out analyses in various projects in order to control time, budget, and risks
+            <br/>- coordinating developments and test teams across the world, and across IT outsourcing partners
+            <br/>- homologating the technical aspects of the deliveries, deliver myself
+            <br/>- continuously proposing technical enhancement, and create new technical projects
+            <br/>
+            <span class="h7">Environnement</span>
+            <br/>
+            Jira, Conflluence, UML, Gitlab, IntelliJ, Java, Jersey, Spring-boot, XSL, 
+            Apache Camel, Jms, Elasticsearch, AngularJs.
+        </role>
+    </item>
+    <item>
+        <organization>
             <name>GFI</name>
             <link>http://www.gfi.fr/</link>
             <logo>
@@ -9,7 +45,7 @@
             </logo>
             <location>Saint-Ouen (93)</location>
         </organization>
-        <date>Since October 2015</date>
+        <date>October 2015 to November 2017</date>
         <role>
             <big>
                 <b>
