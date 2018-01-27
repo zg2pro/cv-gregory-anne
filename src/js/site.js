@@ -52,11 +52,12 @@ $(document).ready(function () {
         if (pageMax > nbPages){
             pageMax = nbPages;
         }
+        $("#section1 div.rb-switcher ul").find("li").show();
         for (var k = nbPages; k > pageMax; k--){
-            $("#section1 div.rb-switcher ul").find("li:nth-child(" + k + ")").remove();
+            $("#section1 div.rb-switcher ul").find("li:nth-child(" + k + ")").hide();
         }
         for (var k = pageMin - 1; k > 0; k--){
-            $("#section1 div.rb-switcher ul").find("li:nth-child(" + k + ")").remove();
+            $("#section1 div.rb-switcher ul").find("li:nth-child(" + k + ")").hide();
         }
     };
 
