@@ -1,13 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <experience>
     <item>
+        <organization>
+            <name>SQLI</name>
+            <link>http://www.sqli.com/</link>
+            <logo>
+                <img src="../img/sqli.png" alt="Sqli" width="120" height="70" border="0" />
+            </logo>
+            <location>Levallois Perret (92)</location>
+        </organization>
+        <date>Depuis D&eacute;cembre 2017</date>
+        <role>
+            <big>
+                <b>
+                    <u>Java Tech Lead</u>
+                </b>
+            </big>
+            <br/>
+            <br/>
+            SQLI propose des solutions pour les d&eacute;fis de performance des entreprises.
+            Ainsi, Allianz Technology, le client auquel j'ai &eacute;t&eacute; d&eacute;di&eacute;, nous charge de fournir
+            de telles propositions techniques, ma mission est celle de Technical Analyst.
+            <br/>
+            <br/>
+            Mes devoirs sont les suivants:
+            <br/>
+            - effectuer des analyses sur les diff&eacute;rents projets pour un meilleur contr&ocirc;le du temps, du budget, et des risques.
+            <br/>- coordonner les &eacute;quipes de d&eacute;veloppement et de test à l'&eacute;tranger, et chez les partenaires informatiques d'Allianz
+            <br/>- homologuer les aspects techniques de livraisons, livrer
+            <br/>- proposer continuellement des solutions d'am&eacute;liorations techniques, et lancer de nouveaux projets        
+        <br/>
+        <br/>
+            <span class="h7">Environnement</span>
+            <br/>
+            Jira, Conflluence, UML, Gitlab, IntelliJ, Java, Jersey, Spring-boot, XSL, 
+            Apache Camel, Jms, Elasticsearch, AngularJs.
+        </role>
+    </item>
+    <item>
 	<organization>
             <name>GFI</name>
             <link>http://www.gfi.fr/</link>
             <logo><img src="../img/Logo_GFI_2011.jpg" alt="GFI" width="120" height="70" border="0" /></logo>
             <location>Saint-Ouen (93)</location>
 	</organization>
-        <date>Depuis Octobre 2015</date>
+        <date>Octobre 2015 &agrave; Novembre 2017</date>
             <role>
             <big>
                 <b>
@@ -31,7 +68,7 @@
             <br/>
             Projet "remarquable" pour la BNPP et leur premier projet &agrave; recevoir un
             label "secret". La s&eacute;curit&eacute; fut au coeur de ce projet.
-            <br/>
+            <br/><br/>
             <span class="h7">Environnement</span>
             <br/>
             JAVA/JEE (Spring4 MVC, Spring-security SSO, Esapi, nCipher crypto library, owasp, JPA2),
@@ -39,7 +76,7 @@
             Sonar, Jira Agile, HP-Quality Center, Jenkins, Automic Ara, Nexus.
             <br/>
             <br/>
-            Depuis Juillet 2017, j'ai entamé des travaux pour une entit&eacute; de la BNPP
+            Depuis Juillet 2017, j'ai entam&eacute; des travaux pour une entit&eacute; de la BNPP
             traitant les risques de cr&eacute;dit, notre objectif est la cr&eacute;tion d'une
             interface graphique pour visualiser les retours de services hdfs/java spark,
             et nous d&eacute;veloppons cette interface en Typescript/Angular.
