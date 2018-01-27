@@ -52,10 +52,10 @@ $(document).ready(function () {
         if (pageMax > nbPages){
             pageMax = nbPages;
         }
-        for (var k = 1; k<pageMin; k++){
+        for (var k = nbPages; k > pageMax; k--){
             $("#section1 div.rb-switcher ul").find("li:nth-child(" + k + ")").remove();
         }
-        for (var k = pageMax + 1; k < nbPages + 1; k++){
+        for (var k = pageMin - 1; k > 0; k--){
             $("#section1 div.rb-switcher ul").find("li:nth-child(" + k + ")").remove();
         }
     };
