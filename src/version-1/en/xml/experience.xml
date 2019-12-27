@@ -2,6 +2,37 @@
 <experience>
     <item>
         <organization>
+            <name>Prima - Effisoft</name>
+            <link>https://www.effisoft.com/</link>
+            <logo>
+                <img src="../img/prima_effisoft.jpg" alt="Prima" width="120" height="70" border="0" />
+            </logo>
+            <location>Paris (75)</location>
+        </organization>
+        <date>Depuis Octobre 2019</date>
+        <role>
+            <big>
+                <b>
+                    <u>IT Architect</u>
+                </b>
+            </big>
+            <br/>
+            <br/>
+            I joined Prima-Effisoft as an internal staff IT Architect. Our mission is to constantly adapt a product range 
+            based on very heterogeneous software solutions, to the today needs of our clients and our prospects, 
+            as well as find ways to rationalize both the software architecture and the infrastructures. We study the 
+            technical solutions, we serve as reference for technology watch, and we provide continuous support to the 
+            product/development teams. Also, we maintain a shared core software we distribute across various products, 
+            or occasionnally take on short cross-disciplinary projects.
+        <br/>
+        <br/>
+            <span class="h7">Environnement</span>
+            <br/>
+            Jira, Conflluence, Gitlab, Java, Linux/WinServer/AWS, PLSQL, Spring-boot, Spring-cloud, Axis2, VueJS, C# XAML, Keycloak
+        </role>
+    </item>
+    <item>
+        <organization>
             <name>SQLI</name>
             <link>http://www.sqli.com/</link>
             <logo>

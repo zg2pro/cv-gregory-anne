@@ -2,6 +2,38 @@
 <experience>
     <item>
         <organization>
+            <name>Prima - Effisoft</name>
+            <link>https://www.effisoft.com/</link>
+            <logo>
+                <img src="../img/prima_effisoft.jpg" alt="Prima" width="120" height="70" border="0" />
+            </logo>
+            <location>Paris (75)</location>
+        </organization>
+        <date>Depuis Octobre 2019</date>
+        <role>
+            <big>
+                <b>
+                    <u>Architecte</u>
+                </b>
+            </big>
+            <br/>
+            <br/>
+            J'ai rejoint Prima-Effisoft en tant qu'architecte en interne. 
+            Notre mission est d'adapter en permanence une gamme de produits bas&eacute;e sur des solutions logicielles 
+            tr&egrave;s h&eacute;t&eacute;rog&egrave;nes, aux besoins actuels de nos clients et de nos prospects, ainsi que de trouver 
+            des moyens de rationaliser &agrave; la fois l'architecture logicielle et les infrastructures. Nous &eacute;tudions les 
+            solutions techniques, nous servons de r&eacute;f&eacute;rence pour la veille technologique, et nous accompagnons en 
+            permanence les &eacute;quipes produit / d&eacute;veloppement. De plus, nous maintenons un logiciel de socle partag&eacute; que 
+            nous distribuons sur divers produits, ou prenons occasionnellement de courts projets transverses.
+        <br/>
+        <br/>
+            <span class="h7">Environnement</span>
+            <br/>
+            Jira, Conflluence, Gitlab, Java, Linux/WinServer/AWS, PLSQL, Spring-boot, Spring-cloud, Axis2, VueJS, C# XAML, Keycloak
+        </role>
+    </item>
+    <item>
+        <organization>
             <name>SQLI</name>
             <link>http://www.sqli.com/</link>
             <logo>
@@ -26,7 +58,7 @@
             Mes devoirs sont les suivants:
             <br/>
             - effectuer des analyses sur les diff&eacute;rents projets pour un meilleur contr&ocirc;le du temps, du budget, et des risques.
-            <br/>- coordonner les &eacute;quipes de d&eacute;veloppement et de test à l'&eacute;tranger, et chez les partenaires informatiques d'Allianz
+            <br/>- coordonner les &eacute;quipes de d&eacute;veloppement et de test &agrave; l'&eacute;tranger, et chez les partenaires informatiques d'Allianz
             <br/>- homologuer les aspects techniques de livraisons, livrer
             <br/>- proposer continuellement des solutions d'am&eacute;liorations techniques, et lancer de nouveaux projets        
         <br/>

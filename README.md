@@ -10,8 +10,8 @@ So what's basically interesting with this project is that it demonstrates that 2
 styles can be applied to a same website, if you visit http://cv.gregory.anne.free.fr and http://cv.gregory.anne.free.fr/version-1<br/>
 you will be able to see that the contents are the same, only styles differ and this is thanks to the XSLT engine triggered in the php code.
 
-In a near future, I'll reorganize the imports, with composer and npm, ease continuous deployment with creating a customized docker image,
-and deploy by ftp from gitlab.
+In a near future, I should remove the php which makes no sense in this kind of website that can be serverless, I can also
+integrate the fullpage.js into a react/vue framework. That will be the third generation of cv.gregory.anne.free.fr!
 
 
 ## continuous integration

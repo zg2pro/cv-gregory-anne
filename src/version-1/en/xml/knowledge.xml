@@ -3,6 +3,14 @@
     <science>
         <item>
             <title>
+                <big>Technology watch</big>
+            </title>
+            <text>
+                : Visits at events dot, devoxx, meetups, test of technologies, documentation and broadcast.
+            </text>
+        </item>
+        <item>
+            <title>
                 <big>Project Management</big>
             </title>
             <text> 
@@ -37,10 +45,10 @@
         <!--field> Human-Machine Interface (HMI) : <big>Scope statements</big>, management of ergonomic and cognitive criteria </li--> 
         <item>
             <title>
-                Programming in <big>Java/J2EE Web</big>
+                Programming in <big>Java Web</big>
             </title>
             <text>  (IDE NetBeans, Eclipse. 
-                <big>SpringMVC, JSF, EJB, SOAP(CXF), CORBA</big>).
+                <big>Spring, Spring boot, Spring cloud, JSF, EJB, SOAP(CXF, AXIS), CORBA</big>).
             </text>
         </item>
         <item>
@@ -58,7 +66,7 @@
         </item>
         <item>
             <title>
-                <big>AngularJs, Angular (ts), BackboneJs, JQuery.</big>
+                <big>AngularJs, Angular (ts), VueJs, BackboneJs, JQuery.</big>
             </title>
         </item>
         <item>
@@ -76,11 +84,11 @@
         </item>
         <item>
             <title>
-                Web and System Administration
+                Web and System Administration, Devops
             </title>
             <text> 
                 : Setup of test environments (SIT &amp; UAT), 
-                Jenkins, Ara, Maven, Sonar, Selenium.
+                Jenkins, Ara, Maven, Sonar, Selenium, Travis, Circle, Gitlab...
             </text>
         </item>
         <item>

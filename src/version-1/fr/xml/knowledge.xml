@@ -3,6 +3,14 @@
     <science>
         <item>
             <title>
+                <big>Veille technologique</big>
+            </title>
+            <text>
+                : Suivi d'&eacute;v&eacute;nements dot, devoxx, meetups, test de technologies, diffusion dans les &eacute;quipes et dans les bases de connaissances.
+            </text>
+        </item>
+        <item>
+            <title>
                 <big>Gestion de Projet</big>
             </title>
             <text>
@@ -37,7 +45,7 @@
                 Programmation en <big>Java/J2EE Web</big>
             </title>
             <text>  (IDE NetBeans &amp; Eclipse. 
-                <big>SpringMVC, JSF, EJB, SOAP(CXF), CORBA</big>).
+                <big>Spring, Spring boot, SPring cloud, JSF, EJB, SOAP(CXF, AXIS), CORBA</big>).
             </text>
         </item>
         <item>
@@ -55,7 +63,7 @@
         </item>
         <item>
             <title> 
-                <big>AngularJs, Angular (ts), BackboneJs, JQuery.</big>
+                <big>AngularJs, Angular (ts), VueJs, BackboneJs, JQuery.</big>
             </title>
         </item>
         <item>
@@ -75,10 +83,10 @@
         </item>
         <item>
             <title>
-                Administration Syst&egrave;me et Réseau
+                Administration Syst&egrave;me et Réseau, Devops
             </title>
             <text> , 
-                Mise en place d'environnements de tests (Jenkins, Maven, Ara, Sonar, Selenium).
+                Mise en place d'environnements de tests (Jenkins, Maven, Ara, Sonar, Selenium, Gitlab, Travis, Circle...).
             </text>
         </item>
         <item>
