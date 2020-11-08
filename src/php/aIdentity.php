@@ -44,9 +44,9 @@ require_once 'version-1/php/age.php.inc';
                 <img src="version-1/img/social_icons/Github.png"  width="40" height="40" alt="."/>
             </a>
         </h3>
-        <h4>
+       <div style="width: 35%;"><small style="color: white;">
              <?php echo $ext_string["gdpr.disclaimer"]; ?>
-        </h4>
+        </small></div>
 
     </div>
 
