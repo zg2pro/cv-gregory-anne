@@ -29,7 +29,7 @@ deploy:
     - build
   script:
     - apt-get install -yqq lftp
-    - echo "set ssl:verify-certificate no" >> ~/.lftp/rc
+    - echo "set ssl:verify-certificate no" > ~/.lftp/rc
     - lftp -e "mirror --no-perms --exclude-glob .git* --exclude .git/ -R dist/ /" -u unaux_27147990,$PROFREEHOST_FTP_PASSWORD ftpupload.net
   only:
     - master
