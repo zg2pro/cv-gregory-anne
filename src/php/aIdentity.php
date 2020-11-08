@@ -40,25 +40,13 @@ require_once 'version-1/php/age.php.inc';
             <a href="http://www.twitter.com/zg2pro">
                 <img src="version-1/img/social_icons/Twitter.png"  width="40" height="40" alt="."/>
             </a>
-            <!--a href="http://www.youtube.com/zg2pro">
-                <img src="version-1/img/social_icons/Youtube.png"  width="40" height="40" alt="."/>
-            </a-->
             <a href="https://github.com/zg2pro">
                 <img src="version-1/img/social_icons/Github.png"  width="40" height="40" alt="."/>
             </a>
-            <!--a href="http://www.developpez.net/forums/u158055/zg2pro/">
-                <img src="version-1/img/social_icons/developpez.png" width="40" height="40" alt="."/>
-            </a>
-            <a href="http://ubuntuforums.org/member.php?u=757219">
-                <img src="version-1/img/social_icons/ubuntu.png"  width="40" height="40" alt="."/>
-            </a>
-            <a href="http://www.viadeo.com/en/profile/gregory.anne2">
-                <img src="version-1/img/social_icons/Viadeo.png"  width="40" height="40" alt="."/>
-            </a>
-            <a href="http://stackoverflow.com/users/1173344/zg2pro">
-                <img src="version-1/img/social_icons/stackoverflow.png"  width="40" height="40" alt="."/>
-            </a-->
         </h3>
+        <h4>
+             <?php echo $ext_string["gdpr.disclaimer"]; ?>
+        </h4>
 
     </div>
 
