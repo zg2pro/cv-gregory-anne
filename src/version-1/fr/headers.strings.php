@@ -51,4 +51,6 @@ $ext_string['technologies.pdf'] = "PDF: impression de documents.";
 $ext_string['technologies.bootstrap'] = "Bootstrap Twitter: pour standardiser le css";
 $ext_string['technologies.flash'] = "Flash and Creative Suite: pour un widget anim&eacute; de trucs et astuces";
 
+$ext_string['gdpr.disclaimer'] = "Ce site Web ne collecte aucune donn&eacute;e personnelle et n'utilise aucun cookie. Concernant tous les emails que vous m'avez peut-&ecirc;tre envoy&eacute;s, je les d&eacute;truirai sur simple demande.";
+
 ?>
