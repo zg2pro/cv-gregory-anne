@@ -112,7 +112,7 @@ export default {
   },
   head() {
     return {
-      title: "Iván Greve"
+      title: "Gregory Anne"
     };
   },
   methods: {
