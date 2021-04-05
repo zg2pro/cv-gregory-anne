@@ -8,40 +8,31 @@
     "projects": "Projects"
   },
   "personalInfo": {
-    "name": "Iván",
-    "lastName": "Greve",
+    "name": "Gregory",
+    "lastName": "Anne",
     "subHeadingText": [
-      "Software Enginneer",
-      "Full Stack Developer",
-      "Code enthusiast!"
+      "${me.experience}+ years professional software engineering experience",
+      "Consultancy in System designs and Programming",
+      "Full Stack Software Engineer",
+      "DevOps Enthusiast",
+      "Experience crafting small websites to large and complex applications",
+      "Provider of support in development and hosting"
     ],
-    "city": "Buenos Aires, Argentina",
-    "phoneNumber": "+54 - 6766-9851",
-    "email": "ivangreve@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/ivan-greve/",
-    "github": "https://github.com/ivangreve/",
-    "myDescription": "Passionate web developer, making useful application using the latest technologies!"
+    "city": "Somewhere near Paris, France",
+    "phoneNumber": "----",
+    "email": "gregory.anne.jobs@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/gregoryanne83/",
+    "github": "https://github.com/zg2pro/",
+    "myDescription": "description here TODO"
   },
   "educationDegrees": {
     "title": "Education 📕",
     "degrees": [
       {
-        "collage": "University of La Matanza",
+        "collage": "TODO",
         "name": "Engineer Degree",
         "itemList": ["Computer Science"],
         "startEndDate": "March 2013 - December 2018"
-      },
-      {
-        "collage": "University of La Matanza",
-        "name": "Software Engineering Technician",
-        "itemList": ["Computer Science"],
-        "startEndDate": "March 2013 - December 2016"
-      },
-      {
-        "collage": "Instituto Madero",
-        "name": "Electronic technician",
-        "itemList": ["Electronic"],
-        "startEndDate": "March 2007 - December 2012"
       }
     ]
   },
@@ -49,27 +40,12 @@
     "title": "Work Expecience 🔨",
     "works": [
       {
-        "position": "Software Engineer / FullStack Developer",
-        "companie": "Axum - Smart Solutions",
+        "position": "IT Arcihtect",
+        "companie": "Prima Solutions",
         "responsabilities": [
-          "Responsible for designing, developing and maintaining a group of applications used in the retail industry by multinational companies as Pepsico, Unilever, Quilmes, etc.",
-          "Web Team leader, I take technical decisions about which technologies use in each project and how the team will works.",
-          "Backend Developer: .NET Core | .NET Framework | NodeJs | MSSQL | PostgreSQL | MongoDB.",
-          "Frontend Developer: VueJs | ReactJs | Javascript | JQuery.",
-          "Desktop Applications: .NET Windows Form Applications."
+          "TODO."
         ],
-        "startEndDate": "November 2017 - Present"
-      },
-      {
-        "position": "Technical Administrator",
-        "companie": "Metalurgica Vezeta",
-        "responsabilities": [
-          "Responsible for web ecommerce designing and maintaining.",
-          "Graphic design (Adobe Photoshop and Adobe Illustrator).",
-          "Technical support.",
-          "Improve business processes."
-        ],
-        "startEndDate": "March 2014 - October 2017"
+        "startEndDate": "November 2019 - Present"
       }
     ]
   },
@@ -77,6 +53,7 @@
     "title": "Skills 🎯",
     "iconsTitle": "Programming Languages & Tools",
     "devIcons": [
+      "TODO",
       "devicon-csharp-plain",
       "devicon-javascript-plain",
       "devicon-html5-plain-wordmark",
@@ -110,35 +87,17 @@
   },
   "interests": {
     "title": "Hobbies 😄",
-    "firstBlock": "Apart from being a web developer, I enjoy most of my time listening and playing music. I love playing piano and singing in my spare time!. 🎹🎵",
-    "secondBlock": "I spend a large amount of my free time exploring the latest technolgy advancements in the frontend and backend web technology development world and coding in my personal projects! 🙌👨‍💻"
+    "firstBlock": "TODO!. 🎹🎵",
+    "secondBlock": "TODO! 🙌👨‍💻"
   },
   "projects": {
     "title": "Personal Projects 🦾🧠",
     "projectsInfo": [
       {
-        "name": "Kelawar",
-        "description": "Kelawar is a Big Data + IoT project. Which through masive recollections of data, we provide useful information about the clients behavior. ",
+        "name": "TODO",
+        "description": "Lorem Ipsum. ",
         "image": "/images/kelawar.jpg",
         "siteUrl": "https://kelawar.com/"
-      },
-      {
-        "name": "Docuisy",
-        "description": "Docuisy is a Wiki, generator based on .md files",
-        "image": "/images/docuisy.png",
-        "siteUrl": "https://github.com/ivangreve/docuisy"
-      },
-      {
-        "name": "Better Drive",
-        "description": "Better Drive is a free tool to analyze your Google Drive account. Google Drive is a powerful file storage and synchronization service, but sometimes you feel like you lose control of it. Keeping privacy concerns in mind, that many users have, we built this great tool to help you organize, clean, and leverage the use of your Google Drive.",
-        "image": "/images/better-drive.png",
-        "siteUrl": "https://betterdrive.app/"
-      },
-      {
-        "name": "Resume Nuxt Template",
-        "description": "I made a simple and customizable template with nuxt and multilanguage support (i18n)",
-        "image": "/images/resumenuxt.jpg",
-        "siteUrl": "https://github.com/ivangreve/nuxt-resume"
       }
     ]
   }

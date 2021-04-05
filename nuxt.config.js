@@ -119,7 +119,8 @@ export default {
       fallbackLocale: "en",
       messages: {
         en: require("./locales/en.json"),
-        es: require("./locales/es.json")
+        //TODO
+        //es: require("./locales/es.json")
       }
     }
   },
