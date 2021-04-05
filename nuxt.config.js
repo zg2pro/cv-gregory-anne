@@ -128,6 +128,9 @@ export default {
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
+  router:{
+    base: process.env.NODE_ENV === "development" ? process.env.BASE_URL : "/cv-gregory-anne/",
+  },
   build: {
     /*
      ** Run ESLint on save
