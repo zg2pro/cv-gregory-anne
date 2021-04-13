@@ -1,7 +1,7 @@
 <template>
   <div class="my-auto">
     <h1 class="mb-0">
-      {{ $t('personalInfo.name') }}
+      {{ $t('personalInfo.name') }} <br/>
       <span class="text-primary">{{ $t('personalInfo.lastName') }}</span>
     </h1>
 
@@ -61,7 +61,12 @@
 <script>
 export default {
   data() {
-    return {};
+    return {
+      me: {}
+    };
+  },
+  mounted() {
+    this.me.experience = 10;
   }
 };
 </script>

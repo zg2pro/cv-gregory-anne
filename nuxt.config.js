@@ -137,6 +137,18 @@ export default {
      ** Run ESLint on save
      */
     extend(config, { isDev, isClient }) {
+      config.module.rules.push({
+        enforce: 'pre',
+        test: /\.xml$/,
+        loader: 'raw-loader',
+        exclude: /(node_modules)/
+      });
+      config.module.rules.push({
+        enforce: 'pre',
+        test: /\.xsl$/,
+        loader: 'raw-loader',
+        exclude: /(node_modules)/
+      });
       if (isDev && isClient) {
         const vueLoader = config.module.rules.find(
           ({ loader }) => loader === "vue-loader"

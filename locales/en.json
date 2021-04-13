@@ -8,10 +8,10 @@
     "projects": "Projects"
   },
   "personalInfo": {
-    "name": "Gregory",
-    "lastName": "Anne",
+    "name": "Gregory Anne",
+    "lastName": "IT Architect",
     "subHeadingText": [
-      "${me.experience}+ years professional software engineering experience",
+      "professional software engineering experience since 2009",
       "Consultancy in System designs and Programming",
       "Full Stack Software Engineer",
       "DevOps Enthusiast",
@@ -23,7 +23,7 @@
     "email": "gregory.anne.jobs@gmail.com",
     "linkedin": "https://www.linkedin.com/in/gregoryanne83/",
     "github": "https://github.com/zg2pro/",
-    "myDescription": "description here TODO"
+    "myDescription": "This website doesn't collect any personal data, nor uses any cookies. Regarding all the emails you may have sent me, I will destroy them on simple request."
   },
   "educationDegrees": {
     "title": "Education 📕",
