@@ -82,12 +82,12 @@
     ],
     "workflow": "Workflow",
     "itemList": [
-      "Responsive Design & UX",
-      "Cross Browser Testing & Debugging",
-      "REST API building",
+      "Technology watch : Visits at events dot, devoxx, meetups, test of technologies, documentation and broadcast",
+      "Project & Quality management: Operational schedules, BPM, Charge estimation, Tracking, Validation & verification",
       "Agile Development & Scrum",
-      "Team working",
-      "Design Patterns"
+      "REST API building, Improvement of systems toward cloud compatibility",
+      "Specification & Design: UML, SADT, Automatons and Petri nets",
+      "Systems administration and devops: setup of test environments and continuous delivery"
     ]
   },
   "interests": {
