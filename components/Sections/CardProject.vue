@@ -5,7 +5,7 @@
       style="width: 80%; text-align: center"
     >
       <a :href="projectInfo.siteUrl" >
-        <img class="card-img-top" :src="projectInfo.image" alt="project image"
+        <img class="card-img-top" :src="addPrefix(projectInfo.image)" alt="project image"
       /></a>
       <div class="card-body">
         <h5 class="card-title">{{ projectInfo.name }}</h5>
@@ -23,8 +23,14 @@ export default {
   props: ["projectInfo"],
   data() {
     return {};
+  },
+  methods: {
+    addPrefix(inp) {
+      return require("@/assets/img/" + inp);
+    }
   }
 };
+// projectInfo.image
 </script>
 
 <style>
