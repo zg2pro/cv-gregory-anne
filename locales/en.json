@@ -94,10 +94,60 @@
     "title": "Personal Projects 🦾🧠",
     "projectsInfo": [
       {
-        "name": "TODO",
-        "description": "Lorem Ipsum. ",
-        "image": "/images/kelawar.jpg",
-        "siteUrl": "https://kelawar.com/"
+        "name": "CV Gregory Anne: This resume",
+        "description": "I've had an online resume since 2004 while I was still at university and did my first arms on PHP. Browse the branches of my github repository and see how I went from a PHP powered xslt website to jquery fullpage.js and finally now nuxt.js",
+        "image": "/images/cv-gregory-anne.png",
+        "siteUrl": "https://zg2pro.github.io/cv-gregory-anne/",
+        "repositoryUrl": "https://github.com/zg2pro/cv-gregory-anne"
+      },
+      {
+        "name": "zg2pro formatter plugin",
+        "description": "A maven plugin to automatically format your code (java, scala, groovy, xml) during the validate phase (first phase in mvn lifecycle). It also deploys a git hook. Thus, whatever IDE your team is using, your code will always be kept well formatted and you'll avoid many git conflicts. ",
+        "image": "/images/code_rain.png",
+        "siteUrl": "https://mvnrepository.com/artifact/com.github.zg2pro.formatter/zg2pro-formatter-plugin",
+        "repositoryUrl": "https://github.com/zg2pro/zg2pro-formatter-plugin"
+      },
+      {
+        "name": "PoC: NestJs can also work for frontend frameworks",
+        "description": "NestJs is an extension of ExpressJs. But with this code and two examples of integration in a VueJs fw (https://github.com/zg2pro/calculateur-conges-vue) and in an Angular fw (https://github.com/zg2pro/calculateur-conges-angular) I proved that nuxtJs is a good solution to make all kinds of applications, backends, frontends, could actually be written in the same language. ",
+        "image": "/images/nest-front.png",
+        "siteUrl": "https://docs.nestjs.com/support",
+        "repositoryUrl": "https://github.com/zg2pro/calculateur-conges-api"
+      },
+      {
+        "name": "Fork: Elasticsearch-logback-appender",
+        "description": "Elasticsearch-logback-appender by internetitem didn't work with https without alterations to the jvm. Mine does. ",
+        "image": "/images/simple_elasticsearch_appender.png",
+        "siteUrl": "https://mvnrepository.com/artifact/com.github.zg2pro.forks/logback-elasticsearch-appender",
+        "repositoryUrl": "https://github.com/zg2pro/logback-elasticsearch-appender"
+      },
+      {
+        "name": "Fork: regex-copy-plugin",
+        "description": "Use a regex to copy files and rename them at the same time. ",
+        "image": "/images/regex1.png",
+        "siteUrl": "https://mvnrepository.com/artifact/com.github.zg2pro.copy/regex-copy-maven-plugin",
+        "repositoryUrl": "https://github.com/zg2pro/regex-copy-plugin"
+      },
+      {
+        "name": "Availabilities at Prefecture du Val-de-Marne",
+        "description": "Maybe it has changed now but it was extremely hard to get an appointment. Because it was the most efficient way I created this deployed service on heroku that would send me an SMS as soon as a slot would be available for me to take an appointment.",
+        "image": "/images/prefecture_val_de_marne.png",
+        "siteUrl": "https://dispo-prefecture-94.herokuapp.com/",
+        "repositoryUrl": "https://github.com/zg2pro/dispo-prefecture-94"
+      },
+      {
+        "name": "Blackjack in command lines",
+        "description": "During a recruitment process, a big American company had given me a challenge: Develop in 48h a blackjack game all in command lines. Here's what I did. I did all that but eventually I joined Prima Solutions. :-)",
+        "image": "/images/spades.png",
+        "siteUrl": "https://github.com/zg2pro/command-line-blackjack",
+        "repositoryUrl": "https://github.com/zg2pro/command-line-blackjack"
+      },
+      {
+        "name": "Spring Safe Setup",
+        "description": "There are a few things I like when setting up a system, enough disk space, encoding in utf8 everywhere, all couterparts aligned to GMT. It saves time when of course you don't need to add extra complexity. This lib helps you verifying this kind of things from the application you are going to develop. ",
+        "image": "/images/check_logo.jpg",
+        "siteUrl": "https://mvnrepository.com/artifact/com.github.zg2pro/spring-safe-setup",
+        "repositoryUrl": "https://github.com/zg2pro/spring-safe-setup"
       }
     ]
   }
