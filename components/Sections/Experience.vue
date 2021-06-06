@@ -16,6 +16,9 @@
         >
           - {{ responsabilitie }}
         </p>
+        <p>
+          - <u>environment:</u> {{ work.environment }}
+        </p>
       </div>
       <div class="resume-date text-md-right">
         <span class="text-primary">{{ work.startEndDate }}</span>

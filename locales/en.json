@@ -5,7 +5,8 @@
     "experience": "Experience",
     "skills": "Skills",
     "interests": "Interests",
-    "projects": "Projects"
+    "projects": "Projects",
+    "publications": "Publications"
   },
   "personalInfo": {
     "name": "Gregory Anne",
@@ -44,9 +45,47 @@
         "position": "IT Architect",
         "companie": "Prima Solutions",
         "responsabilities": [
-          "TODO."
+          "I joined Prima-Effisoft as an internal staff IT Architect. Our mission is to constantly adapt a product range based on very heterogeneous software solutions, to the today needs of our clients and our prospects, as well as find ways to rationalize both the software architecture and the infrastructures.",
+          "We study the technical solutions, we serve as reference for technology watch, and we provide continuous support to the product/development teams. Also, we maintain a shared core software we distribute across various products, or occasionnally take on short cross-disciplinary projects."
         ],
-        "startEndDate": "November 2019 - Present"
+        "environment": "Jira, Conflluence, Gitlab, Java, Linux/WinServer/AWS, PLSQL, Spring-boot, Spring-cloud, Axis2, VueJS, C# XAML, Keycloak",
+        "startEndDate": "October 2019 - Present"
+      },
+      {
+        "position": "Java Tech Lead",
+        "companie": "SQLI",
+        "responsabilities": [
+          "SQLI offers solutions for companies' performance challenges. Thus, Allianz Technology, my dedicated client, has trusted us to that end, and I take part as a Technical Analyst. My duties are:",
+          "carrying out analyses in various projects in order to control time, budget, and risks",
+          "coordinating developments and test teams across the world, and across IT outsourcing partners",
+          "homologating the technical aspects of the deliveries, deliver myself",
+          "continuously proposing technical enhancement, and create new technical projects"
+        ],
+        "environment": "Jira, Conflluence, UML, Gitlab, IntelliJ, Java, Jersey, Spring-boot, XSL, Apache Camel, Jms, Elastic stack, AngularJs.",
+        "startEndDate": "December 2017 - September 2019"
+      },
+      {
+        "position": "Java Project Manager",
+        "companie": "GFI",
+        "responsabilities": [
+          "My assignment was to develop a software the purpose of which was to help the pre-handling (control, archiving, ciphering, jurisdictions management) of files of the General Inspection division of BNPP, and the upload toward a document management system. One great challenge in the project consisted in enabling the upload of big files and make it resumable. I was the leader of the developers Agile team and thus, I provided technical solutions and I organized the software architecture, I was the referent on most of the technical subjects. I also welcomed and trained the new developers and I maintained our test environments.",
+          "Project \"noticeable\" for BNPP group and their first project to be labeled \"secret\". Security was therefore at the heart of the projet."
+        ],
+        "environment": "JAVA/JEE (Spring4 MVC, Spring-security SSO, Esapi, nCipher crypto library, owasp, JPA2), JQuery, JsTree, Bootstrap Twitter, Oracle DB, Flyway-db, WebSphere, NetBeans, Git, Maven, Sonar, Jira Agile, HP-Quality Center, Jenkins, Automic Ara, Nexus",
+        "startEndDate": "October 2015 - November 2017"
+      },
+      {
+        "position": "And previously...",
+        "companie": "IBM Global Services + IO-Network + Aptea",
+        "responsabilities": [
+          "I started as an expat in Vietnam, IBMer in an offshore center dedicated to IBM France. I was as a business analyst a relay between FR and VN. ",
+          "I stayed in Vietnam 3 years and actually worked more than 2 years for a local company, having found a position with more important responsabilities than the ones I had at IBM.",
+          "Thus, in spite of my youth, I had the honor to manager a 6-person team, and control projects from technical perspective as well as commercially",
+          "Our business there was payment solutions, being a partner to KL/Singaporean companies we were offered often great chances to innovate and I learned so many things in so many ways.",
+          "After that I came back to France and joined as a dev an IT outsourcing company. There again I learnt many things and focused more and more in the technical field. My technical responsabilities gained significance with time and assignment after assignment."
+        ],
+        "environment": " SQL Server, Oracle DB, Postgres, Glassfish, Tomcat, JBoss, JAVA/JEE (JPA2, Hibernate, EJB3, JMS, Spring3 MVC, JSF, Maven), AngularJS, JQuery, PHP, Bootstrap Twitter, Lucene, XSL, Digital Signature, SIG, WebDav(Milton), iText, SVN, Mantis, Jenkins, Sonar, Talend, DokuWiki, xWiki, MsProject, Trello, Testlink, UML, BPML, French, English, Manglish",
+        "startEndDate": "Febrary 2009 - September 2015"
       }
     ]
   },
@@ -158,6 +197,9 @@
     ]
   },
   "publications": {
-    "title": "Publications"
+    "title": "Publications",
+    "itemList": [
+      "https://dzone.com/articles/hibernate-versus-jpa"
+    ]
   }
 }
