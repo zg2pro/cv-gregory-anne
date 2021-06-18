@@ -199,7 +199,8 @@
   "publications": {
     "title": "Publications",
     "itemList": [
-      "https://dzone.com/articles/hibernate-versus-jpa"
+      "https://dzone.com/articles/hibernate-versus-jpa",
+      "https://dzone.com/articles/jpa-and-other-frameworks"
     ]
   }
 }
