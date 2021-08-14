@@ -50,7 +50,7 @@
         <a target="blank" :href="$t('personalInfo.github')">
           <span class="fa-stack fa-lg">
             <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fab fa-github-alt fa-stack-1x fa-inverse"></i>
+            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
           </span>
         </a>
       </li>
@@ -58,7 +58,7 @@
         <a target="blank" :href="$t('personalInfo.twitter')">
           <span class="fa-stack fa-lg">
             <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fab fa-twitter-alt fa-stack-1x fa-inverse"></i>
+            <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
           </span>
         </a>
       </li>
