@@ -12,12 +12,12 @@
                                  border="0" alt="Universite de Toulon et du Var (83)"/>
                     </a>
                 </td>
-                <td>
+                <!--td>
                     <a href="http://www.ujf-grenoble.fr/">
                         <img src="@/assets/img/UJFlogo.gif" width="300" height="77"
                                  border="0" alt="Universite Joseph Fourier	Grenoble I (38)"/>
                     </a>
-                </td>
+                </td-->
                 <td>
                     <a href="http://www.univ-cezanne.fr/">
                         <img src="@/assets/img/logo_u3.jpg" width="300" height="70"
