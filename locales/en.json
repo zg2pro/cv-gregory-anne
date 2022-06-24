@@ -200,7 +200,8 @@
     "title": "Publications",
     "itemList": [
       "https://dzone.com/articles/hibernate-versus-jpa",
-      "https://dzone.com/articles/jpa-and-other-frameworks"
+      "https://dzone.com/articles/jpa-and-other-frameworks",
+      "https://dzone.com/articles/spring-ioc-containers-and-static-code-design-princ"
     ]
   }
 }
