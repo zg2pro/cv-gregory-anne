@@ -5,16 +5,16 @@
         <Presentation />
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <Education />
-      </section>
-
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
         <Experience />
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <Skills />
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <Education />
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">

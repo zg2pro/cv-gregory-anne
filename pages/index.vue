@@ -38,14 +38,6 @@
           <li class="nav-item">
             <a
               class="nav-link js-scroll-trigger"
-              @click="jumpTo('#education')"
-              href="#"
-              >{{ $t('links.education') }}</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link js-scroll-trigger"
               @click="jumpTo('#experience')"
               href="#"
               >{{ $t('links.experience') }}</a
@@ -57,6 +49,14 @@
               @click="jumpTo('#skills')"
               href="#"
               >{{ $t('links.skills') }}</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link js-scroll-trigger"
+              @click="jumpTo('#education')"
+              href="#"
+              >{{ $t('links.education') }}</a
             >
           </li>
           <li class="nav-item">
