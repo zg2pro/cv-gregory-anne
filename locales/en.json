@@ -46,7 +46,9 @@
         "companie": "Prima Solutions",
         "responsabilities": [
           "I joined Prima-Effisoft as an internal staff IT Architect. Our mission is to constantly adapt a product range based on very heterogeneous software solutions, to the today needs of our clients and our prospects, as well as find ways to rationalize both the software architecture and the infrastructures.",
-          "We study the technical solutions, we serve as reference for technology watch, and we provide continuous support to the product/development teams. Also, we maintain a shared core software we distribute across various products, or occasionnally take on short cross-disciplinary projects."
+          "We study the technical solutions, we serve as reference for technology watch, and we provide continuous support to the product/development teams. Also, we maintain a shared core software we distribute across various products, or occasionnally take on short cross-disciplinary projects.",
+          "In 2022, when business in the US began to expand significantly, Duck Creek Technologies acquired Effisoft and immediately granted us an access to many more customers in the US, APAC and EMEA. ",
+          "To follow such an expansion we concentrate our manpower on support for the rebranding, product quality, better time-to-market and a responsive customer service."
         ],
         "environment": "Jira, Conflluence, Gitlab, Java, Linux/WinServer/AWS, PLSQL, Spring-boot, Spring-cloud, Axis2, VueJS, C# XAML, Keycloak",
         "startEndDate": "October 2019 - Present"
